@@ -12,14 +12,6 @@ claude-obsidian is an original work. The following third-party patterns, tools, 
 
 ---
 
-## Hot Cache & Cross-Project Patterns
-
-**Author:** Nate Herk
-**Channel:** https://youtube.com/@nateherk
-**Use:** The hot cache pattern (a rolling ~500-word context summary) and cross-project vault referencing were demonstrated by Nate Herk. claude-obsidian implements these patterns independently. No transcript or video content is included in this repository.
-
----
-
 ## ITS CSS Snippets
 
 **Author:** SlRvb

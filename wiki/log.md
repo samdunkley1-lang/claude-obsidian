@@ -31,7 +31,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - From: full build session — v1.2.0 plan execution, cosmic-brain→claude-obsidian rename, legal/security audit, branded GIFs, PDF install guide, dual GitHub repos
 
 
-- Source: `.raw/nate-herk-llm-wiki-transcript.md`
+- Source: `.raw/` (first ingest)
 - Pages updated: [[index]], [[log]], [[hot]], [[overview]]
 - Key insight: The wiki pattern turns ephemeral AI chat into compounding knowledge — one user dropped token usage by 95%.
 

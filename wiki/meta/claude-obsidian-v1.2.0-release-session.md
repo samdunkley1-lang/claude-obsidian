@@ -69,7 +69,6 @@ Full project rename executed:
 
 ### Legal Fixes
 - `LICENSE`: MIT license file created (was declared in plugin.json but file was missing)
-- `ATTRIBUTION.md`: credits Andrej Karpathy (LLM Wiki pattern), Nate Herk (hot cache pattern), SlRvb (ITS CSS), and all 4 bundled Obsidian plugins with their repos
 - `ITS-Dataview-Cards.css` + `ITS-Image-Adjustments.css`: GPL-2.0 attribution headers added
 
 ### .gitignore Tightened

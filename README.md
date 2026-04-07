@@ -268,7 +268,7 @@ claude-obsidian/
 │   ├── getting-started.md       # onboarding walkthrough (inside the vault)
 │   ├── concepts/                # seeded: LLM Wiki Pattern, Hot Cache, Compounding Knowledge
 │   ├── entities/                # seeded: Andrej Karpathy
-│   ├── sources/                 # seeded: Nate Herk LLM Wiki Transcript
+│   ├── sources/                 # populated by your first ingest
 │   └── meta/dashboard.md        # Dataview dashboard
 ├── .raw/                        # source documents (hidden in Obsidian)
 ├── .obsidian/snippets/          # vault-colors.css (3-color scheme)
@@ -298,7 +298,7 @@ This repo ships with a seeded vault. Open it in Obsidian and you'll see:
 
 - `wiki/concepts/` — LLM Wiki Pattern, Hot Cache, Compounding Knowledge
 - `wiki/entities/` — Andrej Karpathy
-- `wiki/sources/` — Nate Herk LLM Wiki Transcript
+- `wiki/sources/` — empty until your first ingest
 - `wiki/meta/dashboard.md` — Dataview dashboard (requires Dataview plugin)
 
 The graph view will show a connected cluster of 5 pages. This is what the wiki looks like after one ingest. Add more sources and it grows from there.
@@ -310,4 +310,4 @@ The graph view will show a connected cluster of 5 pages. This is what the wiki l
 
 ---
 
-*Based on [Andrej Karpathy's LLM Wiki pattern](https://github.com/karpathy). Hot cache and cross-project patterns demonstrated by [Nate Herk](https://youtube.com/@nateherk). Built by [AgriciDaniel](https://github.com/AgriciDaniel) / AI Marketing Hub.*
+*Based on [Andrej Karpathy's LLM Wiki pattern](https://github.com/karpathy). Built by [AgriciDaniel](https://github.com/AgriciDaniel) / AI Marketing Hub.*
