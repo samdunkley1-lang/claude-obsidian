@@ -1,6 +1,6 @@
 ---
 type: source
-title: "Nate Herk LLM Wiki Transcript"
+title: "Nate Herk — Obsidian + Karpathy Just 10x'd Claude Code Projects"
 source_type: transcript
 author: "Nate Herk"
 date_published: 2026-04-07
@@ -9,10 +9,10 @@ confidence: high
 key_claims:
   - "LLM wiki makes knowledge compound like interest — nothing is re-derived on every query"
   - "Hot cache (~500 words) enables cross-project context without crawling the full wiki"
-  - "One article can generate 15-25 wiki pages with full cross-references"
-  - "One user dropped token usage by 95% switching from inline context files to wiki"
+  - "One article generates 15-25 wiki pages with full cross-references"
+  - "One user dropped token usage by 95% switching from inline context files to a wiki"
   - "Obsidian is the IDE, Claude is the programmer, the wiki is the codebase"
-  - "Index file is enough at small scale (~100 sources) — no RAG infrastructure needed"
+  - "Index file is sufficient at small scale (~100 sources) — no RAG infrastructure needed"
 created: 2026-04-07
 updated: 2026-04-07
 tags:
@@ -26,69 +26,70 @@ related:
   - "[[Hot Cache]]"
   - "[[Compounding Knowledge]]"
   - "[[Andrej Karpathy]]"
-  - "[[index]]"
   - "[[sources/_index]]"
-sources:
-  - "[[.raw/nate-herk-llm-wiki-transcript.md]]"
+  - "[[index]]"
+sources: []
 ---
 
-# Nate Herk LLM Wiki Transcript
+# Nate Herk — Obsidian + Karpathy Just 10x'd Claude Code Projects
 
-Raw source: [[.raw/nate-herk-llm-wiki-transcript.md]]
+**Original:** [Watch on YouTube →](https://youtube.com/@nateherk)
+**Credit:** All ideas in this summary belong to Nate Herk and Andrej Karpathy.
 
-Nate Herk demonstrates the [[LLM Wiki Pattern]] in practice. He shows two live vaults: one for his YouTube transcript archive (36 videos) and one personal second brain. He breaks down Andrej Karpathy's original post and shows a 5-minute setup workflow.
+> This page is a wiki-style synthesis of the source — an example of what cosmic-brain produces after ingesting a video/transcript. The raw source is not included in the repo.
 
 ---
 
-## Key Takeaways
+## What This Source Is
 
-**The core insight**: normal AI chats are ephemeral. The wiki makes knowledge compound. Every source ingested, every question answered, every analysis filed — all of it stays and grows richer over time.
+Nate Herk demonstrates the [[LLM Wiki Pattern]] in practice using Claude Code and Obsidian. He shows two live vaults: a YouTube transcript archive (36 videos) and a personal second brain. He breaks down [[Andrej Karpathy]]'s original post and walks through a 5-minute setup.
 
-**The stack is simple**: Claude Code + Obsidian + a folder of markdown files. No vector databases, no embeddings, no infrastructure. Just files and Claude.
+---
 
-**The hot cache**: a ~500-word file (`wiki/hot.md`) that captures recent context. In an executive assistant setup, this prevented having to crawl dozens of wiki pages at the start of each session. See [[Hot Cache]].
+## Key Insights
 
-**Cross-project referencing**: other Claude Code projects can read this vault by pointing at it in their CLAUDE.md. Nate's executive assistant reads from his herk-brain vault. Token usage dropped significantly compared to inline context files.
+**The wiki compounds.** Normal AI chat is ephemeral — knowledge disappears when the session ends. The wiki pattern changes this: every source ingested, every answer filed back, every connection made persists permanently. See [[Compounding Knowledge]].
 
-**At scale**: the index file alone is sufficient for hundreds of pages. Vector RAG only becomes necessary at millions of documents.
+**The hot cache is the force multiplier.** A ~500-word file (`wiki/hot.md`) captures what happened recently. New sessions read it first. Cross-project references read it first. It saves crawling dozens of wiki pages just to answer "where were we?" See [[Hot Cache]].
+
+**The stack is intentionally simple.** Claude Code + Obsidian + a folder of markdown files. No vector databases, no embeddings, no infrastructure. The index file alone navigates hundreds of pages.
+
+**Cross-project power.** Other Claude Code projects can reference this vault via their CLAUDE.md. Nate's executive assistant reads from his personal brain vault. Token usage dropped significantly vs inline context files.
+
+**95% token reduction.** One X user turned 383 scattered files and 100+ meeting transcripts into a compact wiki and dropped token usage by 95% when querying with Claude.
+
+**At scale.** The index file alone is sufficient for hundreds of pages. Vector RAG only becomes necessary at millions of documents.
+
+---
+
+## The Live Demo
+
+Nate ingested one article (AI 2027) and Claude produced 23 wiki pages in ~10 minutes:
+- 1 source summary
+- 6 entity pages (people)
+- 5 organization pages
+- 1 AI systems page
+- Multiple concept pages
+- 1 analysis
+- Open questions
+
+This is what one ingest looks like when the wiki pattern is applied correctly.
 
 ---
 
 ## Obsidian as IDE
 
-Obsidian is just a markdown viewer with graph visualization. The graph view shows which pages are hubs (many connections) and which are orphans (none). Real-time — you can watch the wiki grow as Claude creates pages.
-
-The key Obsidian features used:
-- Graph view — visualize the knowledge structure
-- Backlinks — follow connections between pages
-- Dataview — query pages by frontmatter
-- Web Clipper — send articles directly to `.raw/` from any browser
-
----
-
-## Workflow Demonstrated
-
-1. Install Obsidian, create a vault
-2. Paste Karpathy's LLM wiki idea into Claude Code
-3. Claude scaffolds the structure (raw/, wiki/, CLAUDE.md, index, log)
-4. Drop a source into `.raw/` using Web Clipper
-5. Tell Claude: "ingest this"
-6. Claude reads, creates 15-25 wiki pages, cross-references everything
-7. Query the wiki for insights
-
-The ingest for one article (AI 2027) took 10 minutes and created 23 pages: 1 source, 6 people, 5 organizations, 1 AI systems page, multiple concepts, plus an analysis.
-
----
-
-## Entities Mentioned
-
-- [[Andrej Karpathy]] — originated the LLM wiki pattern
-- Nate Herk — demonstrated the pattern in this video
+Obsidian serves as the visual layer. Key features used:
+- **Graph view** — see which pages are hubs and which are orphans
+- **Backlinks** — follow relationships between pages
+- **Dataview** — query pages by frontmatter
+- **Web Clipper** — send articles to `.raw/` from any browser in one click
 
 ---
 
 ## Connections
 
-See [[LLM Wiki Pattern]] for the full architecture.
-See [[Compounding Knowledge]] for the core insight on why this works.
-See [[Hot Cache]] for the session context mechanism.
+- [[LLM Wiki Pattern]] — the full architecture this source demonstrates
+- [[Compounding Knowledge]] — why the pattern produces increasing returns
+- [[Hot Cache]] — the session context mechanism Nate added to his executive assistant vault
+- [[Andrej Karpathy]] — originated the LLM wiki pattern that this video explains
