@@ -19,7 +19,7 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-04-08: v1.4.1 hotfix shipped, plugin confirmed installed and enabled
+2026-07-17: g-Nosis personal-mind reframe evaluated by five-agent council; verdict and expansion filed at [[Can g-Nosis be a personal mind]]. Winning frame: "the decision journal that remembers for you" (personal precedent engine over a sealed local ledger, vault as projection), targeting angels/solo deal-makers first, open-core via Obsidian + Claude Code plugins. Prior update 2026-04-08: v1.4.1 hotfix shipped, plugin confirmed installed and enabled
 
 ## Plugin State
 - **Version**: 1.4.1 (installed, enabled, user scope)
@@ -59,6 +59,7 @@ There is no `claude plugin install github:owner/repo` shortcut. Both steps are r
 16+ Claude + Obsidian projects mapped. Full feature matrix at [[claude-obsidian-ecosystem]]. Prioritized backlog at [[cherry-picks]]. Top competitors: [[Ar9av-obsidian-wiki]] (multi-agent + delta tracking), [[rvk7895-llm-knowledge-bases]] (multi-depth query), [[ballred-obsidian-claude-pkm]] (goal cascade + auto-commit), [[kepano-obsidian-skills]] (authoritative Obsidian skills from Obsidian's own creator).
 
 ## Active Threads
+- g-Nosis personal edition: decide go/no-go on the "AI decision journal" reframe; if go, next steps are backfill-first onboarding prototype and a free-edition retention experiment (target >20% week-4 retention on decision-logging events). Full council verdict: [[Can g-Nosis be a personal mind]]
 - v1.5.0 backlog: `/adopt` command, vault graph analysis in wiki-lint, semantic search via qmd, Marp output
 - `community` remote (`avalonreset-pro/claude-obsidian`) still has pre-rewrite history. Force-push needed next time that remote is configured.
 

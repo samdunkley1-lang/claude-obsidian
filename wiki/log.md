@@ -25,6 +25,12 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-07-17] session | g-Nosis Personal Mind Council Evaluation
+- Type: session
+- Location: wiki/questions/Can g-Nosis be a personal mind.md
+- From: five parallel council agents (product strategist 6, skeptical investor 2, technical architect 8, user advocate 6, GTM lead 7) evaluating the reframe of g-Nosis as an individual assistant over personal files
+- Key finding: winning reframe is "AI decision journal / personal precedent engine" for decision-dense prosumers (angels first), shipped open-core via Obsidian + Claude Code plugins, not a general "personal mind"; backfill-first onboarding and passive capture are make-or-break
+
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session
 - Location: wiki/meta/claude-obsidian-v1.4-release-session.md

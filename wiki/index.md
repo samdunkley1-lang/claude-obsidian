@@ -59,6 +59,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 ## Questions
 
 - [[How does the LLM Wiki pattern work]] — how the pattern works and why it outperforms RAG at human scale (status: developing)
+- [[Can g-Nosis be a personal mind]] — five-seat council verdict on reframing g-Nosis as a personal decision journal / precedent engine (status: developing)
 
 ---
 
