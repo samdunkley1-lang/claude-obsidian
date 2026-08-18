@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-04-08
+updated: 2026-08-18
 tags:
   - meta
   - log
@@ -24,6 +24,12 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-08-18] save | gnosis-app Codebase Review: Access Trace and Handoff
+- Type: session
+- Location: wiki/meta/gnosis-app-review-handoff.md
+- From: requested review of Chris Hobson's latest branch on the gnosis codebase; blocked on repo access
+- Key finding: the gnosis codebase is `hobsynth/gnosis-app` (private), not this repo. Cross-tier session lock, anonymous clone and GitHub MCP scope all refuse it. Re-run with that repo as the initial session source.
 
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session

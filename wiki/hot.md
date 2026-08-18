@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-04-08T19:00:00
+updated: 2026-08-18T00:00:00
 tags:
   - meta
   - hot-cache
@@ -12,6 +12,7 @@ related:
   - "[[Wiki Map]]"
   - "[[getting-started]]"
   - "[[claude-obsidian-v1.4-release-session]]"
+  - "[[gnosis-app-review-handoff]]"
 ---
 
 # Recent Context
@@ -19,7 +20,7 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-04-08: v1.4.1 hotfix shipped, plugin confirmed installed and enabled
+2026-08-18: gnosis-app review requested but blocked on repo access; handoff filed
 
 ## Plugin State
 - **Version**: 1.4.1 (installed, enabled, user scope)
@@ -58,11 +59,17 @@ There is no `claude plugin install github:owner/repo` shortcut. Both steps are r
 ## Ecosystem Research (Done 2026-04-08)
 16+ Claude + Obsidian projects mapped. Full feature matrix at [[claude-obsidian-ecosystem]]. Prioritized backlog at [[cherry-picks]]. Top competitors: [[Ar9av-obsidian-wiki]] (multi-agent + delta tracking), [[rvk7895-llm-knowledge-bases]] (multi-depth query), [[ballred-obsidian-claude-pkm]] (goal cascade + auto-commit), [[kepano-obsidian-skills]] (authoritative Obsidian skills from Obsidian's own creator).
 
+## gnosis (separate product, separate repo)
+- Codebase is **`hobsynth/gnosis-app`** (private), not this vault. This repo holds only the strategy note [[Can g-Nosis be a personal mind]] on branch `claude/gnosis-personal-assistant-idea-4fkgff`.
+- Chris Hobson (`chrisafhobson@gmail.com`) is the other developer. Latest commit `587a2a2b` "fix(desktop): select-all takes up to thirty facts" (19 Aug 2026).
+- A cloud session sourced from `samdunkley1-lang/*` **cannot** reach it: cross-tier `add_repo` is refused, anonymous clone fails (private), GitHub MCP is scoped out. Start a session with `hobsynth/gnosis-app` as the initial source instead. Full trace: [[gnosis-app-review-handoff]].
+
 ## Active Threads
 - v1.5.0 backlog: `/adopt` command, vault graph analysis in wiki-lint, semantic search via qmd, Marp output
 - `community` remote (`avalonreset-pro/claude-obsidian`) still has pre-rewrite history. Force-push needed next time that remote is configured.
 
 ## Repo Locations
 - Working: `~/Desktop/claude-obsidian/`
+- gnosis app (different product): https://github.com/hobsynth/gnosis-app (private)
 - Public: https://github.com/AgriciDaniel/claude-obsidian
 - Community (private): https://github.com/avalonreset-pro/claude-obsidian
