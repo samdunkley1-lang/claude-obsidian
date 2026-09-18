@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-04-08T19:00:00
+updated: 2026-09-18T00:30:00
 tags:
   - meta
   - hot-cache
@@ -12,6 +12,7 @@ related:
   - "[[Wiki Map]]"
   - "[[getting-started]]"
   - "[[claude-obsidian-v1.4-release-session]]"
+  - "[[gnosis-decision-ui-benchmarks]]"
 ---
 
 # Recent Context
@@ -19,7 +20,17 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-04-08: v1.4.1 hotfix shipped, plugin confirmed installed and enabled
+2026-09-18: gnosis decision-space and UI deep research filed under wiki/gnosis/
+
+## Gnosis Research (2026-09-18)
+Report: [[gnosis-decision-ui-benchmarks]]. Domain index: [[gnosis/_index|Gnosis]]. Raw notes: `.raw/gnosis-decision-ui-research/`.
+- **Decision space**: tier the 13 types. Tier 1: valuation marks, liquidity tools, trade allocation, model changes, ESG screens. Tier 2: exits, sizing, corporate-action elections, exceptions. Tier 3: templates.
+- **Record completeness**: map the commit schema to MiFID Del Reg 2017/565 Art 74 and Rule 204-2(a)(3), require an OMS order-ID link, version all reference data for replay.
+- **UI**: Salt-style medium density, tabular figures, five-state status with glyphs, two labelled replay clocks, frozen maker-checker payloads, record-then-reveal on gated decisions, visible tool trace, WCAG 2.2 AA.
+- **Metrics to beat**: publish what nobody publishes (100% sealed coverage, sub-hour retrieval vs SEC 10-to-14-day window, 100% replay hash-match, gate precision). Do not lead with bps-of-alpha claims.
+- **Go-to-market**: CCO plus COO at US SEC-registered advisers USD 5-50bn; wedge on AI-governance lineage and IC capture; platform plus modules plus seats, never AUM bps; trust pack (SOC 2, AITEC-AIMA DDQ, DORA Art 30 MSA) before InfoSec.
+- **Messaging to strike**: "four eyes required", "AI Act high-risk", the withdrawn SEC PDA proposal, "hallucination-free".
+- **Caveat**: snippets and mirrors only; twelve re-verify items at the top of the report.
 
 ## Plugin State
 - **Version**: 1.4.1 (installed, enabled, user scope)

@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-04-08
+updated: 2026-09-18
 tags:
   - meta
   - log
@@ -24,6 +24,14 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-09-18] research | Gnosis Decision Space and UI Benchmarks
+- Type: deep research (seven parallel tracks, one synthesis)
+- Location: wiki/gnosis/gnosis-decision-ui-benchmarks.md, wiki/gnosis/_index.md, wiki/sources/gnosis-decision-ui-research.md
+- Raw: .raw/gnosis-decision-ui-research/ (7 note files, ~52k words, every figure tagged V/P/I/G)
+- Question: what gnosis's decision space and app UI need to be clinical and industry-leading, which metrics to beat, how to make it saleable
+- Verdict: tier the decision types around enforcement and behavioural evidence; make the commit record legally complete (MiFID Art 74, Rule 204-2(a)(3), OMS order link, versioned policy); Salt/Carbon-grade UI with two-clock replay and record-then-reveal; publish coverage, retrieval time and replay determinism instead of bps claims; sell AI-governance lineage to the CCO with a trust pack ready before InfoSec
+- Caveat: proxy blocked primary-site fetches and search budget was capped; findings rest on snippets and mirrors, re-verify before external use
 
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session
