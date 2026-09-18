@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-04-07
+updated: 2026-09-18
 tags:
   - meta
   - index
@@ -15,6 +15,7 @@ related:
   - "[[concepts/_index]]"
   - "[[entities/_index]]"
   - "[[sources/_index]]"
+  - "[[gnosis/_index]]"
   - "[[LLM Wiki Pattern]]"
   - "[[Hot Cache]]"
   - "[[Compounding Knowledge]]"
@@ -23,7 +24,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-08 | Total pages: 26 | Sources ingested: 2
+Last updated: 2026-09-18 | Total pages: 29 | Sources ingested: 3
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -50,9 +51,17 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ---
 
+## Gnosis
+
+- [[gnosis/_index|Gnosis Index]] : decision-intelligence platform for buy-side asset managers; domain index (status: evergreen)
+- [[gnosis-decision-ui-benchmarks]] : 2026-09-18 | decision space, clinical UI, metrics to beat, go-to-market; 162 citations, every figure evidence-tagged (status: current)
+
+---
+
 ## Sources
 
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
+- [[gnosis-decision-ui-research]] : 2026-09-18 | seven-track deep research, ~52k words of raw notes | 3 wiki pages created
 
 ---
 
