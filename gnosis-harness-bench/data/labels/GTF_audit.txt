@@ -1,0 +1,8 @@
+GTF-corporate_actions_policy-v1-canonical.md: gold=4 blind=4 tp=4 fp=0 fn=0 distractors_extracted=1/1
+GTF-counterparty_policy-v1-canonical.md: gold=4 blind=4 tp=4 fp=0 fn=0 distractors_extracted=0/1
+GTF-esg_policy-v2-canonical.md: gold=3 blind=3 tp=3 fp=0 fn=0 distractors_extracted=0/1
+GTF-guidelines-v1-canonical.md: gold=8 blind=8 tp=8 fp=0 fn=0 distractors_extracted=0/1
+GTF-guidelines-v2-adv_unless.md: gold=8 blind=8 tp=8 fp=0 fn=0 distractors_extracted=0/1
+GTF-ips-v2-paraphrase.md: gold=7 blind=7 tp=7 fp=0 fn=0 distractors_extracted=0/2
+GTF-liquidity_policy-v2-canonical.md: gold=4 blind=4 tp=4 fp=0 fn=0 distractors_extracted=0/1
+TOTAL precision=1.000 recall=1.000 [0.908,1.000] f1=1.000 kappa(binding decision)=0.920 [0.727,1.000] n_items=46
