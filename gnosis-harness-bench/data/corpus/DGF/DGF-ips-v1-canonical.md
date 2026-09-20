@@ -4,11 +4,11 @@ Version 1, effective 2025-01-01
 
 ## Purpose and status
 
-This Investment Policy Statement (the "Statement") records the investment objective, permitted universe and binding portfolio limits of the Midland Diversified Growth Fund (the "Fund"). It has been adopted by the Board of the Fund and is binding on Midland Asset Management Limited (the "Manager") in its capacity as investment manager. Where this Statement and the Prospectus differ, the more restrictive provision applies. Every limit set out in the tables below is measured against the net asset value of the Fund immediately after giving effect to a proposed transaction.
+This Investment Policy Statement (the "Statement") records the investment objective, permitted universe and binding portfolio limits of the Midland Diversified Growth Fund (the "Fund"). It has been adopted by the Board of the Fund and is binding on Midland Asset Management Limited (the "Manager") in its capacity as investment manager. Every limit set out in the tables below is measured against the net asset value of the Fund immediately after giving effect to a proposed transaction.
 
 ## Investment objective and approach
 
-The Fund seeks long-term capital growth through a diversified multi-asset portfolio of global equities, government bonds, investment grade and high yield credit, and cash. Performance is assessed against the composite benchmark described in the Prospectus. The Manager exercises active discretion over asset allocation and security selection, subject at all times to the boundaries defined here.
+The Fund seeks long-term capital growth through a diversified multi-asset portfolio of global equities, government bonds, investment grade and high yield credit, and cash. Performance is assessed against the composite benchmark described in the Prospectus. The Manager exercises active discretion within the boundaries defined here.
 
 ## Portfolio construction limits
 
@@ -48,7 +48,7 @@ In normal market conditions the Manager expects to hold cash of around 3% of net
 
 Compliance monitors every limit in this Statement on each business day using the Fund's official valuation. Any excess, whether arising from a transaction or from market movements, is reported to the portfolio manager and the Chief Investment Officer as soon as it is identified, recorded in the breach log and, for a block-type limit, remedied as promptly as is consistent with the interests of investors.
 
-Exceptions to rows 1, 2, 3, 4, 6, 7, 10 and 11 require the joint written approval of the portfolio manager, the Chief Investment Officer and Compliance. Exceptions to rows 5, 8 and 9 require the joint written approval of the portfolio manager, the Chief Investment Officer and Risk. Every exception must state its rationale and the expected route back inside the limit, and lapses automatically 30 days after approval unless renewed through the same approval process. No exception may be granted retrospectively to cure an unreported breach.
+Exceptions to rows 1, 2, 3, 4, 6, 7, 10 and 11 require the joint written approval of the portfolio manager, the Chief Investment Officer and Compliance. Exceptions to rows 5, 8 and 9 require the joint written approval of the portfolio manager, the Chief Investment Officer and Risk. Every exception must state its rationale and the expected route back inside the limit, and lapses automatically 30 days after approval unless renewed through the same approval process.
 
 ## Review
 

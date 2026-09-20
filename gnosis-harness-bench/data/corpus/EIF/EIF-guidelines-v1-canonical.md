@@ -10,7 +10,7 @@ All limits are expressed as a percentage of the Fund's net asset value and are t
 ## Table 1: Security and issuer limits
 
 | Rule | Scope | Limit | Effect of breach |
-|---|---|---|---|
+|-|-|-|-|
 | Single security maximum | Any single security held by the Fund | Shall not exceed 5% of net asset value | Order blocked |
 | Single security carve-out | A security representing more than 3% of the benchmark | The limit is the benchmark weight plus 1.5 percentage points, in place of the standard maximum | Order blocked |
 | Single issuer maximum | Aggregate exposure to any single issuer, including all securities of that issuer | Shall not exceed 6% of net asset value | Order blocked |
@@ -21,7 +21,7 @@ The carve-out in the second row operates as follows: no single security shall ex
 ## Table 2: Sector limits
 
 | Sector | Limit | Effect of breach |
-|---|---|---|
+|-|-|-|
 | Utilities | Exposure to the Utilities sector shall not exceed 20% of net asset value | Order blocked |
 | Real Estate | Exposure to the Real Estate sector shall not exceed 15% of net asset value | Order blocked |
 
@@ -30,7 +30,7 @@ Sector classification follows the benchmark provider's methodology. Where an iss
 ## Table 3: Country limits
 
 | Country of domicile | Limit | Effect of breach |
-|---|---|---|
+|-|-|-|
 | Germany | Exposure to issuers domiciled in Germany shall not exceed 25% of net asset value | Order blocked |
 | France | Exposure to issuers domiciled in France shall not exceed 25% of net asset value | Order blocked |
 
@@ -39,7 +39,7 @@ Domicile is determined by the issuer's country of incorporation unless the Manag
 ## Table 4: Absolute restriction
 
 | Restriction | Scope | Effect |
-|---|---|---|
+|-|-|-|
 | Restricted List | Any security of an issuer appearing on the Firm's Restricted List | Purchase or addition prohibited under any circumstances; no waiver possible |
 
 No security of an issuer appearing on the Firm's Restricted List may be purchased or added to under any circumstances. This restriction cannot be waived by the Manager, the Chief Investment Officer or Compliance, and no exception process applies to it. Existing positions in an issuer that is added to the Restricted List are frozen pending Compliance instruction.

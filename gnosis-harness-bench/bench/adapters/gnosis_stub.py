@@ -41,9 +41,11 @@ from __future__ import annotations
 from bench.adapters.base import Adapter
 
 ABLATION_FLAGS = ("use_typed_schema", "use_policy_engine", "use_validator", "use_precedents")
+INTEGRATION_NOTES = __doc__
 
 
 class GnosisStubAdapter(Adapter):
+    __doc__ = INTEGRATION_NOTES
     adapter_name = "gnosis"
 
     def __init__(self, name: str | None = None, config: dict | None = None) -> None:
