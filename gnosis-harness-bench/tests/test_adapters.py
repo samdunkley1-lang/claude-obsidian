@@ -131,7 +131,7 @@ def test_system_prompt_is_shared_and_restates_policy_semantics(verdict_case_by_i
     assert json.dumps(output_schema("verdict"), indent=2) in shared
     assert "verbatim" in shared
     for task in ("ingestion", "verdict"):
-        assert "—" not in load_system_prompt(task)
+        assert chr(0x2014) not in load_system_prompt(task)  # no em dashes anywhere
 
 
 # ---------------------------------------------------------------------------------------

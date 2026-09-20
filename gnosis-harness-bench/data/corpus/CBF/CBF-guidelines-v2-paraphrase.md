@@ -5,7 +5,7 @@ Version 2, effective 2026-04-01
 
 1.1. These Guidelines apply to the Midland Corporate Bond Fund (the "Fund") and are issued by Midland Asset Management (the "Manager") under the authority of the Fund Oversight Committee.
 
-1.2. They operate beneath the Investment Policy Statement. If both instruments address the same exposure, the stricter of the two governs.
+1.2. They operate beneath the Investment Policy Statement. If both instruments address the same exposure, the stricter provision governs.
 
 1.3. Every person who trades for the Fund, instructs a trade or supervises trading is bound by these Guidelines.
 

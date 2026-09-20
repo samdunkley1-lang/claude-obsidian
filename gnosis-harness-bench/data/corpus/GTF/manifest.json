@@ -1,0 +1,142 @@
+[
+  {
+    "rendering_id": "GTF-ips-v1-canonical",
+    "path": "GTF/GTF-ips-v1-canonical.md",
+    "word_count": 808,
+    "style": "legal",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-ips-v2-canonical",
+    "path": "GTF/GTF-ips-v2-canonical.md",
+    "word_count": 689,
+    "style": "bullets",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-ips-v2-paraphrase",
+    "path": "GTF/GTF-ips-v2-paraphrase.md",
+    "word_count": 736,
+    "style": "memo",
+    "variant_kind": "paraphrase"
+  },
+  {
+    "rendering_id": "GTF-ips-v2-adv_superseded",
+    "path": "GTF/GTF-ips-v2-adv_superseded.md",
+    "word_count": 796,
+    "style": "legal",
+    "variant_kind": "adv_superseded"
+  },
+  {
+    "rendering_id": "GTF-guidelines-v1-canonical",
+    "path": "GTF/GTF-guidelines-v1-canonical.md",
+    "word_count": 887,
+    "style": "narrative",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-guidelines-v2-canonical",
+    "path": "GTF/GTF-guidelines-v2-canonical.md",
+    "word_count": 797,
+    "style": "tabular",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-guidelines-v2-paraphrase",
+    "path": "GTF/GTF-guidelines-v2-paraphrase.md",
+    "word_count": 733,
+    "style": "bullets",
+    "variant_kind": "paraphrase"
+  },
+  {
+    "rendering_id": "GTF-guidelines-v2-adv_negation",
+    "path": "GTF/GTF-guidelines-v2-adv_negation.md",
+    "word_count": 852,
+    "style": "legal",
+    "variant_kind": "adv_negation"
+  },
+  {
+    "rendering_id": "GTF-guidelines-v2-adv_unless",
+    "path": "GTF/GTF-guidelines-v2-adv_unless.md",
+    "word_count": 889,
+    "style": "narrative",
+    "variant_kind": "adv_unless"
+  },
+  {
+    "rendering_id": "GTF-guidelines-v2-adv_superseded",
+    "path": "GTF/GTF-guidelines-v2-adv_superseded.md",
+    "word_count": 813,
+    "style": "legal",
+    "variant_kind": "adv_superseded"
+  },
+  {
+    "rendering_id": "GTF-derivatives_policy-v1-canonical",
+    "path": "GTF/GTF-derivatives_policy-v1-canonical.md",
+    "word_count": 758,
+    "style": "memo",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-esg_policy-v1-canonical",
+    "path": "GTF/GTF-esg_policy-v1-canonical.md",
+    "word_count": 754,
+    "style": "legal",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-esg_policy-v2-canonical",
+    "path": "GTF/GTF-esg_policy-v2-canonical.md",
+    "word_count": 661,
+    "style": "bullets",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-esg_policy-v2-paraphrase",
+    "path": "GTF/GTF-esg_policy-v2-paraphrase.md",
+    "word_count": 744,
+    "style": "memo",
+    "variant_kind": "paraphrase"
+  },
+  {
+    "rendering_id": "GTF-liquidity_policy-v1-canonical",
+    "path": "GTF/GTF-liquidity_policy-v1-canonical.md",
+    "word_count": 808,
+    "style": "narrative",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-liquidity_policy-v2-canonical",
+    "path": "GTF/GTF-liquidity_policy-v2-canonical.md",
+    "word_count": 791,
+    "style": "tabular",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-valuation_policy-v1-canonical",
+    "path": "GTF/GTF-valuation_policy-v1-canonical.md",
+    "word_count": 738,
+    "style": "memo",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-counterparty_policy-v1-canonical",
+    "path": "GTF/GTF-counterparty_policy-v1-canonical.md",
+    "word_count": 855,
+    "style": "legal",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-corporate_actions_policy-v1-canonical",
+    "path": "GTF/GTF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 703,
+    "style": "bullets",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "GTF-corporate_actions_policy-v1-adv_crossref",
+    "path": "GTF/GTF-corporate_actions_policy-v1-adv_crossref.md",
+    "word_count": 832,
+    "style": "memo",
+    "variant_kind": "adv_crossref"
+  }
+]

@@ -16,13 +16,13 @@ By way of context rather than rule, the Manager's typical initial position size 
 
 ## Sector and country
 
-Being a technology fund, the portfolio will always be concentrated in a handful of industry groups, and the board has set outer bounds on the largest of them. Exposure to the Software sector shall not exceed 40% of net asset value, and exposure to the Hardware sector shall not exceed 25% of net asset value.
+The portfolio will always be concentrated in a handful of industry groups, and the board has set outer bounds on the largest of them. Exposure to the Software sector shall not exceed 40% of net asset value, and exposure to the Hardware sector shall not exceed 25% of net asset value.
 
 Geographic concentration is bounded for the markets in which the Fund's holdings are most exposed to policy risk. Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value, and exposure to issuers domiciled in China shall not exceed 10% of net asset value. An issuer listed elsewhere but domiciled in either country counts against the relevant limit.
 
 ## Large index constituents
 
-The single security limit stated earlier in these Guidelines is subject to the following qualification: provided that a security represents more than 3% of the benchmark, the limit that applies to that security is not the headline figure but the benchmark weight plus 2 percentage points. The qualification exists because the largest constituents of the benchmark carry index weights that would otherwise make a neutral or modestly overweight position impossible. The benchmark weight used is the weight published by the index provider at the most recent rebalancing, and the resulting limit is recalculated whenever a new rebalancing is published. Nothing in this paragraph relaxes the issuer limit, which continues to apply to every issuer whatever its benchmark weight.
+The single security limit stated earlier in these Guidelines is subject to the following qualification: provided that a security represents more than 3% of the benchmark, the limit that applies to that security is not the headline figure but the benchmark weight plus 2 percentage points. The qualification reflects the index weights of the largest benchmark constituents. The benchmark weight used is the weight published by the index provider at the most recent rebalancing, and the resulting limit is recalculated whenever a new rebalancing is published. Nothing in this paragraph relaxes the issuer limit, which continues to apply to every issuer whatever its benchmark weight.
 
 ## The Private and pre-IPO sleeve
 

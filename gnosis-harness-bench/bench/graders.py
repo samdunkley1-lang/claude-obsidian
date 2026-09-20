@@ -81,9 +81,9 @@ NUM_TOL = 1e-6
 
 _QUOTE_MAP = str.maketrans(
     {
-        "‘": "'", "’": "'", "‚": "'", "‛": "'",
-        "“": '"', "”": '"', "„": '"',
-        "–": "-", "—": "-", "−": "-", " ": " ",
+        chr(0x2018): "'", chr(0x2019): "'", chr(0x201A): "'", chr(0x201B): "'",   # curly single quotes
+        chr(0x201C): '"', chr(0x201D): '"', chr(0x201E): '"',                     # curly double quotes
+        chr(0x2013): "-", chr(0x2014): "-", chr(0x2212): "-", chr(0x00A0): " ",   # en/em dash, minus, nbsp
     }
 )
 

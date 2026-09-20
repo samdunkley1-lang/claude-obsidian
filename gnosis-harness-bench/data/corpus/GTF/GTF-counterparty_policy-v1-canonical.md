@@ -30,7 +30,7 @@ Version 1, effective 2025-01-01
 
 4.1. The statement in this Section is descriptive. It creates no limit, imposes no obligation and is not monitored as a compliance test.
 
-4.2. Securities lending exposure to the largest counterparty, being the largest of the any single securities lending counterparty exposures at the most recent measurement, is currently about 7.5% of net asset value.
+4.2. Securities lending exposure to the largest counterparty, meaning the largest exposure to any single securities lending counterparty at the most recent measurement, is currently about 7.5% of net asset value.
 
 ## Section 5. Monitoring, breaches and exceptions
 

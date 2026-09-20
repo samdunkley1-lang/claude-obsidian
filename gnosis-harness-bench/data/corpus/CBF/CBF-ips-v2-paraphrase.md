@@ -3,7 +3,7 @@ Version 2, effective 2026-04-01
 
 ## Reader's guide
 
-The tables below form the operative part of the Investment Policy Statement for the Midland Corporate Bond Fund. Rather than a clause-by-clause text, the Manager has chosen to present the mandate as a register of parameters, each with its binding requirement, the measure against which it is tested and the people who can authorise a departure. The prose surrounding the tables explains how the register is to be read; it neither adds to nor subtracts from it.
+The tables below form the operative part of the Investment Policy Statement for the Midland Corporate Bond Fund. Rather than a clause-by-clause text, the Manager presents the mandate as a register of parameters, each with its binding requirement, the measure against which it is tested and the people who can authorise a departure. The surrounding prose explains how the register is read and neither adds to nor subtracts from it.
 
 Every requirement in Table A and Table B is mandatory. Compliance with a requirement is tested after giving effect to any proposed trade, and the requirement continues to apply at all times afterwards, so a limit that is met at the moment of dealing but drifts outside its bound later still counts as a breach. Percentages are percentages of the Fund's net asset value except where the table states a different basis.
 
@@ -38,12 +38,12 @@ A departure from any row of Table A or Table B is permitted only when each of th
 
 The Manager also wishes readers to have the following context. It is deliberately kept out of the tables because it is not a requirement and Risk does not test against it.
 
-Under normal market conditions the Manager expects the cash balance to sit somewhere around 3% of net asset value; a higher or lower balance within the floor and ceiling in Table A is entirely acceptable. Looking back over the Fund's history, turnover has come out at roughly 60% per annum on average, comfortably inside the ceiling in Table A, and the Manager does not treat that average as a target.
+Under normal market conditions the Manager expects the cash balance to sit around 3% of net asset value; a higher or lower balance within the floor and ceiling in Table A is acceptable. Historically, turnover has come out at roughly 60% per annum on average, inside the ceiling in Table A, and the Manager does not treat that average as a target.
 
 ## When something goes wrong
 
-If a requirement is found to have been exceeded, Compliance is told without delay and the event is logged in the breach register. Where the cause is a market move, a rating action, a redemption or a corporate action rather than a trade, the portfolio manager agrees a correction plan with Compliance and Risk that protects unitholders from forced selling. Where the cause is a trade, the position is corrected at once and the matter goes to the Chief Investment Officer.
+If a requirement is found to have been exceeded, Compliance is told without delay and the event is logged in the breach register. Where the cause is a market move, a rating action, a redemption or a corporate action, the portfolio manager agrees a correction plan with Compliance and Risk that avoids forced selling. Where the cause is a trade, the position is corrected at once and the matter goes to the Chief Investment Officer.
 
 ## Ownership and review
 
-The Fund Oversight Committee owns this Statement, revisits it on a regular cycle and amends it whenever the Fund's mandate, benchmark or regulatory setting changes in a way that matters. Compliance keeps the log of breaches, the file of approved departures and the supporting reasoning for as long as the Firm's retention rules require.
+The Fund Oversight Committee owns this Statement, revisits it on a regular cycle and amends it whenever the Fund's mandate, benchmark or regulatory setting changes materially. Compliance keeps the breach log, the file of approved departures and the supporting reasoning for as long as the Firm's retention rules require.

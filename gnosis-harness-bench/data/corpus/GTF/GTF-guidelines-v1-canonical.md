@@ -8,7 +8,7 @@ Throughout these Guidelines, net asset value means the value of the Fund most re
 
 ## Concentration in a single security
 
-The central discipline of the portfolio is a cap on the size of any one holding. No single security shall exceed 8% of net asset value, unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points. The carve-out exists because several of the largest constituents of the benchmark carry index weights that would otherwise make a neutral or modestly overweight position impossible; it does not permit an overweight of unlimited size, and the relevant benchmark weight is recalculated whenever the index provider publishes a rebalancing.
+The central discipline of the portfolio is a cap on the size of any one holding. No single security shall exceed 8% of net asset value, unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points. The relevant benchmark weight is recalculated whenever the index provider publishes a rebalancing.
 
 Concentration is also measured at the level of the issuer. Aggregate exposure to any single issuer, including all securities of that issuer, shall not exceed 10% of net asset value. For this purpose different share classes, depositary receipts and convertible instruments of the same issuer are aggregated, together with any derivative exposure referable to that issuer.
 
@@ -18,7 +18,7 @@ For context rather than as a rule, the Manager's typical initial position size i
 
 The Fund is a technology fund and will always be concentrated in a handful of industry groups, but the board has fixed outer bounds on the largest of them. Exposure to the Software sector shall not exceed 40% of net asset value, and exposure to the Hardware sector shall not exceed 25% of net asset value. Sector membership follows the classification published by the benchmark provider.
 
-Geographic concentration is limited in a similar way for the markets in which the Fund's exposure is most sensitive to policy risk. Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value, and exposure to issuers domiciled in China shall not exceed 10% of net asset value. For the avoidance of doubt, an issuer listed abroad but domiciled in either country is counted against the relevant limit.
+Geographic concentration is limited in a similar way for the markets in which the Fund's exposure is most sensitive to policy risk. Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value, and exposure to issuers domiciled in China shall not exceed 10% of net asset value. An issuer listed abroad but domiciled in either country is counted against the relevant limit.
 
 ## The Private and pre-IPO sleeve
 

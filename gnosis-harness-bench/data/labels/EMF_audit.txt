@@ -1,0 +1,13 @@
+EMF-corporate_actions_policy-v1-adv_crossref.md: gold=4 blind=5 tp=3 fp=2 fn=1 distractors_extracted=1/1
+EMF-guidelines-v2-adv_negation.md: gold=9 blind=9 tp=9 fp=0 fn=0 distractors_extracted=0/1
+EMF-guidelines-v2-adv_superseded.md: gold=9 blind=9 tp=9 fp=0 fn=0 distractors_extracted=0/1
+EMF-guidelines-v2-canonical.md: gold=9 blind=9 tp=9 fp=0 fn=0 distractors_extracted=0/1
+EMF-guidelines-v2-paraphrase.md: gold=9 blind=9 tp=9 fp=0 fn=0 distractors_extracted=0/1
+EMF-ips-v1-canonical.md: gold=7 blind=7 tp=7 fp=0 fn=0 distractors_extracted=0/2
+TOTAL precision=0.958 recall=0.979 [0.889,0.996] f1=0.968 kappa(binding decision)=0.836 [0.542,1.000] n_items=54
+
+Notes (2026-09-20): blind reader had no access to specs. The single false negative and one of the two false
+positives in the corporate-actions crossref rendering are the same rule typed as "other" instead of
+ca_election_default (election deadline). The "distractors_extracted=1/1" on that file is a matcher artifact:
+the distractor shares type and scope with the binding scrip rule and the audit matcher does not compare
+thresholds for required-type rules. Action taken: constraint-type glossary added to the system prompts.
