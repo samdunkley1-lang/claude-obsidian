@@ -1,0 +1,1145 @@
+[
+ {
+  "doc_id": "GTF-ips",
+  "fund": "GTF",
+  "doc_type": "ips",
+  "title": "Midland Global Technology Fund: Investment Policy Statement",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "GTF-ips-v1-C01",
+     "GTF-ips-v1-C02",
+     "GTF-ips-v1-C03",
+     "GTF-ips-v1-C04",
+     "GTF-ips-v1-C05",
+     "GTF-ips-v1-C06",
+     "GTF-ips-v1-C07",
+     "GTF-ips-v1-C08",
+     "GTF-ips-v1-C09"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-ips-v2-C01",
+     "GTF-ips-v2-C02",
+     "GTF-ips-v2-C03",
+     "GTF-ips-v2-C04",
+     "GTF-ips-v2-C05",
+     "GTF-ips-v2-C06",
+     "GTF-ips-v2-C07",
+     "GTF-ips-v2-C08",
+     "GTF-ips-v2-C09"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: cash_max"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-guidelines",
+  "fund": "GTF",
+  "doc_type": "guidelines",
+  "title": "Midland Global Technology Fund: Investment Guidelines and Restrictions",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "GTF-guidelines-v1-C01",
+     "GTF-guidelines-v1-C02",
+     "GTF-guidelines-v1-C03",
+     "GTF-guidelines-v1-C04",
+     "GTF-guidelines-v1-C05",
+     "GTF-guidelines-v1-C06",
+     "GTF-guidelines-v1-C07",
+     "GTF-guidelines-v1-C08",
+     "GTF-guidelines-v1-C09"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-guidelines-v2-C01",
+     "GTF-guidelines-v2-C02",
+     "GTF-guidelines-v2-C03",
+     "GTF-guidelines-v2-C04",
+     "GTF-guidelines-v2-C05",
+     "GTF-guidelines-v2-C06",
+     "GTF-guidelines-v2-C07",
+     "GTF-guidelines-v2-C08",
+     "GTF-guidelines-v2-C09"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: single"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-derivatives_policy",
+  "fund": "GTF",
+  "doc_type": "derivatives_policy",
+  "title": "Midland Global Technology Fund: Derivatives Usage Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-derivatives_policy-v1-C01",
+     "GTF-derivatives_policy-v1-C02",
+     "GTF-derivatives_policy-v1-C03",
+     "GTF-derivatives_policy-v1-C04",
+     "GTF-derivatives_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-esg_policy",
+  "fund": "GTF",
+  "doc_type": "esg_policy",
+  "title": "Midland Global Technology Fund: Responsible Investment Exclusions Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "GTF-esg_policy-v1-C01",
+     "GTF-esg_policy-v1-C02",
+     "GTF-esg_policy-v1-C03",
+     "GTF-esg_policy-v1-C04"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-esg_policy-v2-C01",
+     "GTF-esg_policy-v2-C02",
+     "GTF-esg_policy-v2-C03",
+     "GTF-esg_policy-v2-C04"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: coal"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-liquidity_policy",
+  "fund": "GTF",
+  "doc_type": "liquidity_policy",
+  "title": "Midland Global Technology Fund: Liquidity Risk Management Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "GTF-liquidity_policy-v1-C01",
+     "GTF-liquidity_policy-v1-C02",
+     "GTF-liquidity_policy-v1-C03",
+     "GTF-liquidity_policy-v1-C04",
+     "GTF-liquidity_policy-v1-C05"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-liquidity_policy-v2-C01",
+     "GTF-liquidity_policy-v2-C02",
+     "GTF-liquidity_policy-v2-C03",
+     "GTF-liquidity_policy-v2-C04",
+     "GTF-liquidity_policy-v2-C05"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: illiquid"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-valuation_policy",
+  "fund": "GTF",
+  "doc_type": "valuation_policy",
+  "title": "Midland Global Technology Fund: Valuation and Pricing Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-valuation_policy-v1-C01",
+     "GTF-valuation_policy-v1-C02",
+     "GTF-valuation_policy-v1-C03",
+     "GTF-valuation_policy-v1-C04"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-counterparty_policy",
+  "fund": "GTF",
+  "doc_type": "counterparty_policy",
+  "title": "Midland Global Technology Fund: Counterparty and Broker Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-counterparty_policy-v1-C01",
+     "GTF-counterparty_policy-v1-C02",
+     "GTF-counterparty_policy-v1-C03",
+     "GTF-counterparty_policy-v1-C04",
+     "GTF-counterparty_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "GTF-corporate_actions_policy",
+  "fund": "GTF",
+  "doc_type": "corporate_actions_policy",
+  "title": "Midland Global Technology Fund: Corporate Actions Election Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "GTF-corporate_actions_policy-v1-C01",
+     "GTF-corporate_actions_policy-v1-C02",
+     "GTF-corporate_actions_policy-v1-C03",
+     "GTF-corporate_actions_policy-v1-C04",
+     "GTF-corporate_actions_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-ips",
+  "fund": "EIF",
+  "doc_type": "ips",
+  "title": "Midland European Income Fund: Investment Policy Statement",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-ips-v1-C01",
+     "EIF-ips-v1-C02",
+     "EIF-ips-v1-C03",
+     "EIF-ips-v1-C04",
+     "EIF-ips-v1-C05",
+     "EIF-ips-v1-C06",
+     "EIF-ips-v1-C07",
+     "EIF-ips-v1-C08",
+     "EIF-ips-v1-C09",
+     "EIF-ips-v1-C10"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-guidelines",
+  "fund": "EIF",
+  "doc_type": "guidelines",
+  "title": "Midland European Income Fund: Investment Guidelines and Restrictions",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "EIF-guidelines-v1-C01",
+     "EIF-guidelines-v1-C02",
+     "EIF-guidelines-v1-C03",
+     "EIF-guidelines-v1-C04",
+     "EIF-guidelines-v1-C05",
+     "EIF-guidelines-v1-C06",
+     "EIF-guidelines-v1-C07",
+     "EIF-guidelines-v1-C08",
+     "EIF-guidelines-v1-C09"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-guidelines-v2-C01",
+     "EIF-guidelines-v2-C02",
+     "EIF-guidelines-v2-C03",
+     "EIF-guidelines-v2-C04",
+     "EIF-guidelines-v2-C05",
+     "EIF-guidelines-v2-C06",
+     "EIF-guidelines-v2-C07",
+     "EIF-guidelines-v2-C08",
+     "EIF-guidelines-v2-C09"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: single, issuer"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-derivatives_policy",
+  "fund": "EIF",
+  "doc_type": "derivatives_policy",
+  "title": "Midland European Income Fund: Derivatives Usage Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "EIF-derivatives_policy-v1-C01",
+     "EIF-derivatives_policy-v1-C02",
+     "EIF-derivatives_policy-v1-C03",
+     "EIF-derivatives_policy-v1-C04",
+     "EIF-derivatives_policy-v1-C05",
+     "EIF-derivatives_policy-v1-C06"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-derivatives_policy-v2-C01",
+     "EIF-derivatives_policy-v2-C02",
+     "EIF-derivatives_policy-v2-C03",
+     "EIF-derivatives_policy-v2-C04",
+     "EIF-derivatives_policy-v2-C05",
+     "EIF-derivatives_policy-v2-C06"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: deriv"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-esg_policy",
+  "fund": "EIF",
+  "doc_type": "esg_policy",
+  "title": "Midland European Income Fund: Responsible Investment Exclusions Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-esg_policy-v1-C01",
+     "EIF-esg_policy-v1-C02",
+     "EIF-esg_policy-v1-C03",
+     "EIF-esg_policy-v1-C04",
+     "EIF-esg_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-liquidity_policy",
+  "fund": "EIF",
+  "doc_type": "liquidity_policy",
+  "title": "Midland European Income Fund: Liquidity Risk Management Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "EIF-liquidity_policy-v1-C01",
+     "EIF-liquidity_policy-v1-C02",
+     "EIF-liquidity_policy-v1-C03",
+     "EIF-liquidity_policy-v1-C04",
+     "EIF-liquidity_policy-v1-C05"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-liquidity_policy-v2-C01",
+     "EIF-liquidity_policy-v2-C02",
+     "EIF-liquidity_policy-v2-C03",
+     "EIF-liquidity_policy-v2-C04",
+     "EIF-liquidity_policy-v2-C05"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: swing"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-valuation_policy",
+  "fund": "EIF",
+  "doc_type": "valuation_policy",
+  "title": "Midland European Income Fund: Valuation and Pricing Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-valuation_policy-v1-C01",
+     "EIF-valuation_policy-v1-C02",
+     "EIF-valuation_policy-v1-C03",
+     "EIF-valuation_policy-v1-C04"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-counterparty_policy",
+  "fund": "EIF",
+  "doc_type": "counterparty_policy",
+  "title": "Midland European Income Fund: Counterparty and Broker Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-counterparty_policy-v1-C01",
+     "EIF-counterparty_policy-v1-C02",
+     "EIF-counterparty_policy-v1-C03",
+     "EIF-counterparty_policy-v1-C04",
+     "EIF-counterparty_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EIF-corporate_actions_policy",
+  "fund": "EIF",
+  "doc_type": "corporate_actions_policy",
+  "title": "Midland European Income Fund: Corporate Actions Election Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EIF-corporate_actions_policy-v1-C01",
+     "EIF-corporate_actions_policy-v1-C02",
+     "EIF-corporate_actions_policy-v1-C03",
+     "EIF-corporate_actions_policy-v1-C04",
+     "EIF-corporate_actions_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-ips",
+  "fund": "DGF",
+  "doc_type": "ips",
+  "title": "Midland Diversified Growth Fund: Investment Policy Statement",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "DGF-ips-v1-C01",
+     "DGF-ips-v1-C02",
+     "DGF-ips-v1-C03",
+     "DGF-ips-v1-C04",
+     "DGF-ips-v1-C05",
+     "DGF-ips-v1-C06",
+     "DGF-ips-v1-C07",
+     "DGF-ips-v1-C08",
+     "DGF-ips-v1-C09",
+     "DGF-ips-v1-C10",
+     "DGF-ips-v1-C11",
+     "DGF-ips-v1-C12",
+     "DGF-ips-v1-C13"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-ips-v2-C01",
+     "DGF-ips-v2-C02",
+     "DGF-ips-v2-C03",
+     "DGF-ips-v2-C04",
+     "DGF-ips-v2-C05",
+     "DGF-ips-v2-C06",
+     "DGF-ips-v2-C07",
+     "DGF-ips-v2-C08",
+     "DGF-ips-v2-C09",
+     "DGF-ips-v2-C10",
+     "DGF-ips-v2-C11",
+     "DGF-ips-v2-C12",
+     "DGF-ips-v2-C13"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: duration, hy"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-guidelines",
+  "fund": "DGF",
+  "doc_type": "guidelines",
+  "title": "Midland Diversified Growth Fund: Investment Guidelines and Restrictions",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-guidelines-v1-C01",
+     "DGF-guidelines-v1-C02",
+     "DGF-guidelines-v1-C03",
+     "DGF-guidelines-v1-C04",
+     "DGF-guidelines-v1-C05",
+     "DGF-guidelines-v1-C06",
+     "DGF-guidelines-v1-C07",
+     "DGF-guidelines-v1-C08",
+     "DGF-guidelines-v1-C09"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-derivatives_policy",
+  "fund": "DGF",
+  "doc_type": "derivatives_policy",
+  "title": "Midland Diversified Growth Fund: Derivatives Usage Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-derivatives_policy-v1-C01",
+     "DGF-derivatives_policy-v1-C02",
+     "DGF-derivatives_policy-v1-C03",
+     "DGF-derivatives_policy-v1-C04",
+     "DGF-derivatives_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-esg_policy",
+  "fund": "DGF",
+  "doc_type": "esg_policy",
+  "title": "Midland Diversified Growth Fund: Responsible Investment Exclusions Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-esg_policy-v1-C01",
+     "DGF-esg_policy-v1-C02",
+     "DGF-esg_policy-v1-C03",
+     "DGF-esg_policy-v1-C04"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-liquidity_policy",
+  "fund": "DGF",
+  "doc_type": "liquidity_policy",
+  "title": "Midland Diversified Growth Fund: Liquidity Risk Management Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-liquidity_policy-v1-C01",
+     "DGF-liquidity_policy-v1-C02",
+     "DGF-liquidity_policy-v1-C03",
+     "DGF-liquidity_policy-v1-C04",
+     "DGF-liquidity_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-valuation_policy",
+  "fund": "DGF",
+  "doc_type": "valuation_policy",
+  "title": "Midland Diversified Growth Fund: Valuation and Pricing Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-valuation_policy-v1-C01",
+     "DGF-valuation_policy-v1-C02",
+     "DGF-valuation_policy-v1-C03",
+     "DGF-valuation_policy-v1-C04"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-counterparty_policy",
+  "fund": "DGF",
+  "doc_type": "counterparty_policy",
+  "title": "Midland Diversified Growth Fund: Counterparty and Broker Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "DGF-counterparty_policy-v1-C01",
+     "DGF-counterparty_policy-v1-C02",
+     "DGF-counterparty_policy-v1-C03",
+     "DGF-counterparty_policy-v1-C04",
+     "DGF-counterparty_policy-v1-C05"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-counterparty_policy-v2-C01",
+     "DGF-counterparty_policy-v2-C02",
+     "DGF-counterparty_policy-v2-C03",
+     "DGF-counterparty_policy-v2-C04",
+     "DGF-counterparty_policy-v2-C05"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: cpty"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "DGF-corporate_actions_policy",
+  "fund": "DGF",
+  "doc_type": "corporate_actions_policy",
+  "title": "Midland Diversified Growth Fund: Corporate Actions Election Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "DGF-corporate_actions_policy-v1-C01",
+     "DGF-corporate_actions_policy-v1-C02",
+     "DGF-corporate_actions_policy-v1-C03",
+     "DGF-corporate_actions_policy-v1-C04",
+     "DGF-corporate_actions_policy-v1-C05"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "DGF-corporate_actions_policy-v2-C01",
+     "DGF-corporate_actions_policy-v2-C02",
+     "DGF-corporate_actions_policy-v2-C03",
+     "DGF-corporate_actions_policy-v2-C04",
+     "DGF-corporate_actions_policy-v2-C05"
+    ],
+    "amendment_note": "Restatement without threshold changes"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-ips",
+  "fund": "CBF",
+  "doc_type": "ips",
+  "title": "Midland Corporate Bond Fund: Investment Policy Statement",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "CBF-ips-v1-C01",
+     "CBF-ips-v1-C02",
+     "CBF-ips-v1-C03",
+     "CBF-ips-v1-C04",
+     "CBF-ips-v1-C05",
+     "CBF-ips-v1-C06",
+     "CBF-ips-v1-C07",
+     "CBF-ips-v1-C08",
+     "CBF-ips-v1-C09",
+     "CBF-ips-v1-C10",
+     "CBF-ips-v1-C11",
+     "CBF-ips-v1-C12",
+     "CBF-ips-v1-C13"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-ips-v2-C01",
+     "CBF-ips-v2-C02",
+     "CBF-ips-v2-C03",
+     "CBF-ips-v2-C04",
+     "CBF-ips-v2-C05",
+     "CBF-ips-v2-C06",
+     "CBF-ips-v2-C07",
+     "CBF-ips-v2-C08",
+     "CBF-ips-v2-C09",
+     "CBF-ips-v2-C10",
+     "CBF-ips-v2-C11",
+     "CBF-ips-v2-C12",
+     "CBF-ips-v2-C13"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: duration"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-guidelines",
+  "fund": "CBF",
+  "doc_type": "guidelines",
+  "title": "Midland Corporate Bond Fund: Investment Guidelines and Restrictions",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "CBF-guidelines-v1-C01",
+     "CBF-guidelines-v1-C02",
+     "CBF-guidelines-v1-C03",
+     "CBF-guidelines-v1-C04",
+     "CBF-guidelines-v1-C05",
+     "CBF-guidelines-v1-C06",
+     "CBF-guidelines-v1-C07",
+     "CBF-guidelines-v1-C08",
+     "CBF-guidelines-v1-C09"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-guidelines-v2-C01",
+     "CBF-guidelines-v2-C02",
+     "CBF-guidelines-v2-C03",
+     "CBF-guidelines-v2-C04",
+     "CBF-guidelines-v2-C05",
+     "CBF-guidelines-v2-C06",
+     "CBF-guidelines-v2-C07",
+     "CBF-guidelines-v2-C08",
+     "CBF-guidelines-v2-C09"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: issuer"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-derivatives_policy",
+  "fund": "CBF",
+  "doc_type": "derivatives_policy",
+  "title": "Midland Corporate Bond Fund: Derivatives Usage Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-derivatives_policy-v1-C01",
+     "CBF-derivatives_policy-v1-C02",
+     "CBF-derivatives_policy-v1-C03",
+     "CBF-derivatives_policy-v1-C04",
+     "CBF-derivatives_policy-v1-C05",
+     "CBF-derivatives_policy-v1-C06"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-esg_policy",
+  "fund": "CBF",
+  "doc_type": "esg_policy",
+  "title": "Midland Corporate Bond Fund: Responsible Investment Exclusions Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "CBF-esg_policy-v1-C01",
+     "CBF-esg_policy-v1-C02",
+     "CBF-esg_policy-v1-C03",
+     "CBF-esg_policy-v1-C04"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-esg_policy-v2-C01",
+     "CBF-esg_policy-v2-C02",
+     "CBF-esg_policy-v2-C03",
+     "CBF-esg_policy-v2-C04"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: coal"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-liquidity_policy",
+  "fund": "CBF",
+  "doc_type": "liquidity_policy",
+  "title": "Midland Corporate Bond Fund: Liquidity Risk Management Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-liquidity_policy-v1-C01",
+     "CBF-liquidity_policy-v1-C02",
+     "CBF-liquidity_policy-v1-C03",
+     "CBF-liquidity_policy-v1-C04",
+     "CBF-liquidity_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-valuation_policy",
+  "fund": "CBF",
+  "doc_type": "valuation_policy",
+  "title": "Midland Corporate Bond Fund: Valuation and Pricing Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "CBF-valuation_policy-v1-C01",
+     "CBF-valuation_policy-v1-C02",
+     "CBF-valuation_policy-v1-C03",
+     "CBF-valuation_policy-v1-C04"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-valuation_policy-v2-C01",
+     "CBF-valuation_policy-v2-C02",
+     "CBF-valuation_policy-v2-C03",
+     "CBF-valuation_policy-v2-C04"
+    ],
+    "amendment_note": "Restatement without threshold changes"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-counterparty_policy",
+  "fund": "CBF",
+  "doc_type": "counterparty_policy",
+  "title": "Midland Corporate Bond Fund: Counterparty and Broker Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-counterparty_policy-v1-C01",
+     "CBF-counterparty_policy-v1-C02",
+     "CBF-counterparty_policy-v1-C03",
+     "CBF-counterparty_policy-v1-C04",
+     "CBF-counterparty_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "CBF-corporate_actions_policy",
+  "fund": "CBF",
+  "doc_type": "corporate_actions_policy",
+  "title": "Midland Corporate Bond Fund: Corporate Actions Election Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "CBF-corporate_actions_policy-v1-C01",
+     "CBF-corporate_actions_policy-v1-C02",
+     "CBF-corporate_actions_policy-v1-C03",
+     "CBF-corporate_actions_policy-v1-C04",
+     "CBF-corporate_actions_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-ips",
+  "fund": "EMF",
+  "doc_type": "ips",
+  "title": "Midland Emerging Markets Fund: Investment Policy Statement",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "EMF-ips-v1-C01",
+     "EMF-ips-v1-C02",
+     "EMF-ips-v1-C03",
+     "EMF-ips-v1-C04",
+     "EMF-ips-v1-C05",
+     "EMF-ips-v1-C06",
+     "EMF-ips-v1-C07",
+     "EMF-ips-v1-C08",
+     "EMF-ips-v1-C09"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-ips-v2-C01",
+     "EMF-ips-v2-C02",
+     "EMF-ips-v2-C03",
+     "EMF-ips-v2-C04",
+     "EMF-ips-v2-C05",
+     "EMF-ips-v2-C06",
+     "EMF-ips-v2-C07",
+     "EMF-ips-v2-C08",
+     "EMF-ips-v2-C09"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: turnover"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-guidelines",
+  "fund": "EMF",
+  "doc_type": "guidelines",
+  "title": "Midland Emerging Markets Fund: Investment Guidelines and Restrictions",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "EMF-guidelines-v1-C01",
+     "EMF-guidelines-v1-C02",
+     "EMF-guidelines-v1-C03",
+     "EMF-guidelines-v1-C04",
+     "EMF-guidelines-v1-C05",
+     "EMF-guidelines-v1-C06",
+     "EMF-guidelines-v1-C07",
+     "EMF-guidelines-v1-C08",
+     "EMF-guidelines-v1-C09",
+     "EMF-guidelines-v1-C10"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-guidelines-v2-C01",
+     "EMF-guidelines-v2-C02",
+     "EMF-guidelines-v2-C03",
+     "EMF-guidelines-v2-C04",
+     "EMF-guidelines-v2-C05",
+     "EMF-guidelines-v2-C06",
+     "EMF-guidelines-v2-C07",
+     "EMF-guidelines-v2-C08",
+     "EMF-guidelines-v2-C09",
+     "EMF-guidelines-v2-C10"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: single"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-derivatives_policy",
+  "fund": "EMF",
+  "doc_type": "derivatives_policy",
+  "title": "Midland Emerging Markets Fund: Derivatives Usage Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-derivatives_policy-v1-C01",
+     "EMF-derivatives_policy-v1-C02",
+     "EMF-derivatives_policy-v1-C03",
+     "EMF-derivatives_policy-v1-C04",
+     "EMF-derivatives_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-esg_policy",
+  "fund": "EMF",
+  "doc_type": "esg_policy",
+  "title": "Midland Emerging Markets Fund: Responsible Investment Exclusions Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-esg_policy-v1-C01",
+     "EMF-esg_policy-v1-C02",
+     "EMF-esg_policy-v1-C03",
+     "EMF-esg_policy-v1-C04"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-liquidity_policy",
+  "fund": "EMF",
+  "doc_type": "liquidity_policy",
+  "title": "Midland Emerging Markets Fund: Liquidity Risk Management Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": 2,
+    "constraint_ids": [
+     "EMF-liquidity_policy-v1-C01",
+     "EMF-liquidity_policy-v1-C02",
+     "EMF-liquidity_policy-v1-C03",
+     "EMF-liquidity_policy-v1-C04",
+     "EMF-liquidity_policy-v1-C05"
+    ]
+   },
+   {
+    "version": 2,
+    "effective_from": "2026-04-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-liquidity_policy-v2-C01",
+     "EMF-liquidity_policy-v2-C02",
+     "EMF-liquidity_policy-v2-C03",
+     "EMF-liquidity_policy-v2-C04",
+     "EMF-liquidity_policy-v2-C05"
+    ],
+    "amendment_note": "Amendment effective 2026-04-01 changing: liq"
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-valuation_policy",
+  "fund": "EMF",
+  "doc_type": "valuation_policy",
+  "title": "Midland Emerging Markets Fund: Valuation and Pricing Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-valuation_policy-v1-C01",
+     "EMF-valuation_policy-v1-C02",
+     "EMF-valuation_policy-v1-C03",
+     "EMF-valuation_policy-v1-C04"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-counterparty_policy",
+  "fund": "EMF",
+  "doc_type": "counterparty_policy",
+  "title": "Midland Emerging Markets Fund: Counterparty and Broker Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-counterparty_policy-v1-C01",
+     "EMF-counterparty_policy-v1-C02",
+     "EMF-counterparty_policy-v1-C03",
+     "EMF-counterparty_policy-v1-C04",
+     "EMF-counterparty_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ },
+ {
+  "doc_id": "EMF-corporate_actions_policy",
+  "fund": "EMF",
+  "doc_type": "corporate_actions_policy",
+  "title": "Midland Emerging Markets Fund: Corporate Actions Election Policy",
+  "versions": [
+   {
+    "version": 1,
+    "effective_from": "2025-01-01",
+    "superseded_by": null,
+    "constraint_ids": [
+     "EMF-corporate_actions_policy-v1-C01",
+     "EMF-corporate_actions_policy-v1-C02",
+     "EMF-corporate_actions_policy-v1-C03",
+     "EMF-corporate_actions_policy-v1-C04",
+     "EMF-corporate_actions_policy-v1-C05"
+    ]
+   }
+  ],
+  "renderings": []
+ }
+]

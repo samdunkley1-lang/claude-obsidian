@@ -1,0 +1,2784 @@
+{
+ "constraints": [
+  {
+   "id": "DGF-corporate_actions_policy-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "scrip dividend"
+   },
+   "comparator": "required",
+   "threshold": "cash",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Scrip dividend alternatives shall be taken in cash by default; a scrip election requires a documented rationale from the portfolio manager and is prohibited where the post-election position would exceed the single security limit in the Investment Guidelines.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "rights issue"
+   },
+   "comparator": "required",
+   "threshold": "take_up",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Rights issues shall be taken up by default; a decision to let rights lapse or to sell nil-paid rights requires a documented rationale from the portfolio manager.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "tender offer"
+   },
+   "comparator": "required",
+   "threshold": "decline",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Tender offers shall be declined by default; tendering requires approval of the Chief Investment Officer.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "election deadline"
+   },
+   "comparator": "required",
+   "threshold": 2.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Elections shall be instructed to the custodian no later than 2 business days before the custodian deadline.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v1-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "scrip dividend"
+   },
+   "comparator": "required",
+   "threshold": "cash",
+   "unit": "none",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In recent years the majority of scrip alternatives offered to the Fund have been taken in cash."
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v2-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "scrip dividend"
+   },
+   "comparator": "required",
+   "threshold": "cash",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Scrip dividend alternatives shall be taken in cash by default; a scrip election requires a documented rationale from the portfolio manager and is prohibited where the post-election position would exceed the single security limit in the Investment Guidelines.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v2-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "rights issue"
+   },
+   "comparator": "required",
+   "threshold": "take_up",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Rights issues shall be taken up by default; a decision to let rights lapse or to sell nil-paid rights requires a documented rationale from the portfolio manager.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v2-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "tender offer"
+   },
+   "comparator": "required",
+   "threshold": "decline",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Tender offers shall be declined by default; tendering requires approval of the Chief Investment Officer.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v2-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "election deadline"
+   },
+   "comparator": "required",
+   "threshold": 2.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Elections shall be instructed to the custodian no later than 2 business days before the custodian deadline.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-corporate_actions_policy-v2-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-corporate_actions_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "scrip dividend"
+   },
+   "comparator": "required",
+   "threshold": "cash",
+   "unit": "none",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In recent years the majority of scrip alternatives offered to the Fund have been taken in cash."
+  },
+  {
+   "id": "DGF-counterparty_policy-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single securities lending counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to any single securities lending or repo counterparty shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "affiliated entity"
+   },
+   "comparator": "prohibited",
+   "threshold": "affiliated entity",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "No transaction may be entered into with an entity affiliated with the Manager; this conflict-of-interest prohibition cannot be overridden by any individual or committee.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "issuer",
+    "target": "deposit bank"
+   },
+   "comparator": ">=",
+   "threshold": "A-",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash deposits may only be placed with banks rated A- or better.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single executing broker"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single executing broker shall account for more than 25% of the Fund's annual traded value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v1-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single securities lending counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Securities lending exposure to the largest counterparty is currently about 10% of net asset value."
+  },
+  {
+   "id": "DGF-counterparty_policy-v2-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single securities lending counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to any single securities lending or repo counterparty shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v2-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "affiliated entity"
+   },
+   "comparator": "prohibited",
+   "threshold": "affiliated entity",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "No transaction may be entered into with an entity affiliated with the Manager; this conflict-of-interest prohibition cannot be overridden by any individual or committee.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v2-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "issuer",
+    "target": "deposit bank"
+   },
+   "comparator": ">=",
+   "threshold": "A-",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash deposits may only be placed with banks rated A- or better.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v2-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single executing broker"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single executing broker shall account for more than 25% of the Fund's annual traded value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-counterparty_policy-v2-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-counterparty_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single securities lending counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Securities lending exposure to the largest counterparty is currently about 10% of net asset value."
+  },
+  {
+   "id": "DGF-derivatives_policy-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "derivatives_notional_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 100.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Gross notional exposure through derivatives shall not exceed 100% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-derivatives_policy-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single derivatives counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Mark-to-market exposure to any single derivatives counterparty shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-derivatives_policy-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "issuer",
+    "target": "derivatives counterparty"
+   },
+   "comparator": ">=",
+   "threshold": "A-",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Derivatives may only be transacted with counterparties rated A- or better by at least one recognised rating agency.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-derivatives_policy-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "sleeve",
+    "target": "uncollateralised derivatives exposure"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Uncollateralised derivatives exposure shall not exceed 5% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-derivatives_policy-v1-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "derivatives_notional_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 40.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Over the last three years gross notional derivatives exposure has typically been around 40% of net asset value."
+  },
+  {
+   "id": "DGF-esg_policy-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "controversial weapons"
+   },
+   "comparator": "prohibited",
+   "threshold": "controversial weapons",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "Issuers involved in the production of controversial weapons (cluster munitions, anti-personnel mines, biological and chemical weapons) are excluded absolutely; no exception may be granted by any person.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-esg_policy-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "thermal coal"
+   },
+   "comparator": "prohibited",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Issuers deriving more than 25% of revenue from thermal coal extraction or thermal coal power generation are excluded.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-esg_policy-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "UN Global Compact violators"
+   },
+   "comparator": "prohibited",
+   "threshold": "UN Global Compact violators",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Issuers assessed as being in breach of the UN Global Compact principles are excluded.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-esg_policy-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "fund",
+    "target": "carbon intensity"
+   },
+   "comparator": "<=",
+   "threshold": 30.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Manager aims to reduce the portfolio's weighted average carbon intensity by 30% relative to the benchmark over time."
+  },
+  {
+   "id": "DGF-guidelines-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "single_name_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 4.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single security shall exceed 4% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "issuer_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Aggregate exposure to any single issuer, including all securities of that issuer, shall not exceed 5% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Energy"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Energy sector shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Healthcare"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Healthcare sector shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "Japan"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in Japan shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C06",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "United Kingdom"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in United Kingdom shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C07",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "single_name_max",
+   "scope": {
+    "level": "sleeve",
+    "target": "Alternatives sleeve"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Within the Alternatives sleeve, no single security shall exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C08",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "restricted_list",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "prohibited",
+   "threshold": "Restricted List",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "No security of an issuer appearing on the Firm's Restricted List may be purchased or added to under any circumstances; this restriction cannot be waived by the Manager, the Chief Investment Officer or Compliance.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-guidelines-v1-C09",
+   "fund": "DGF",
+   "doc_id": "DGF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "single_name_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 2.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Manager's typical initial position size is approximately 2% of net asset value."
+  },
+  {
+   "id": "DGF-ips-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "cash_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 2.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold cash and cash equivalents of not less than 2% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash and cash equivalents shall not exceed 25% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "position_count_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 60.0,
+   "unit": "count",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold a minimum of 60 distinct positions.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 200.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Annual portfolio turnover shall not exceed 200% of average net assets.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "tracking_error_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 600.0,
+   "unit": "bps",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Ex-ante tracking error against the benchmark shall not exceed 600 basis points.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C06",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Technology"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Technology sector shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C07",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "United States"
+   },
+   "comparator": "<=",
+   "threshold": 50.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in United States shall not exceed 50% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C08",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "unhedged_fx_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 30.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Unhedged non-base-currency exposure shall not exceed 30% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C09",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "duration_band",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "between",
+   "threshold": [
+    2.0,
+    8.0
+   ],
+   "unit": "years",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Portfolio modified duration shall be maintained between 2 and 8 years.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C10",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "hy_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Holdings rated below investment grade shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C11",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": "B",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No security rated below B (or equivalent) may be purchased.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v1-C12",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In normal market conditions the Manager expects to hold cash of around 3% of net asset value."
+  },
+  {
+   "id": "DGF-ips-v1-C13",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 120.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Historically the Fund's turnover has averaged approximately 120% per annum."
+  },
+  {
+   "id": "DGF-ips-v2-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "cash_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 2.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold cash and cash equivalents of not less than 2% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash and cash equivalents shall not exceed 25% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "position_count_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 60.0,
+   "unit": "count",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold a minimum of 60 distinct positions.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 200.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Annual portfolio turnover shall not exceed 200% of average net assets.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "tracking_error_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 600.0,
+   "unit": "bps",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Ex-ante tracking error against the benchmark shall not exceed 600 basis points.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C06",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Technology"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Technology sector shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C07",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "United States"
+   },
+   "comparator": "<=",
+   "threshold": 50.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in United States shall not exceed 50% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C08",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "unhedged_fx_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 30.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Unhedged non-base-currency exposure shall not exceed 30% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C09",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "duration_band",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "between",
+   "threshold": [
+    2.0,
+    7.0
+   ],
+   "unit": "years",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Portfolio modified duration shall be maintained between 2 and 7 years.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C10",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "hy_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 12.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Holdings rated below investment grade shall not exceed 12% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C11",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": "B",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No security rated below B (or equivalent) may be purchased.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-ips-v2-C12",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In normal market conditions the Manager expects to hold cash of around 3% of net asset value."
+  },
+  {
+   "id": "DGF-ips-v2-C13",
+   "fund": "DGF",
+   "doc_id": "DGF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 120.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Historically the Fund's turnover has averaged approximately 120% per annum."
+  },
+  {
+   "id": "DGF-liquidity_policy-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "illiquid_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Holdings classified as illiquid shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-liquidity_policy-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "liquidity_min_daily",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 75.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "At least 75% of net asset value shall be realisable within five business days under normal market conditions.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-liquidity_policy-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "swing_threshold",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "required",
+   "threshold": 1.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Swing pricing shall be applied on any dealing day on which net flows exceed 1% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-liquidity_policy-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "liquidity_min_daily",
+   "scope": {
+    "level": "issuer",
+    "target": "days to liquidate"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": 0.8,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single position shall require more than 5 business days to liquidate at 25% of average daily volume.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-liquidity_policy-v1-C05",
+   "fund": "DGF",
+   "doc_id": "DGF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "illiquid_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 4.5,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "At the last review illiquid holdings represented approximately 4.5% of net asset value."
+  },
+  {
+   "id": "DGF-valuation_policy-v1-C01",
+   "fund": "DGF",
+   "doc_id": "DGF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "odd lot"
+   },
+   "comparator": "required",
+   "threshold": "odd_lot_pricing",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "canonical_text": "Positions held in odd lots shall be valued using odd-lot prices; institutional round-lot prices shall not be applied to odd-lot positions.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-valuation_policy-v1-C02",
+   "fund": "DGF",
+   "doc_id": "DGF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "level 3"
+   },
+   "comparator": "required",
+   "threshold": "committee_approval",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "canonical_text": "Any mark applied to a Level 3 asset requires prior approval of the Valuation Committee.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-valuation_policy-v1-C03",
+   "fund": "DGF",
+   "doc_id": "DGF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "stale price"
+   },
+   "comparator": "required",
+   "threshold": 5.0,
+   "unit": "days",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "canonical_text": "A price that has not been updated for more than 5 business days is deemed stale and must be referred to the Valuation Committee before use.",
+   "distractor": false
+  },
+  {
+   "id": "DGF-valuation_policy-v1-C04",
+   "fund": "DGF",
+   "doc_id": "DGF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "review frequency"
+   },
+   "comparator": "required",
+   "threshold": 90.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Valuation Committee reviews its pricing sources approximately every 90 days."
+  }
+ ],
+ "documents": [
+  {
+   "doc_id": "DGF-ips",
+   "fund": "DGF",
+   "doc_type": "ips",
+   "title": "Midland Diversified Growth Fund: Investment Policy Statement",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "DGF-ips-v1-C01",
+      "DGF-ips-v1-C02",
+      "DGF-ips-v1-C03",
+      "DGF-ips-v1-C04",
+      "DGF-ips-v1-C05",
+      "DGF-ips-v1-C06",
+      "DGF-ips-v1-C07",
+      "DGF-ips-v1-C08",
+      "DGF-ips-v1-C09",
+      "DGF-ips-v1-C10",
+      "DGF-ips-v1-C11",
+      "DGF-ips-v1-C12",
+      "DGF-ips-v1-C13"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-ips-v2-C01",
+      "DGF-ips-v2-C02",
+      "DGF-ips-v2-C03",
+      "DGF-ips-v2-C04",
+      "DGF-ips-v2-C05",
+      "DGF-ips-v2-C06",
+      "DGF-ips-v2-C07",
+      "DGF-ips-v2-C08",
+      "DGF-ips-v2-C09",
+      "DGF-ips-v2-C10",
+      "DGF-ips-v2-C11",
+      "DGF-ips-v2-C12",
+      "DGF-ips-v2-C13"
+     ],
+     "amendment_note": "Amendment effective 2026-04-01 changing: duration, hy"
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-guidelines",
+   "fund": "DGF",
+   "doc_type": "guidelines",
+   "title": "Midland Diversified Growth Fund: Investment Guidelines and Restrictions",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-guidelines-v1-C01",
+      "DGF-guidelines-v1-C02",
+      "DGF-guidelines-v1-C03",
+      "DGF-guidelines-v1-C04",
+      "DGF-guidelines-v1-C05",
+      "DGF-guidelines-v1-C06",
+      "DGF-guidelines-v1-C07",
+      "DGF-guidelines-v1-C08",
+      "DGF-guidelines-v1-C09"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-derivatives_policy",
+   "fund": "DGF",
+   "doc_type": "derivatives_policy",
+   "title": "Midland Diversified Growth Fund: Derivatives Usage Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-derivatives_policy-v1-C01",
+      "DGF-derivatives_policy-v1-C02",
+      "DGF-derivatives_policy-v1-C03",
+      "DGF-derivatives_policy-v1-C04",
+      "DGF-derivatives_policy-v1-C05"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-esg_policy",
+   "fund": "DGF",
+   "doc_type": "esg_policy",
+   "title": "Midland Diversified Growth Fund: Responsible Investment Exclusions Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-esg_policy-v1-C01",
+      "DGF-esg_policy-v1-C02",
+      "DGF-esg_policy-v1-C03",
+      "DGF-esg_policy-v1-C04"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-liquidity_policy",
+   "fund": "DGF",
+   "doc_type": "liquidity_policy",
+   "title": "Midland Diversified Growth Fund: Liquidity Risk Management Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-liquidity_policy-v1-C01",
+      "DGF-liquidity_policy-v1-C02",
+      "DGF-liquidity_policy-v1-C03",
+      "DGF-liquidity_policy-v1-C04",
+      "DGF-liquidity_policy-v1-C05"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-valuation_policy",
+   "fund": "DGF",
+   "doc_type": "valuation_policy",
+   "title": "Midland Diversified Growth Fund: Valuation and Pricing Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-valuation_policy-v1-C01",
+      "DGF-valuation_policy-v1-C02",
+      "DGF-valuation_policy-v1-C03",
+      "DGF-valuation_policy-v1-C04"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-counterparty_policy",
+   "fund": "DGF",
+   "doc_type": "counterparty_policy",
+   "title": "Midland Diversified Growth Fund: Counterparty and Broker Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "DGF-counterparty_policy-v1-C01",
+      "DGF-counterparty_policy-v1-C02",
+      "DGF-counterparty_policy-v1-C03",
+      "DGF-counterparty_policy-v1-C04",
+      "DGF-counterparty_policy-v1-C05"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-counterparty_policy-v2-C01",
+      "DGF-counterparty_policy-v2-C02",
+      "DGF-counterparty_policy-v2-C03",
+      "DGF-counterparty_policy-v2-C04",
+      "DGF-counterparty_policy-v2-C05"
+     ],
+     "amendment_note": "Amendment effective 2026-04-01 changing: cpty"
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "DGF-corporate_actions_policy",
+   "fund": "DGF",
+   "doc_type": "corporate_actions_policy",
+   "title": "Midland Diversified Growth Fund: Corporate Actions Election Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "DGF-corporate_actions_policy-v1-C01",
+      "DGF-corporate_actions_policy-v1-C02",
+      "DGF-corporate_actions_policy-v1-C03",
+      "DGF-corporate_actions_policy-v1-C04",
+      "DGF-corporate_actions_policy-v1-C05"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "DGF-corporate_actions_policy-v2-C01",
+      "DGF-corporate_actions_policy-v2-C02",
+      "DGF-corporate_actions_policy-v2-C03",
+      "DGF-corporate_actions_policy-v2-C04",
+      "DGF-corporate_actions_policy-v2-C05"
+     ],
+     "amendment_note": "Restatement without threshold changes"
+    }
+   ],
+   "renderings": []
+  }
+ ],
+ "plan": [
+  {
+   "rendering_id": "DGF-ips-v1-canonical",
+   "doc_id": "DGF-ips",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "tabular",
+   "path": "DGF/DGF-ips-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-ips-v1-C01",
+    "DGF-ips-v1-C02",
+    "DGF-ips-v1-C03",
+    "DGF-ips-v1-C04",
+    "DGF-ips-v1-C05",
+    "DGF-ips-v1-C06",
+    "DGF-ips-v1-C07",
+    "DGF-ips-v1-C08",
+    "DGF-ips-v1-C09",
+    "DGF-ips-v1-C10",
+    "DGF-ips-v1-C11",
+    "DGF-ips-v1-C12",
+    "DGF-ips-v1-C13"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-ips-v2-canonical",
+   "doc_id": "DGF-ips",
+   "fund": "DGF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "memo",
+   "path": "DGF/DGF-ips-v2-canonical.md",
+   "include_constraint_ids": [
+    "DGF-ips-v2-C01",
+    "DGF-ips-v2-C02",
+    "DGF-ips-v2-C03",
+    "DGF-ips-v2-C04",
+    "DGF-ips-v2-C05",
+    "DGF-ips-v2-C06",
+    "DGF-ips-v2-C07",
+    "DGF-ips-v2-C08",
+    "DGF-ips-v2-C09",
+    "DGF-ips-v2-C10",
+    "DGF-ips-v2-C11",
+    "DGF-ips-v2-C12",
+    "DGF-ips-v2-C13"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-ips-v2-paraphrase",
+   "doc_id": "DGF-ips",
+   "fund": "DGF",
+   "version": 2,
+   "variant_kind": "paraphrase",
+   "style": "narrative",
+   "path": "DGF/DGF-ips-v2-paraphrase.md",
+   "include_constraint_ids": [
+    "DGF-ips-v2-C01",
+    "DGF-ips-v2-C02",
+    "DGF-ips-v2-C03",
+    "DGF-ips-v2-C04",
+    "DGF-ips-v2-C05",
+    "DGF-ips-v2-C06",
+    "DGF-ips-v2-C07",
+    "DGF-ips-v2-C08",
+    "DGF-ips-v2-C09",
+    "DGF-ips-v2-C10",
+    "DGF-ips-v2-C11",
+    "DGF-ips-v2-C12",
+    "DGF-ips-v2-C13"
+   ],
+   "instructions": "Same rules, entirely different wording and document structure from the canonical rendering. Every threshold, scope and unit must be identical."
+  },
+  {
+   "rendering_id": "DGF-ips-v2-adv_superseded",
+   "doc_id": "DGF-ips",
+   "fund": "DGF",
+   "version": 2,
+   "variant_kind": "adv_superseded",
+   "style": "legal",
+   "path": "DGF/DGF-ips-v2-adv_superseded.md",
+   "include_constraint_ids": [
+    "DGF-ips-v2-C01",
+    "DGF-ips-v2-C02",
+    "DGF-ips-v2-C03",
+    "DGF-ips-v2-C04",
+    "DGF-ips-v2-C05",
+    "DGF-ips-v2-C06",
+    "DGF-ips-v2-C07",
+    "DGF-ips-v2-C08",
+    "DGF-ips-v2-C09",
+    "DGF-ips-v2-C10",
+    "DGF-ips-v2-C11",
+    "DGF-ips-v2-C12",
+    "DGF-ips-v2-C13"
+   ],
+   "superseded_constraint_ids": [
+    "DGF-ips-v1-C09",
+    "DGF-ips-v1-C10"
+   ],
+   "instructions": "A consolidated text that retains the superseded version-1 clauses verbatim, each clearly marked 'superseded with effect from 2026-04-01', immediately before or after the current clause. The current (version 2) rules are the binding ones."
+  },
+  {
+   "rendering_id": "DGF-guidelines-v1-canonical",
+   "doc_id": "DGF-guidelines",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "legal",
+   "path": "DGF/DGF-guidelines-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-guidelines-v1-C01",
+    "DGF-guidelines-v1-C02",
+    "DGF-guidelines-v1-C03",
+    "DGF-guidelines-v1-C04",
+    "DGF-guidelines-v1-C05",
+    "DGF-guidelines-v1-C06",
+    "DGF-guidelines-v1-C07",
+    "DGF-guidelines-v1-C08",
+    "DGF-guidelines-v1-C09"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-guidelines-v1-paraphrase",
+   "doc_id": "DGF-guidelines",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "paraphrase",
+   "style": "tabular",
+   "path": "DGF/DGF-guidelines-v1-paraphrase.md",
+   "include_constraint_ids": [
+    "DGF-guidelines-v1-C01",
+    "DGF-guidelines-v1-C02",
+    "DGF-guidelines-v1-C03",
+    "DGF-guidelines-v1-C04",
+    "DGF-guidelines-v1-C05",
+    "DGF-guidelines-v1-C06",
+    "DGF-guidelines-v1-C07",
+    "DGF-guidelines-v1-C08",
+    "DGF-guidelines-v1-C09"
+   ],
+   "instructions": "Same rules, entirely different wording and document structure from the canonical rendering. Every threshold, scope and unit must be identical."
+  },
+  {
+   "rendering_id": "DGF-guidelines-v1-adv_negation",
+   "doc_id": "DGF-guidelines",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "adv_negation",
+   "style": "legal",
+   "path": "DGF/DGF-guidelines-v1-adv_negation.md",
+   "include_constraint_ids": [
+    "DGF-guidelines-v1-C01",
+    "DGF-guidelines-v1-C02",
+    "DGF-guidelines-v1-C03",
+    "DGF-guidelines-v1-C04",
+    "DGF-guidelines-v1-C05",
+    "DGF-guidelines-v1-C06",
+    "DGF-guidelines-v1-C07",
+    "DGF-guidelines-v1-C08",
+    "DGF-guidelines-v1-C09"
+   ],
+   "target_constraint_ids": [
+    "DGF-guidelines-v1-C01",
+    "DGF-guidelines-v1-C02",
+    "DGF-guidelines-v1-C03",
+    "DGF-guidelines-v1-C04",
+    "DGF-guidelines-v1-C05",
+    "DGF-guidelines-v1-C06"
+   ],
+   "instructions": "Express the targeted limits with negation-heavy and inverted phrasing (for example 'shall in no case be permitted to exceed', 'may not fall below', 'it is not the case that ... may exceed', 'no more than ... nor ...') without changing any threshold or its direction."
+  },
+  {
+   "rendering_id": "DGF-derivatives_policy-v1-canonical",
+   "doc_id": "DGF-derivatives_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "bullets",
+   "path": "DGF/DGF-derivatives_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-derivatives_policy-v1-C01",
+    "DGF-derivatives_policy-v1-C02",
+    "DGF-derivatives_policy-v1-C03",
+    "DGF-derivatives_policy-v1-C04",
+    "DGF-derivatives_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-esg_policy-v1-canonical",
+   "doc_id": "DGF-esg_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "narrative",
+   "path": "DGF/DGF-esg_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-esg_policy-v1-C01",
+    "DGF-esg_policy-v1-C02",
+    "DGF-esg_policy-v1-C03",
+    "DGF-esg_policy-v1-C04"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-esg_policy-v1-paraphrase",
+   "doc_id": "DGF-esg_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "paraphrase",
+   "style": "legal",
+   "path": "DGF/DGF-esg_policy-v1-paraphrase.md",
+   "include_constraint_ids": [
+    "DGF-esg_policy-v1-C01",
+    "DGF-esg_policy-v1-C02",
+    "DGF-esg_policy-v1-C03",
+    "DGF-esg_policy-v1-C04"
+   ],
+   "instructions": "Same rules, entirely different wording and document structure from the canonical rendering. Every threshold, scope and unit must be identical."
+  },
+  {
+   "rendering_id": "DGF-liquidity_policy-v1-canonical",
+   "doc_id": "DGF-liquidity_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "tabular",
+   "path": "DGF/DGF-liquidity_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-liquidity_policy-v1-C01",
+    "DGF-liquidity_policy-v1-C02",
+    "DGF-liquidity_policy-v1-C03",
+    "DGF-liquidity_policy-v1-C04",
+    "DGF-liquidity_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-valuation_policy-v1-canonical",
+   "doc_id": "DGF-valuation_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "memo",
+   "path": "DGF/DGF-valuation_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-valuation_policy-v1-C01",
+    "DGF-valuation_policy-v1-C02",
+    "DGF-valuation_policy-v1-C03",
+    "DGF-valuation_policy-v1-C04"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-counterparty_policy-v1-canonical",
+   "doc_id": "DGF-counterparty_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "legal",
+   "path": "DGF/DGF-counterparty_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-counterparty_policy-v1-C01",
+    "DGF-counterparty_policy-v1-C02",
+    "DGF-counterparty_policy-v1-C03",
+    "DGF-counterparty_policy-v1-C04",
+    "DGF-counterparty_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-counterparty_policy-v2-canonical",
+   "doc_id": "DGF-counterparty_policy",
+   "fund": "DGF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "bullets",
+   "path": "DGF/DGF-counterparty_policy-v2-canonical.md",
+   "include_constraint_ids": [
+    "DGF-counterparty_policy-v2-C01",
+    "DGF-counterparty_policy-v2-C02",
+    "DGF-counterparty_policy-v2-C03",
+    "DGF-counterparty_policy-v2-C04",
+    "DGF-counterparty_policy-v2-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-corporate_actions_policy-v1-canonical",
+   "doc_id": "DGF-corporate_actions_policy",
+   "fund": "DGF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "narrative",
+   "path": "DGF/DGF-corporate_actions_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "DGF-corporate_actions_policy-v1-C01",
+    "DGF-corporate_actions_policy-v1-C02",
+    "DGF-corporate_actions_policy-v1-C03",
+    "DGF-corporate_actions_policy-v1-C04",
+    "DGF-corporate_actions_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-corporate_actions_policy-v2-canonical",
+   "doc_id": "DGF-corporate_actions_policy",
+   "fund": "DGF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "tabular",
+   "path": "DGF/DGF-corporate_actions_policy-v2-canonical.md",
+   "include_constraint_ids": [
+    "DGF-corporate_actions_policy-v2-C01",
+    "DGF-corporate_actions_policy-v2-C02",
+    "DGF-corporate_actions_policy-v2-C03",
+    "DGF-corporate_actions_policy-v2-C04",
+    "DGF-corporate_actions_policy-v2-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "DGF-corporate_actions_policy-v2-adv_crossref",
+   "doc_id": "DGF-corporate_actions_policy",
+   "fund": "DGF",
+   "version": 2,
+   "variant_kind": "adv_crossref",
+   "style": "memo",
+   "path": "DGF/DGF-corporate_actions_policy-v2-adv_crossref.md",
+   "include_constraint_ids": [
+    "DGF-corporate_actions_policy-v2-C01",
+    "DGF-corporate_actions_policy-v2-C02",
+    "DGF-corporate_actions_policy-v2-C03",
+    "DGF-corporate_actions_policy-v2-C04",
+    "DGF-corporate_actions_policy-v2-C05"
+   ],
+   "instructions": "Move every numeric threshold and every default election out of the body into a 'Schedule A' table at the end; the body refers to 'the default set out in Schedule A' and 'the deadline in Schedule A'. The single-security cross-reference to the Investment Guidelines stays as a cross-reference (do not restate the number)."
+  }
+ ]
+}
