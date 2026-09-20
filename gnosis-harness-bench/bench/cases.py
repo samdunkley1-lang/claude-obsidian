@@ -31,6 +31,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -79,38 +80,84 @@ def _read_jsonl(path: Path) -> list[dict]:
     return rows
 
 
-def load_dataset(data_dir: str | Path, validate: bool = True) -> Dataset:
+def load_dataset(data_dir: str | Path, validate: bool = True, skip_invalid: bool = False) -> Dataset:
+    """Load the dataset. With ``validate`` the specs are checked against schema.py and every
+    reference (constraint ids, rendering ids) must resolve; ``skip_invalid`` drops scenarios
+    and renderings with dangling references (printing a warning) instead of raising."""
     root = Path(data_dir)
     constraints = _read_json(root / "specs" / "constraints.json")
     documents = _read_json(root / "specs" / "documents.json")
     scenarios_path = root / "scenarios" / "scenarios.jsonl"
     scenarios = _read_jsonl(scenarios_path) if scenarios_path.exists() else []
     ds = Dataset(root=root, constraints=constraints, documents=documents, scenarios=scenarios)
+    missing_files: list[str] = []
     for doc in documents:
+        kept = []
         for r in doc["renderings"]:
             path = root / "corpus" / r["path"]
-            ds.corpus[r["rendering_id"]] = path.read_text(encoding="utf-8")
+            if not path.exists():
+                missing_files.append(f"{r['rendering_id']} -> {path}")
+                if skip_invalid:
+                    continue
+            else:
+                ds.corpus[r["rendering_id"]] = path.read_text(encoding="utf-8")
+            kept.append(r)
+        doc["renderings"] = kept
+    if missing_files and not skip_invalid:
+        raise FileNotFoundError("missing corpus files: " + "; ".join(missing_files))
     if validate:
         for c in constraints:
             validate_constraint(c)
         for s in scenarios:
             validate_scenario(s)
-        _check_references(ds)
+        problems = _check_references(ds)
+        if problems and not skip_invalid:
+            raise ValueError("dataset references do not resolve:\n  " + "\n  ".join(problems))
+        if problems:
+            bad = _scenarios_with_problems(ds)
+            ds.scenarios = [s for s in ds.scenarios if s["scenario_id"] not in bad]
+            sys.stderr.write(f"[cases] skipped {len(bad)} scenarios with dangling references; "
+                             f"{len(problems)} problems, first: {problems[0]}\n")
     return ds
 
 
-def _check_references(ds: Dataset) -> None:
+def _check_references(ds: Dataset) -> list[str]:
     cbi = ds.constraints_by_id
     rbi = ds.renderings_by_id
+    problems: list[str] = []
     for doc in ds.documents:
         for v in doc["versions"]:
             for cid in v["constraint_ids"]:
-                assert cid in cbi, f"{doc['doc_id']} v{v['version']} references unknown constraint {cid}"
+                if cid not in cbi:
+                    problems.append(f"{doc['doc_id']} v{v['version']} references unknown constraint {cid}")
     for s in ds.scenarios:
         for rid in s["documents"]:
-            assert rid in rbi, f"{s['scenario_id']} references unknown rendering {rid}"
+            if rid not in rbi:
+                problems.append(f"{s['scenario_id']} references unknown rendering {rid}")
         for cid in s["gold"]["rules_hit"] + s["gold"]["citable_constraint_ids"]:
-            assert cid in cbi, f"{s['scenario_id']} gold references unknown constraint {cid}"
+            if cid not in cbi:
+                problems.append(f"{s['scenario_id']} gold references unknown constraint {cid}")
+    return problems
+
+
+def _scenarios_with_problems(ds: Dataset) -> set[str]:
+    cbi = ds.constraints_by_id
+    rbi = ds.renderings_by_id
+    bad: set[str] = set()
+    for s in ds.scenarios:
+        if any(rid not in rbi for rid in s["documents"]):
+            bad.add(s["scenario_id"])
+        if any(cid not in cbi for cid in s["gold"]["rules_hit"] + s["gold"]["citable_constraint_ids"]):
+            bad.add(s["scenario_id"])
+        for rid in s["documents"]:
+            r = rbi.get(rid)
+            if r is None:
+                continue
+            doc = ds.documents_by_id[r["doc_id"]]
+            ver = next((v for v in doc["versions"] if v["version"] == r["version"]), None)
+            if ver is None or any(cid not in cbi for cid in ver["constraint_ids"]):
+                bad.add(s["scenario_id"])
+    return bad
 
 
 def _version_record(doc: dict, version: int) -> dict:

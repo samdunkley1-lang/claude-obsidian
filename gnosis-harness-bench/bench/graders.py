@@ -24,6 +24,8 @@ Normalisation rules (documented here because they define what "correct" means):
   only lists rules whose verdict is not pass.
 * Threshold relevance: a quote is relevant to a constraint if it contains one of the
   surface forms returned by ``threshold_tokens`` (for a ``between`` band, either edge).
+  Numeric forms must match as whole numbers ("8" does not match "18" or "8.5"). A string
+  limit also counts when at least 60% of its significant words appear in the quote.
 """
 from __future__ import annotations
 
@@ -256,6 +258,10 @@ def threshold_tokens(constraint: dict) -> list[str]:
     return seen
 
 
+_STOPWORDS = {"the", "and", "of", "or", "to", "in", "on", "for", "by", "any", "all", "a", "an", "as", "at", "with"}
+STRING_TOKEN_MIN_OVERLAP = 0.6
+
+
 def _token_in_text(token: str, norm_quote: str) -> bool:
     t = normalize_text(token)
     if not t:
@@ -263,7 +269,17 @@ def _token_in_text(token: str, norm_quote: str) -> bool:
     if re.fullmatch(r"\.?\d+(?:\.\d+)?", t):
         pat = r"(?<!\d)(?<!\d\.)" + re.escape(t) + r"(?!\d)(?!\.\d)"
         return re.search(pat, norm_quote) is not None
-    return t in norm_quote
+    if t in norm_quote:
+        return True
+    # a string limit (prohibited item, list name) counts when most of its significant words
+    # appear in the quote, so "UN Global Compact violators" matches text that says
+    # "in breach of the UN Global Compact principles"
+    words = [w for w in re.findall(r"[a-z0-9]+", t) if w not in _STOPWORDS and len(w) > 1]
+    if len(words) < 2:
+        return False
+    quote_words = set(re.findall(r"[a-z0-9]+", norm_quote))
+    hit = sum(1 for w in words if w in quote_words)
+    return hit / len(words) >= STRING_TOKEN_MIN_OVERLAP
 
 
 def contains_threshold_token(quote: Any, constraint: dict) -> bool:

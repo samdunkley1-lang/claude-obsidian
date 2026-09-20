@@ -139,6 +139,7 @@ class Runner:
         backoff_base: float = 1.0,
         adapters: dict[str, Adapter] | None = None,
         argv: list[str] | None = None,
+        skip_invalid: bool = False,
     ) -> None:
         if task not in TASKS:
             raise ValueError(f"task must be one of {TASKS}")
@@ -154,6 +155,7 @@ class Runner:
         self.case_timeout = float(case_timeout)
         self.retry_errors = retry_errors
         self.backoff_base = float(backoff_base)
+        self.skip_invalid = skip_invalid
         self.argv = argv or []
         self.adapters: dict[str, Adapter] = adapters or {spec: build_adapter(spec) for spec in self.condition_specs}
         self._lock = threading.Lock()
@@ -163,7 +165,7 @@ class Runner:
 
     # ---- setup ---------------------------------------------------------------------
     def load_cases(self) -> list[dict]:
-        ds = load_dataset(self.data_dir)
+        ds = load_dataset(self.data_dir, skip_invalid=self.skip_invalid)
         cases = build_cases(ds, self.task)
         if self.case_filter:
             cases = [c for c in cases if self.case_filter in c["case_id"]]
@@ -383,6 +385,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--case-timeout", type=float, default=600.0)
     p.add_argument("--retry-errors", action="store_true", help="re-run cells present in errors.jsonl")
     p.add_argument("--backoff-base", type=float, default=1.0, help="seconds; base of the retry backoff")
+    p.add_argument("--skip-invalid", action="store_true", help="drop scenarios/renderings with dangling references instead of failing")
     return p
 
 
@@ -410,6 +413,7 @@ def main(argv: list[str] | None = None) -> int:
         task=args.task, conditions=conditions, reps=args.reps, seed=args.seed, data_dir=args.data, out_dir=out,
         limit=args.limit, case_filter=args.case_filter, max_workers=args.max_workers, case_timeout=args.case_timeout,
         retry_errors=args.retry_errors, backoff_base=args.backoff_base, argv=list(argv or sys.argv[1:]),
+        skip_invalid=args.skip_invalid,
     )
     runner.run()
     print(f"run written to {out}")
