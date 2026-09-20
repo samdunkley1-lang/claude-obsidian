@@ -39,7 +39,47 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: cash_max"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-ips-v1-canonical",
+    "doc_id": "GTF-ips",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "GTF/GTF-ips-v1-canonical.md",
+    "word_count": 808
+   },
+   {
+    "rendering_id": "GTF-ips-v2-canonical",
+    "doc_id": "GTF-ips",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "GTF/GTF-ips-v2-canonical.md",
+    "word_count": 689
+   },
+   {
+    "rendering_id": "GTF-ips-v2-paraphrase",
+    "doc_id": "GTF-ips",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "memo",
+    "path": "GTF/GTF-ips-v2-paraphrase.md",
+    "word_count": 736
+   },
+   {
+    "rendering_id": "GTF-ips-v2-adv_superseded",
+    "doc_id": "GTF-ips",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "GTF/GTF-ips-v2-adv_superseded.md",
+    "word_count": 796,
+    "superseded_constraint_ids": [
+     "GTF-ips-v1-C02"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "GTF-guidelines",
@@ -81,7 +121,77 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: single"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-guidelines-v1-canonical",
+    "doc_id": "GTF-guidelines",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "GTF/GTF-guidelines-v1-canonical.md",
+    "word_count": 887
+   },
+   {
+    "rendering_id": "GTF-guidelines-v2-canonical",
+    "doc_id": "GTF-guidelines",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "GTF/GTF-guidelines-v2-canonical.md",
+    "word_count": 797
+   },
+   {
+    "rendering_id": "GTF-guidelines-v2-paraphrase",
+    "doc_id": "GTF-guidelines",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "bullets",
+    "path": "GTF/GTF-guidelines-v2-paraphrase.md",
+    "word_count": 733
+   },
+   {
+    "rendering_id": "GTF-guidelines-v2-adv_negation",
+    "doc_id": "GTF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_negation",
+    "style": "legal",
+    "path": "GTF/GTF-guidelines-v2-adv_negation.md",
+    "word_count": 852,
+    "target_constraint_ids": [
+     "GTF-guidelines-v2-C01",
+     "GTF-guidelines-v2-C02",
+     "GTF-guidelines-v2-C03",
+     "GTF-guidelines-v2-C04",
+     "GTF-guidelines-v2-C05",
+     "GTF-guidelines-v2-C06"
+    ]
+   },
+   {
+    "rendering_id": "GTF-guidelines-v2-adv_unless",
+    "doc_id": "GTF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_unless",
+    "style": "narrative",
+    "path": "GTF/GTF-guidelines-v2-adv_unless.md",
+    "word_count": 889,
+    "target_constraint_ids": [
+     "GTF-guidelines-v2-C01"
+    ]
+   },
+   {
+    "rendering_id": "GTF-guidelines-v2-adv_superseded",
+    "doc_id": "GTF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "GTF/GTF-guidelines-v2-adv_superseded.md",
+    "word_count": 813,
+    "superseded_constraint_ids": [
+     "GTF-guidelines-v1-C01",
+     "GTF-guidelines-v1-C09"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "GTF-derivatives_policy",
@@ -102,7 +212,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-derivatives_policy-v1-canonical",
+    "doc_id": "GTF-derivatives_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "GTF/GTF-derivatives_policy-v1-canonical.md",
+    "word_count": 758
+   }
+  ]
  },
  {
   "doc_id": "GTF-esg_policy",
@@ -134,7 +254,35 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: coal"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-esg_policy-v1-canonical",
+    "doc_id": "GTF-esg_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "GTF/GTF-esg_policy-v1-canonical.md",
+    "word_count": 754
+   },
+   {
+    "rendering_id": "GTF-esg_policy-v2-canonical",
+    "doc_id": "GTF-esg_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "GTF/GTF-esg_policy-v2-canonical.md",
+    "word_count": 661
+   },
+   {
+    "rendering_id": "GTF-esg_policy-v2-paraphrase",
+    "doc_id": "GTF-esg_policy",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "memo",
+    "path": "GTF/GTF-esg_policy-v2-paraphrase.md",
+    "word_count": 744
+   }
+  ]
  },
  {
   "doc_id": "GTF-liquidity_policy",
@@ -168,7 +316,26 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: illiquid"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-liquidity_policy-v1-canonical",
+    "doc_id": "GTF-liquidity_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "GTF/GTF-liquidity_policy-v1-canonical.md",
+    "word_count": 808
+   },
+   {
+    "rendering_id": "GTF-liquidity_policy-v2-canonical",
+    "doc_id": "GTF-liquidity_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "GTF/GTF-liquidity_policy-v2-canonical.md",
+    "word_count": 791
+   }
+  ]
  },
  {
   "doc_id": "GTF-valuation_policy",
@@ -188,7 +355,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-valuation_policy-v1-canonical",
+    "doc_id": "GTF-valuation_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "GTF/GTF-valuation_policy-v1-canonical.md",
+    "word_count": 738
+   }
+  ]
  },
  {
   "doc_id": "GTF-counterparty_policy",
@@ -209,7 +386,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-counterparty_policy-v1-canonical",
+    "doc_id": "GTF-counterparty_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "GTF/GTF-counterparty_policy-v1-canonical.md",
+    "word_count": 855
+   }
+  ]
  },
  {
   "doc_id": "GTF-corporate_actions_policy",
@@ -230,7 +417,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "GTF-corporate_actions_policy-v1-canonical",
+    "doc_id": "GTF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "GTF/GTF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 703
+   },
+   {
+    "rendering_id": "GTF-corporate_actions_policy-v1-adv_crossref",
+    "doc_id": "GTF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "adv_crossref",
+    "style": "memo",
+    "path": "GTF/GTF-corporate_actions_policy-v1-adv_crossref.md",
+    "word_count": 832
+   }
+  ]
  },
  {
   "doc_id": "EIF-ips",
@@ -256,7 +462,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-ips-v1-canonical",
+    "doc_id": "EIF-ips",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "EIF/EIF-ips-v1-canonical.md",
+    "word_count": 798
+   },
+   {
+    "rendering_id": "EIF-ips-v1-paraphrase",
+    "doc_id": "EIF-ips",
+    "version": 1,
+    "variant_kind": "paraphrase",
+    "style": "legal",
+    "path": "EIF/EIF-ips-v1-paraphrase.md",
+    "word_count": 734
+   }
+  ]
  },
  {
   "doc_id": "EIF-guidelines",
@@ -298,7 +523,78 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: single, issuer"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-guidelines-v1-canonical",
+    "doc_id": "EIF-guidelines",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "EIF/EIF-guidelines-v1-canonical.md",
+    "word_count": 844
+   },
+   {
+    "rendering_id": "EIF-guidelines-v2-canonical",
+    "doc_id": "EIF-guidelines",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "EIF/EIF-guidelines-v2-canonical.md",
+    "word_count": 653
+   },
+   {
+    "rendering_id": "EIF-guidelines-v2-paraphrase",
+    "doc_id": "EIF-guidelines",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "narrative",
+    "path": "EIF/EIF-guidelines-v2-paraphrase.md",
+    "word_count": 784
+   },
+   {
+    "rendering_id": "EIF-guidelines-v2-adv_negation",
+    "doc_id": "EIF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_negation",
+    "style": "legal",
+    "path": "EIF/EIF-guidelines-v2-adv_negation.md",
+    "word_count": 822,
+    "target_constraint_ids": [
+     "EIF-guidelines-v2-C01",
+     "EIF-guidelines-v2-C02",
+     "EIF-guidelines-v2-C03",
+     "EIF-guidelines-v2-C04",
+     "EIF-guidelines-v2-C05",
+     "EIF-guidelines-v2-C06"
+    ]
+   },
+   {
+    "rendering_id": "EIF-guidelines-v2-adv_unless",
+    "doc_id": "EIF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_unless",
+    "style": "narrative",
+    "path": "EIF/EIF-guidelines-v2-adv_unless.md",
+    "word_count": 799,
+    "target_constraint_ids": [
+     "EIF-guidelines-v2-C01"
+    ]
+   },
+   {
+    "rendering_id": "EIF-guidelines-v2-adv_superseded",
+    "doc_id": "EIF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "EIF/EIF-guidelines-v2-adv_superseded.md",
+    "word_count": 734,
+    "superseded_constraint_ids": [
+     "EIF-guidelines-v1-C01",
+     "EIF-guidelines-v1-C02",
+     "EIF-guidelines-v1-C09"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "EIF-derivatives_policy",
@@ -334,7 +630,26 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: deriv"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-derivatives_policy-v1-canonical",
+    "doc_id": "EIF-derivatives_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "EIF/EIF-derivatives_policy-v1-canonical.md",
+    "word_count": 716
+   },
+   {
+    "rendering_id": "EIF-derivatives_policy-v2-canonical",
+    "doc_id": "EIF-derivatives_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "EIF/EIF-derivatives_policy-v2-canonical.md",
+    "word_count": 634
+   }
+  ]
  },
  {
   "doc_id": "EIF-esg_policy",
@@ -355,7 +670,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-esg_policy-v1-canonical",
+    "doc_id": "EIF-esg_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "EIF/EIF-esg_policy-v1-canonical.md",
+    "word_count": 698
+   },
+   {
+    "rendering_id": "EIF-esg_policy-v1-paraphrase",
+    "doc_id": "EIF-esg_policy",
+    "version": 1,
+    "variant_kind": "paraphrase",
+    "style": "legal",
+    "path": "EIF/EIF-esg_policy-v1-paraphrase.md",
+    "word_count": 699
+   }
+  ]
  },
  {
   "doc_id": "EIF-liquidity_policy",
@@ -389,7 +723,26 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: swing"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-liquidity_policy-v1-canonical",
+    "doc_id": "EIF-liquidity_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "EIF/EIF-liquidity_policy-v1-canonical.md",
+    "word_count": 693
+   },
+   {
+    "rendering_id": "EIF-liquidity_policy-v2-canonical",
+    "doc_id": "EIF-liquidity_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "EIF/EIF-liquidity_policy-v2-canonical.md",
+    "word_count": 671
+   }
+  ]
  },
  {
   "doc_id": "EIF-valuation_policy",
@@ -409,7 +762,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-valuation_policy-v1-canonical",
+    "doc_id": "EIF-valuation_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "EIF/EIF-valuation_policy-v1-canonical.md",
+    "word_count": 703
+   }
+  ]
  },
  {
   "doc_id": "EIF-counterparty_policy",
@@ -430,7 +793,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-counterparty_policy-v1-canonical",
+    "doc_id": "EIF-counterparty_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "EIF/EIF-counterparty_policy-v1-canonical.md",
+    "word_count": 682
+   }
+  ]
  },
  {
   "doc_id": "EIF-corporate_actions_policy",
@@ -451,7 +824,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EIF-corporate_actions_policy-v1-canonical",
+    "doc_id": "EIF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "EIF/EIF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 738
+   },
+   {
+    "rendering_id": "EIF-corporate_actions_policy-v1-adv_crossref",
+    "doc_id": "EIF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "adv_crossref",
+    "style": "memo",
+    "path": "EIF/EIF-corporate_actions_policy-v1-adv_crossref.md",
+    "word_count": 881
+   }
+  ]
  },
  {
   "doc_id": "DGF-ips",
@@ -501,7 +893,48 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: duration, hy"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-ips-v1-canonical",
+    "doc_id": "DGF-ips",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "DGF/DGF-ips-v1-canonical.md",
+    "word_count": 863
+   },
+   {
+    "rendering_id": "DGF-ips-v2-canonical",
+    "doc_id": "DGF-ips",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "DGF/DGF-ips-v2-canonical.md",
+    "word_count": 692
+   },
+   {
+    "rendering_id": "DGF-ips-v2-paraphrase",
+    "doc_id": "DGF-ips",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "narrative",
+    "path": "DGF/DGF-ips-v2-paraphrase.md",
+    "word_count": 825
+   },
+   {
+    "rendering_id": "DGF-ips-v2-adv_superseded",
+    "doc_id": "DGF-ips",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "DGF/DGF-ips-v2-adv_superseded.md",
+    "word_count": 817,
+    "superseded_constraint_ids": [
+     "DGF-ips-v1-C09",
+     "DGF-ips-v1-C10"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "DGF-guidelines",
@@ -526,7 +959,43 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-guidelines-v1-canonical",
+    "doc_id": "DGF-guidelines",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "DGF/DGF-guidelines-v1-canonical.md",
+    "word_count": 725
+   },
+   {
+    "rendering_id": "DGF-guidelines-v1-paraphrase",
+    "doc_id": "DGF-guidelines",
+    "version": 1,
+    "variant_kind": "paraphrase",
+    "style": "tabular",
+    "path": "DGF/DGF-guidelines-v1-paraphrase.md",
+    "word_count": 729
+   },
+   {
+    "rendering_id": "DGF-guidelines-v1-adv_negation",
+    "doc_id": "DGF-guidelines",
+    "version": 1,
+    "variant_kind": "adv_negation",
+    "style": "legal",
+    "path": "DGF/DGF-guidelines-v1-adv_negation.md",
+    "word_count": 829,
+    "target_constraint_ids": [
+     "DGF-guidelines-v1-C01",
+     "DGF-guidelines-v1-C02",
+     "DGF-guidelines-v1-C03",
+     "DGF-guidelines-v1-C04",
+     "DGF-guidelines-v1-C05",
+     "DGF-guidelines-v1-C06"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "DGF-derivatives_policy",
@@ -547,7 +1016,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-derivatives_policy-v1-canonical",
+    "doc_id": "DGF-derivatives_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "DGF/DGF-derivatives_policy-v1-canonical.md",
+    "word_count": 683
+   }
+  ]
  },
  {
   "doc_id": "DGF-esg_policy",
@@ -567,7 +1046,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-esg_policy-v1-canonical",
+    "doc_id": "DGF-esg_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "DGF/DGF-esg_policy-v1-canonical.md",
+    "word_count": 780
+   },
+   {
+    "rendering_id": "DGF-esg_policy-v1-paraphrase",
+    "doc_id": "DGF-esg_policy",
+    "version": 1,
+    "variant_kind": "paraphrase",
+    "style": "legal",
+    "path": "DGF/DGF-esg_policy-v1-paraphrase.md",
+    "word_count": 772
+   }
+  ]
  },
  {
   "doc_id": "DGF-liquidity_policy",
@@ -588,7 +1086,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-liquidity_policy-v1-canonical",
+    "doc_id": "DGF-liquidity_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "DGF/DGF-liquidity_policy-v1-canonical.md",
+    "word_count": 751
+   }
+  ]
  },
  {
   "doc_id": "DGF-valuation_policy",
@@ -608,7 +1116,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-valuation_policy-v1-canonical",
+    "doc_id": "DGF-valuation_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "DGF/DGF-valuation_policy-v1-canonical.md",
+    "word_count": 716
+   }
+  ]
  },
  {
   "doc_id": "DGF-counterparty_policy",
@@ -642,7 +1160,26 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: cpty"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-counterparty_policy-v1-canonical",
+    "doc_id": "DGF-counterparty_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "DGF/DGF-counterparty_policy-v1-canonical.md",
+    "word_count": 809
+   },
+   {
+    "rendering_id": "DGF-counterparty_policy-v2-canonical",
+    "doc_id": "DGF-counterparty_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "DGF/DGF-counterparty_policy-v2-canonical.md",
+    "word_count": 798
+   }
+  ]
  },
  {
   "doc_id": "DGF-corporate_actions_policy",
@@ -676,7 +1213,35 @@
     "amendment_note": "Restatement without threshold changes"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "DGF-corporate_actions_policy-v1-canonical",
+    "doc_id": "DGF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "DGF/DGF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 769
+   },
+   {
+    "rendering_id": "DGF-corporate_actions_policy-v2-canonical",
+    "doc_id": "DGF-corporate_actions_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "DGF/DGF-corporate_actions_policy-v2-canonical.md",
+    "word_count": 757
+   },
+   {
+    "rendering_id": "DGF-corporate_actions_policy-v2-adv_crossref",
+    "doc_id": "DGF-corporate_actions_policy",
+    "version": 2,
+    "variant_kind": "adv_crossref",
+    "style": "memo",
+    "path": "DGF/DGF-corporate_actions_policy-v2-adv_crossref.md",
+    "word_count": 829
+   }
+  ]
  },
  {
   "doc_id": "CBF-ips",
@@ -726,7 +1291,47 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: duration"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-ips-v1-canonical",
+    "doc_id": "CBF-ips",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "CBF/CBF-ips-v1-canonical.md",
+    "word_count": 767
+   },
+   {
+    "rendering_id": "CBF-ips-v2-canonical",
+    "doc_id": "CBF-ips",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "CBF/CBF-ips-v2-canonical.md",
+    "word_count": 727
+   },
+   {
+    "rendering_id": "CBF-ips-v2-paraphrase",
+    "doc_id": "CBF-ips",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "tabular",
+    "path": "CBF/CBF-ips-v2-paraphrase.md",
+    "word_count": 891
+   },
+   {
+    "rendering_id": "CBF-ips-v2-adv_superseded",
+    "doc_id": "CBF-ips",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "CBF/CBF-ips-v2-adv_superseded.md",
+    "word_count": 750,
+    "superseded_constraint_ids": [
+     "CBF-ips-v1-C09"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "CBF-guidelines",
@@ -768,7 +1373,64 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: issuer"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-guidelines-v1-canonical",
+    "doc_id": "CBF-guidelines",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "CBF/CBF-guidelines-v1-canonical.md",
+    "word_count": 719
+   },
+   {
+    "rendering_id": "CBF-guidelines-v2-canonical",
+    "doc_id": "CBF-guidelines",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "CBF/CBF-guidelines-v2-canonical.md",
+    "word_count": 814
+   },
+   {
+    "rendering_id": "CBF-guidelines-v2-paraphrase",
+    "doc_id": "CBF-guidelines",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "legal",
+    "path": "CBF/CBF-guidelines-v2-paraphrase.md",
+    "word_count": 760
+   },
+   {
+    "rendering_id": "CBF-guidelines-v2-adv_negation",
+    "doc_id": "CBF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_negation",
+    "style": "legal",
+    "path": "CBF/CBF-guidelines-v2-adv_negation.md",
+    "word_count": 838,
+    "target_constraint_ids": [
+     "CBF-guidelines-v2-C01",
+     "CBF-guidelines-v2-C02",
+     "CBF-guidelines-v2-C03",
+     "CBF-guidelines-v2-C04",
+     "CBF-guidelines-v2-C05",
+     "CBF-guidelines-v2-C06"
+    ]
+   },
+   {
+    "rendering_id": "CBF-guidelines-v2-adv_superseded",
+    "doc_id": "CBF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "CBF/CBF-guidelines-v2-adv_superseded.md",
+    "word_count": 734,
+    "superseded_constraint_ids": [
+     "CBF-guidelines-v1-C02"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "CBF-derivatives_policy",
@@ -790,7 +1452,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-derivatives_policy-v1-canonical",
+    "doc_id": "CBF-derivatives_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "CBF/CBF-derivatives_policy-v1-canonical.md",
+    "word_count": 877
+   }
+  ]
  },
  {
   "doc_id": "CBF-esg_policy",
@@ -822,7 +1494,47 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: coal"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-esg_policy-v1-canonical",
+    "doc_id": "CBF-esg_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "CBF/CBF-esg_policy-v1-canonical.md",
+    "word_count": 730
+   },
+   {
+    "rendering_id": "CBF-esg_policy-v2-canonical",
+    "doc_id": "CBF-esg_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "CBF/CBF-esg_policy-v2-canonical.md",
+    "word_count": 681
+   },
+   {
+    "rendering_id": "CBF-esg_policy-v2-paraphrase",
+    "doc_id": "CBF-esg_policy",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "tabular",
+    "path": "CBF/CBF-esg_policy-v2-paraphrase.md",
+    "word_count": 649
+   },
+   {
+    "rendering_id": "CBF-esg_policy-v2-adv_unless",
+    "doc_id": "CBF-esg_policy",
+    "version": 2,
+    "variant_kind": "adv_unless",
+    "style": "narrative",
+    "path": "CBF/CBF-esg_policy-v2-adv_unless.md",
+    "word_count": 705,
+    "target_constraint_ids": [
+     "CBF-esg_policy-v2-C02"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "CBF-liquidity_policy",
@@ -843,7 +1555,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-liquidity_policy-v1-canonical",
+    "doc_id": "CBF-liquidity_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "CBF/CBF-liquidity_policy-v1-canonical.md",
+    "word_count": 673
+   }
+  ]
  },
  {
   "doc_id": "CBF-valuation_policy",
@@ -875,7 +1597,26 @@
     "amendment_note": "Restatement without threshold changes"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-valuation_policy-v1-canonical",
+    "doc_id": "CBF-valuation_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "CBF/CBF-valuation_policy-v1-canonical.md",
+    "word_count": 775
+   },
+   {
+    "rendering_id": "CBF-valuation_policy-v2-canonical",
+    "doc_id": "CBF-valuation_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "CBF/CBF-valuation_policy-v2-canonical.md",
+    "word_count": 716
+   }
+  ]
  },
  {
   "doc_id": "CBF-counterparty_policy",
@@ -896,7 +1637,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-counterparty_policy-v1-canonical",
+    "doc_id": "CBF-counterparty_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "CBF/CBF-counterparty_policy-v1-canonical.md",
+    "word_count": 750
+   }
+  ]
  },
  {
   "doc_id": "CBF-corporate_actions_policy",
@@ -917,7 +1668,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "CBF-corporate_actions_policy-v1-canonical",
+    "doc_id": "CBF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "CBF/CBF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 646
+   },
+   {
+    "rendering_id": "CBF-corporate_actions_policy-v1-adv_crossref",
+    "doc_id": "CBF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "adv_crossref",
+    "style": "memo",
+    "path": "CBF/CBF-corporate_actions_policy-v1-adv_crossref.md",
+    "word_count": 875
+   }
+  ]
  },
  {
   "doc_id": "EMF-ips",
@@ -959,7 +1729,48 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: turnover"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-ips-v1-canonical",
+    "doc_id": "EMF-ips",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "EMF/EMF-ips-v1-canonical.md",
+    "word_count": 723
+   },
+   {
+    "rendering_id": "EMF-ips-v2-canonical",
+    "doc_id": "EMF-ips",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "EMF/EMF-ips-v2-canonical.md",
+    "word_count": 707
+   },
+   {
+    "rendering_id": "EMF-ips-v2-paraphrase",
+    "doc_id": "EMF-ips",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "legal",
+    "path": "EMF/EMF-ips-v2-paraphrase.md",
+    "word_count": 804
+   },
+   {
+    "rendering_id": "EMF-ips-v2-adv_superseded",
+    "doc_id": "EMF-ips",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "EMF/EMF-ips-v2-adv_superseded.md",
+    "word_count": 788,
+    "superseded_constraint_ids": [
+     "EMF-ips-v1-C04",
+     "EMF-ips-v1-C09"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "EMF-guidelines",
@@ -1003,7 +1814,77 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: single"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-guidelines-v1-canonical",
+    "doc_id": "EMF-guidelines",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "EMF/EMF-guidelines-v1-canonical.md",
+    "word_count": 870
+   },
+   {
+    "rendering_id": "EMF-guidelines-v2-canonical",
+    "doc_id": "EMF-guidelines",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "EMF/EMF-guidelines-v2-canonical.md",
+    "word_count": 713
+   },
+   {
+    "rendering_id": "EMF-guidelines-v2-paraphrase",
+    "doc_id": "EMF-guidelines",
+    "version": 2,
+    "variant_kind": "paraphrase",
+    "style": "narrative",
+    "path": "EMF/EMF-guidelines-v2-paraphrase.md",
+    "word_count": 807
+   },
+   {
+    "rendering_id": "EMF-guidelines-v2-adv_negation",
+    "doc_id": "EMF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_negation",
+    "style": "legal",
+    "path": "EMF/EMF-guidelines-v2-adv_negation.md",
+    "word_count": 829,
+    "target_constraint_ids": [
+     "EMF-guidelines-v2-C01",
+     "EMF-guidelines-v2-C02",
+     "EMF-guidelines-v2-C03",
+     "EMF-guidelines-v2-C04",
+     "EMF-guidelines-v2-C05",
+     "EMF-guidelines-v2-C06"
+    ]
+   },
+   {
+    "rendering_id": "EMF-guidelines-v2-adv_unless",
+    "doc_id": "EMF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_unless",
+    "style": "narrative",
+    "path": "EMF/EMF-guidelines-v2-adv_unless.md",
+    "word_count": 851,
+    "target_constraint_ids": [
+     "EMF-guidelines-v2-C01"
+    ]
+   },
+   {
+    "rendering_id": "EMF-guidelines-v2-adv_superseded",
+    "doc_id": "EMF-guidelines",
+    "version": 2,
+    "variant_kind": "adv_superseded",
+    "style": "legal",
+    "path": "EMF/EMF-guidelines-v2-adv_superseded.md",
+    "word_count": 825,
+    "superseded_constraint_ids": [
+     "EMF-guidelines-v1-C01",
+     "EMF-guidelines-v1-C10"
+    ]
+   }
+  ]
  },
  {
   "doc_id": "EMF-derivatives_policy",
@@ -1024,7 +1905,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-derivatives_policy-v1-canonical",
+    "doc_id": "EMF-derivatives_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "EMF/EMF-derivatives_policy-v1-canonical.md",
+    "word_count": 718
+   }
+  ]
  },
  {
   "doc_id": "EMF-esg_policy",
@@ -1044,7 +1935,26 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-esg_policy-v1-canonical",
+    "doc_id": "EMF-esg_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "EMF/EMF-esg_policy-v1-canonical.md",
+    "word_count": 695
+   },
+   {
+    "rendering_id": "EMF-esg_policy-v1-paraphrase",
+    "doc_id": "EMF-esg_policy",
+    "version": 1,
+    "variant_kind": "paraphrase",
+    "style": "memo",
+    "path": "EMF/EMF-esg_policy-v1-paraphrase.md",
+    "word_count": 717
+   }
+  ]
  },
  {
   "doc_id": "EMF-liquidity_policy",
@@ -1078,7 +1988,26 @@
     "amendment_note": "Amendment effective 2026-04-01 changing: liq"
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-liquidity_policy-v1-canonical",
+    "doc_id": "EMF-liquidity_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "narrative",
+    "path": "EMF/EMF-liquidity_policy-v1-canonical.md",
+    "word_count": 758
+   },
+   {
+    "rendering_id": "EMF-liquidity_policy-v2-canonical",
+    "doc_id": "EMF-liquidity_policy",
+    "version": 2,
+    "variant_kind": "canonical",
+    "style": "tabular",
+    "path": "EMF/EMF-liquidity_policy-v2-canonical.md",
+    "word_count": 806
+   }
+  ]
  },
  {
   "doc_id": "EMF-valuation_policy",
@@ -1098,7 +2027,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-valuation_policy-v1-canonical",
+    "doc_id": "EMF-valuation_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "memo",
+    "path": "EMF/EMF-valuation_policy-v1-canonical.md",
+    "word_count": 673
+   }
+  ]
  },
  {
   "doc_id": "EMF-counterparty_policy",
@@ -1119,7 +2058,17 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-counterparty_policy-v1-canonical",
+    "doc_id": "EMF-counterparty_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "legal",
+    "path": "EMF/EMF-counterparty_policy-v1-canonical.md",
+    "word_count": 796
+   }
+  ]
  },
  {
   "doc_id": "EMF-corporate_actions_policy",
@@ -1140,6 +2089,25 @@
     ]
    }
   ],
-  "renderings": []
+  "renderings": [
+   {
+    "rendering_id": "EMF-corporate_actions_policy-v1-canonical",
+    "doc_id": "EMF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "canonical",
+    "style": "bullets",
+    "path": "EMF/EMF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 684
+   },
+   {
+    "rendering_id": "EMF-corporate_actions_policy-v1-adv_crossref",
+    "doc_id": "EMF-corporate_actions_policy",
+    "version": 1,
+    "variant_kind": "adv_crossref",
+    "style": "memo",
+    "path": "EMF/EMF-corporate_actions_policy-v1-adv_crossref.md",
+    "word_count": 833
+   }
+  ]
  }
 ]

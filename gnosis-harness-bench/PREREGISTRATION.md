@@ -96,4 +96,5 @@ One full pass over the pre-specified sets. No interim looks. A second pass is ru
 
 ## Amendments
 
-(none)
+- 2026-09-20, before any live run: a constraint-type glossary (type definitions and scope-target conventions) was added verbatim to both system prompts, identical across H0, H1 and H2. Reason: the blind label audit on EMF, run without a glossary, produced one taxonomy disagreement ("other" for the election deadline); the GTF and CBF audits, run with the glossary, produced none. The glossary removes label-communication noise and does not favour any condition.
+- 2026-09-20: instrument validation executed on the full dataset (results/instrument-verdict, results/instrument-ingestion): oracle 1.000 on every applicable metric; null at the base rate (0.329 overall_correct, 0.000 constraint_f1); mock at its configured accuracy; mechanism check passed (paired difference mock 0.9 versus 0.5 CI excludes zero on every primary metric); pooled blind label audit over 20 renderings and 130 binding rules: precision 0.977, recall 0.992, kappa 0.925 (threshold 0.90 met).

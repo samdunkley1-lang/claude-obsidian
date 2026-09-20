@@ -1,0 +1,39 @@
+{
+  "task": "verdict",
+  "n_cases": 833,
+  "n_cells": 16660,
+  "conditions": {
+    "oracle": {
+      "ok": 4165,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_overall_correct": 1.0
+    },
+    "null": {
+      "ok": 4165,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_overall_correct": 0.3289315726290516
+    },
+    "mock:p=0.9,g=0.9": {
+      "ok": 4165,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_overall_correct": 0.9013205282112845
+    },
+    "mock:p=0.5,g=0.5": {
+      "ok": 4165,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_overall_correct": 0.4885954381752701
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-09-18T00:30:00
+updated: 2026-09-20T12:00:00
 tags:
   - meta
   - hot-cache
@@ -20,9 +20,10 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-09-18: gnosis decision-space and UI deep research filed under wiki/gnosis/
+2026-09-20: gnosis harness bench built and instrument-validated (gnosis-harness-bench/); live runs blocked on API key and repo access
 
 ## Gnosis Research (2026-09-18)
+Bench: [[gnosis-harness-bench]] (pre-registered ablation, H0/H1/H2 vs gnosis; instrument checks pass; needs ANTHROPIC_API_KEY and the gnosis repo to run live).
 Report: [[gnosis-decision-ui-benchmarks]]. Domain index: [[gnosis/_index|Gnosis]]. Raw notes: `.raw/gnosis-decision-ui-research/`.
 - **Decision space**: tier the 13 types. Tier 1: valuation marks, liquidity tools, trade allocation, model changes, ESG screens. Tier 2: exits, sizing, corporate-action elections, exceptions. Tier 3: templates.
 - **Record completeness**: map the commit schema to MiFID Del Reg 2017/565 Art 74 and Rule 204-2(a)(3), require an OMS order-ID link, version all reference data for replay.

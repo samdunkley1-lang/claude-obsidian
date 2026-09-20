@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-09-18
+updated: 2026-09-20
 tags:
   - meta
   - index
@@ -24,7 +24,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-09-18 | Total pages: 29 | Sources ingested: 3
+Last updated: 2026-09-20 | Total pages: 30 | Sources ingested: 3
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -55,6 +55,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 - [[gnosis/_index|Gnosis Index]] : decision-intelligence platform for buy-side asset managers; domain index (status: evergreen)
 - [[gnosis-decision-ui-benchmarks]] : 2026-09-18 | decision space, clinical UI, metrics to beat, go-to-market; 162 citations, every figure evidence-tagged (status: current)
+- [[gnosis-harness-bench]] : 2026-09-20 | pre-registered LLM-harness ablation, instrument validated, live runs pending (status: current)
 
 ---
 

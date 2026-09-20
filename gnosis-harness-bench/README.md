@@ -67,8 +67,10 @@ python3 -m bench.report --run results/live-verdict --baseline H1 --primary overa
 | Step | State |
 |---|---|
 | Dataset generated and engine-asserted | done |
-| Corpus rendered and verified | see `data/corpus/*/manifest.json` |
-| Statistical estimators validated by simulation | done, `tests/test_stats.py` |
-| Oracle and null instrument checks | see results/instrument |
+| Corpus rendered and verified | done: 94 renderings, 71,745 words, verifier clean |
+| Blind label audit (20 renderings, 130 rules, no access to specs) | done: precision 0.977, recall 0.992, kappa 0.925 (`data/labels/*_audit.txt`) |
+| Statistical estimators validated by simulation | done, `tests/test_stats.py` (49 tests) |
+| Oracle, null and mock instrument checks on the full dataset | done: `results/instrument-verdict/report.md`, `results/instrument-ingestion/report.md` (0 errors, 18,540 graded rows) |
+| Full test suite | 103 tests pass |
 | Live vendor-harness runs (H0, H1, H2) | blocked: no API credentials in this environment |
 | gnosis conditions | blocked: gnosis repository not accessible to this session |

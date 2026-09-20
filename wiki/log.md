@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-09-18
+updated: 2026-09-20
 tags:
   - meta
   - log
@@ -24,6 +24,13 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-09-20] build | Gnosis Harness Bench (pre-registered harness ablation)
+- Type: benchmark build plus instrument validation
+- Location: gnosis-harness-bench/ (code, data, pre-registration), wiki/gnosis/gnosis-harness-bench.md
+- Built: seeded specs (301 binding rules), reference engine (9 hand-computed tests), 833 engine-asserted scenarios, 94 verified prose renderings, simulation-validated statistics (49 tests), runner and graders (45 tests), reports
+- Executed: oracle, null and mock conditions over the full dataset (18,540 rows, 0 errors); blind label audit on 20 renderings (precision 0.977, recall 0.992, kappa 0.925)
+- Not executed: live vendor-harness conditions (no API credentials here) and gnosis conditions (gnosis repo not reachable by this session)
 
 ## [2026-09-18] research | Gnosis Decision Space and UI Benchmarks
 - Type: deep research (seven parallel tracks, one synthesis)

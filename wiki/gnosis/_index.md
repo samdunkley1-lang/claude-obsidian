@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Gnosis Index"
-updated: 2026-09-18
+updated: 2026-09-20
 tags:
   - meta
   - index
@@ -24,6 +24,8 @@ Gnosis is a decision-intelligence and decision-ledger platform for buy-side asse
 ## Research
 
 - [[gnosis-decision-ui-benchmarks]] : 2026-09-18 | what the decision space and UI need to be clinical and industry-leading, the metrics to beat, and how to sell it (status: current)
+
+- [[gnosis-harness-bench]] : 2026-09-20 | pre-registered harness ablation with validated instrument; live runs pending credentials and repo access (status: current)
 
 ## Raw Notes
 

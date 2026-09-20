@@ -1,5 +1,7 @@
-results/*
-!results/.gitkeep
+results/*/results.jsonl
+results/*/errors.jsonl
+results/*/trajectories/
+results/*/cases_meta.json
 __pycache__/
 .pytest_cache/
 *.pyc
