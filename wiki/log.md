@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-04-08
+updated: 2026-09-20
 tags:
   - meta
   - log
@@ -24,6 +24,21 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-09-20] build | Gnosis Harness Bench (pre-registered harness ablation)
+- Type: benchmark build plus instrument validation
+- Location: gnosis-harness-bench/ (code, data, pre-registration), wiki/gnosis/gnosis-harness-bench.md
+- Built: seeded specs (301 binding rules), reference engine (9 hand-computed tests), 833 engine-asserted scenarios, 94 verified prose renderings, simulation-validated statistics (49 tests), runner and graders (45 tests), reports
+- Executed: oracle, null and mock conditions over the full dataset (18,540 rows, 0 errors); blind label audit on 20 renderings (precision 0.977, recall 0.992, kappa 0.925)
+- Not executed: live vendor-harness conditions (no API credentials here) and gnosis conditions (gnosis repo not reachable by this session)
+
+## [2026-09-18] research | Gnosis Decision Space and UI Benchmarks
+- Type: deep research (seven parallel tracks, one synthesis)
+- Location: wiki/gnosis/gnosis-decision-ui-benchmarks.md, wiki/gnosis/_index.md, wiki/sources/gnosis-decision-ui-research.md
+- Raw: .raw/gnosis-decision-ui-research/ (7 note files, ~52k words, every figure tagged V/P/I/G)
+- Question: what gnosis's decision space and app UI need to be clinical and industry-leading, which metrics to beat, how to make it saleable
+- Verdict: tier the decision types around enforcement and behavioural evidence; make the commit record legally complete (MiFID Art 74, Rule 204-2(a)(3), OMS order link, versioned policy); Salt/Carbon-grade UI with two-clock replay and record-then-reveal; publish coverage, retrieval time and replay determinism instead of bps claims; sell AI-governance lineage to the CCO with a trust pack ready before InfoSec
+- Caveat: proxy blocked primary-site fetches and search budget was capped; findings rest on snippets and mirrors, re-verify before external use
 
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session

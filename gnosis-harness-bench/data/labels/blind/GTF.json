@@ -1,0 +1,426 @@
+[
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "single_name_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 7,
+    "unit": "pct_nav",
+    "quote": "No single security shall exceed 7% of net asset value.",
+    "carve_out": "Where a security represents more than 3% of the benchmark, the limit for that security is the benchmark weight plus 2 percentage points instead of the headline figure (Large index constituents section); the issuer limit is not relaxed.",
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "issuer_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 10,
+    "unit": "pct_nav",
+    "quote": "Aggregate exposure to any single issuer, including all securities of that issuer, shall not exceed 10% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "sector_max",
+    "scope_target": "Software",
+    "comparator": "<=",
+    "threshold": 40,
+    "unit": "pct_nav",
+    "quote": "Exposure to the Software sector shall not exceed 40% of net asset value",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "sector_max",
+    "scope_target": "Hardware",
+    "comparator": "<=",
+    "threshold": 25,
+    "unit": "pct_nav",
+    "quote": "exposure to the Hardware sector shall not exceed 25% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "country_max",
+    "scope_target": "Taiwan",
+    "comparator": "<=",
+    "threshold": 15,
+    "unit": "pct_nav",
+    "quote": "Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "country_max",
+    "scope_target": "China",
+    "comparator": "<=",
+    "threshold": 10,
+    "unit": "pct_nav",
+    "quote": "exposure to issuers domiciled in China shall not exceed 10% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "single_name_max",
+    "scope_target": "Private and pre-IPO sleeve",
+    "comparator": "<=",
+    "threshold": 5,
+    "unit": "pct_nav",
+    "quote": "Within the Private and pre-IPO sleeve, no single security shall exceed 5% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v2-adv_unless.md",
+    "type": "restricted_list",
+    "scope_target": null,
+    "comparator": "prohibited",
+    "threshold": "Restricted List issuers",
+    "unit": "none",
+    "quote": "No security of an issuer appearing on the Firm's Restricted List may be purchased or added to under any circumstances; this restriction cannot be waived by the Manager, the Chief Investment Officer or Compliance, and no other person or committee has authority to override it.",
+    "carve_out": null,
+    "hard": true
+  },
+
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "single_name_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 8,
+    "unit": "pct_nav",
+    "quote": "No single security shall exceed 8% of net asset value, unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points.",
+    "carve_out": "Unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points.",
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "issuer_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 10,
+    "unit": "pct_nav",
+    "quote": "Aggregate exposure to any single issuer, including all securities of that issuer, shall not exceed 10% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "sector_max",
+    "scope_target": "Software",
+    "comparator": "<=",
+    "threshold": 40,
+    "unit": "pct_nav",
+    "quote": "Exposure to the Software sector shall not exceed 40% of net asset value",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "sector_max",
+    "scope_target": "Hardware",
+    "comparator": "<=",
+    "threshold": 25,
+    "unit": "pct_nav",
+    "quote": "exposure to the Hardware sector shall not exceed 25% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "country_max",
+    "scope_target": "Taiwan",
+    "comparator": "<=",
+    "threshold": 15,
+    "unit": "pct_nav",
+    "quote": "Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "country_max",
+    "scope_target": "China",
+    "comparator": "<=",
+    "threshold": 10,
+    "unit": "pct_nav",
+    "quote": "exposure to issuers domiciled in China shall not exceed 10% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "single_name_max",
+    "scope_target": "Private and pre-IPO sleeve",
+    "comparator": "<=",
+    "threshold": 5,
+    "unit": "pct_nav",
+    "quote": "Within the Private and pre-IPO sleeve, no single security shall exceed 5% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-guidelines-v1-canonical.md",
+    "type": "restricted_list",
+    "scope_target": null,
+    "comparator": "prohibited",
+    "threshold": "Restricted List issuers",
+    "unit": "none",
+    "quote": "No security of an issuer appearing on the Firm's Restricted List may be purchased or added to under any circumstances; this restriction cannot be waived by the Manager, the Chief Investment Officer or Compliance. No exception process exists for it, and no person or committee has authority to override it.",
+    "carve_out": null,
+    "hard": true
+  },
+
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "cash_min",
+    "scope_target": null,
+    "comparator": ">=",
+    "threshold": 1,
+    "unit": "pct_nav",
+    "quote": "The Fund is required to keep cash and cash equivalents at a level that is never below 1% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "cash_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 12,
+    "unit": "pct_nav",
+    "quote": "At the other end of the range, cash and cash equivalents may not be more than 12% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "position_count_min",
+    "scope_target": null,
+    "comparator": ">=",
+    "threshold": 40,
+    "unit": "count",
+    "quote": "The Fund must at all times own at least 40 distinct positions, meaning holdings in the securities of different issuers.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "turnover_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 150,
+    "unit": "pct_nav",
+    "quote": "Portfolio turnover over any annual measurement period must stay at or below 150% of average net assets.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "tracking_error_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 800,
+    "unit": "bps",
+    "quote": "The Fund's ex-ante tracking error relative to its benchmark index is capped at 800 bps.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "sector_max",
+    "scope_target": "Semiconductors",
+    "comparator": "<=",
+    "threshold": 35,
+    "unit": "pct_nav",
+    "quote": "The aggregate weight of the Semiconductors sector may not go beyond 35% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-ips-v2-paraphrase.md",
+    "type": "country_max",
+    "scope_target": "United States",
+    "comparator": "<=",
+    "threshold": 75,
+    "unit": "pct_nav",
+    "quote": "Holdings in issuers domiciled in United States may not together account for more than 75% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+
+  {
+    "doc": "GTF-esg_policy-v2-canonical.md",
+    "type": "esg_exclusion",
+    "scope_target": "controversial weapons",
+    "comparator": "prohibited",
+    "threshold": "controversial weapons",
+    "unit": "none",
+    "quote": "Issuers involved in the production of controversial weapons (cluster munitions, anti-personnel mines, biological and chemical weapons) are excluded absolutely.",
+    "carve_out": null,
+    "hard": true
+  },
+  {
+    "doc": "GTF-esg_policy-v2-canonical.md",
+    "type": "esg_exclusion",
+    "scope_target": "thermal coal",
+    "comparator": "prohibited",
+    "threshold": 25,
+    "unit": "none",
+    "quote": "Thermal coal: issuers deriving more than 25% of revenue from thermal coal extraction or thermal coal power generation are excluded.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-esg_policy-v2-canonical.md",
+    "type": "esg_exclusion",
+    "scope_target": "UN Global Compact violators",
+    "comparator": "prohibited",
+    "threshold": "UN Global Compact violators",
+    "unit": "none",
+    "quote": "UN Global Compact: issuers assessed as being in breach of the UN Global Compact principles are excluded.",
+    "carve_out": null,
+    "hard": false
+  },
+
+  {
+    "doc": "GTF-counterparty_policy-v1-canonical.md",
+    "type": "counterparty_max",
+    "scope_target": "any single securities lending counterparty",
+    "comparator": "<=",
+    "threshold": 15,
+    "unit": "pct_nav",
+    "quote": "Exposure to any single securities lending counterparty, and likewise to any single repo counterparty, shall not exceed 15% of net asset value.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-counterparty_policy-v1-canonical.md",
+    "type": "counterparty_max",
+    "scope_target": "affiliated entity",
+    "comparator": "prohibited",
+    "threshold": "affiliated entity",
+    "unit": "none",
+    "quote": "No transaction may be entered into with an affiliated entity of the Manager; this conflict-of-interest prohibition cannot be overridden by any individual or committee.",
+    "carve_out": null,
+    "hard": true
+  },
+  {
+    "doc": "GTF-counterparty_policy-v1-canonical.md",
+    "type": "credit_min_rating",
+    "scope_target": "deposit bank",
+    "comparator": ">=",
+    "threshold": "A-",
+    "unit": "rating",
+    "quote": "Cash deposits may only be placed with banks rated A- or better.",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-counterparty_policy-v1-canonical.md",
+    "type": "counterparty_max",
+    "scope_target": "any single executing broker",
+    "comparator": "<=",
+    "threshold": 25,
+    "unit": "none",
+    "quote": "Any single executing broker shall not account for more than 25% of the Fund's annual traded value.",
+    "carve_out": null,
+    "hard": false
+  },
+
+  {
+    "doc": "GTF-corporate_actions_policy-v1-canonical.md",
+    "type": "ca_election_default",
+    "scope_target": "scrip dividend",
+    "comparator": "required",
+    "threshold": "cash",
+    "unit": "none",
+    "quote": "Scrip dividend: scrip dividend alternatives shall be taken in cash by default.",
+    "carve_out": "A scrip election is permitted with a documented rationale from the portfolio manager, but is prohibited where the post-election position would exceed the single security limit in the Investment Guidelines.",
+    "hard": false
+  },
+  {
+    "doc": "GTF-corporate_actions_policy-v1-canonical.md",
+    "type": "ca_election_default",
+    "scope_target": "rights issue",
+    "comparator": "required",
+    "threshold": "take_up",
+    "unit": "none",
+    "quote": "Rights issue: rights issues shall be taken up by default.",
+    "carve_out": "Letting rights lapse or selling nil-paid rights is permitted with a documented rationale from the portfolio manager.",
+    "hard": false
+  },
+  {
+    "doc": "GTF-corporate_actions_policy-v1-canonical.md",
+    "type": "ca_election_default",
+    "scope_target": "tender offer",
+    "comparator": "required",
+    "threshold": "decline",
+    "unit": "none",
+    "quote": "Tender offer: tender offers shall be declined by default.",
+    "carve_out": "Tendering is permitted with the approval of the Chief Investment Officer.",
+    "hard": false
+  },
+  {
+    "doc": "GTF-corporate_actions_policy-v1-canonical.md",
+    "type": "ca_election_default",
+    "scope_target": "election deadline",
+    "comparator": ">=",
+    "threshold": 2,
+    "unit": "days",
+    "quote": "Election deadline: elections shall be instructed to the custodian no later than 2 business days before the custodian deadline.",
+    "carve_out": null,
+    "hard": false
+  },
+
+  {
+    "doc": "GTF-liquidity_policy-v2-canonical.md",
+    "type": "illiquid_max",
+    "scope_target": null,
+    "comparator": "<=",
+    "threshold": 8,
+    "unit": "pct_nav",
+    "quote": "Holdings classified as illiquid shall not exceed 8% of net asset value",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-liquidity_policy-v2-canonical.md",
+    "type": "liquidity_min_daily",
+    "scope_target": null,
+    "comparator": ">=",
+    "threshold": 80,
+    "unit": "pct_nav",
+    "quote": "At least 80% of net asset value shall be realisable within five business days under normal market conditions",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-liquidity_policy-v2-canonical.md",
+    "type": "swing_threshold",
+    "scope_target": null,
+    "comparator": "required",
+    "threshold": 2,
+    "unit": "pct_nav",
+    "quote": "Swing pricing shall be applied on any dealing day on which net flows exceed 2% of net asset value",
+    "carve_out": null,
+    "hard": false
+  },
+  {
+    "doc": "GTF-liquidity_policy-v2-canonical.md",
+    "type": "liquidity_min_daily",
+    "scope_target": "days to liquidate",
+    "comparator": "<=",
+    "threshold": 5,
+    "unit": "days",
+    "quote": "No single position shall require more than 5 business days to liquidate at 25% of average daily volume",
+    "carve_out": null,
+    "hard": false
+  }
+]

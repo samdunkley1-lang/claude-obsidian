@@ -1,0 +1,135 @@
+[
+ {
+  "rendering_id": "EMF-ips-v1-canonical",
+  "path": "EMF/EMF-ips-v1-canonical.md",
+  "word_count": 723,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-ips-v2-canonical",
+  "path": "EMF/EMF-ips-v2-canonical.md",
+  "word_count": 707,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-ips-v2-paraphrase",
+  "path": "EMF/EMF-ips-v2-paraphrase.md",
+  "word_count": 804,
+  "style": "legal",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "EMF-ips-v2-adv_superseded",
+  "path": "EMF/EMF-ips-v2-adv_superseded.md",
+  "word_count": 788,
+  "style": "legal",
+  "variant_kind": "adv_superseded"
+ },
+ {
+  "rendering_id": "EMF-guidelines-v1-canonical",
+  "path": "EMF/EMF-guidelines-v1-canonical.md",
+  "word_count": 870,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-guidelines-v2-canonical",
+  "path": "EMF/EMF-guidelines-v2-canonical.md",
+  "word_count": 713,
+  "style": "memo",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-guidelines-v2-paraphrase",
+  "path": "EMF/EMF-guidelines-v2-paraphrase.md",
+  "word_count": 807,
+  "style": "narrative",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "EMF-guidelines-v2-adv_negation",
+  "path": "EMF/EMF-guidelines-v2-adv_negation.md",
+  "word_count": 829,
+  "style": "legal",
+  "variant_kind": "adv_negation"
+ },
+ {
+  "rendering_id": "EMF-guidelines-v2-adv_unless",
+  "path": "EMF/EMF-guidelines-v2-adv_unless.md",
+  "word_count": 851,
+  "style": "narrative",
+  "variant_kind": "adv_unless"
+ },
+ {
+  "rendering_id": "EMF-guidelines-v2-adv_superseded",
+  "path": "EMF/EMF-guidelines-v2-adv_superseded.md",
+  "word_count": 825,
+  "style": "legal",
+  "variant_kind": "adv_superseded"
+ },
+ {
+  "rendering_id": "EMF-derivatives_policy-v1-canonical",
+  "path": "EMF/EMF-derivatives_policy-v1-canonical.md",
+  "word_count": 718,
+  "style": "legal",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-esg_policy-v1-canonical",
+  "path": "EMF/EMF-esg_policy-v1-canonical.md",
+  "word_count": 695,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-esg_policy-v1-paraphrase",
+  "path": "EMF/EMF-esg_policy-v1-paraphrase.md",
+  "word_count": 717,
+  "style": "memo",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "EMF-liquidity_policy-v1-canonical",
+  "path": "EMF/EMF-liquidity_policy-v1-canonical.md",
+  "word_count": 758,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-liquidity_policy-v2-canonical",
+  "path": "EMF/EMF-liquidity_policy-v2-canonical.md",
+  "word_count": 806,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-valuation_policy-v1-canonical",
+  "path": "EMF/EMF-valuation_policy-v1-canonical.md",
+  "word_count": 673,
+  "style": "memo",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-counterparty_policy-v1-canonical",
+  "path": "EMF/EMF-counterparty_policy-v1-canonical.md",
+  "word_count": 796,
+  "style": "legal",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-corporate_actions_policy-v1-canonical",
+  "path": "EMF/EMF-corporate_actions_policy-v1-canonical.md",
+  "word_count": 684,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EMF-corporate_actions_policy-v1-adv_crossref",
+  "path": "EMF/EMF-corporate_actions_policy-v1-adv_crossref.md",
+  "word_count": 833,
+  "style": "memo",
+  "variant_kind": "adv_crossref"
+ }
+]

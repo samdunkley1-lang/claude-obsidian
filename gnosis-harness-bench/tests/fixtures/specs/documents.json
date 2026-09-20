@@ -1,0 +1,65 @@
+[
+  {
+    "doc_id": "GTF-guidelines",
+    "fund": "GTF",
+    "doc_type": "guidelines",
+    "title": "Midland Global Technology Fund Investment Guidelines",
+    "versions": [
+      {
+        "version": 1,
+        "effective_from": "2024-01-01",
+        "superseded_by": 2,
+        "constraint_ids": ["GTF-guidelines-v1-C01", "GTF-guidelines-v1-C02", "GTF-guidelines-v1-C03", "GTF-guidelines-v1-C04", "GTF-guidelines-v1-C05"]
+      },
+      {
+        "version": 2,
+        "effective_from": "2025-01-01",
+        "superseded_by": null,
+        "constraint_ids": ["GTF-guidelines-v2-C01", "GTF-guidelines-v1-C02", "GTF-guidelines-v1-C03", "GTF-guidelines-v1-C04", "GTF-guidelines-v1-C05"],
+        "amendment_note": "Single issuer limit in Section 1.1 amended; all other sections carried forward unchanged."
+      }
+    ],
+    "renderings": [
+      {
+        "rendering_id": "GTF-guidelines-v1-canonical",
+        "doc_id": "GTF-guidelines",
+        "version": 1,
+        "variant_kind": "canonical",
+        "style": "legal",
+        "path": "GTF-guidelines-v1-canonical.md"
+      },
+      {
+        "rendering_id": "GTF-guidelines-v2-canonical",
+        "doc_id": "GTF-guidelines",
+        "version": 2,
+        "variant_kind": "canonical",
+        "style": "legal",
+        "path": "GTF-guidelines-v2-canonical.md"
+      }
+    ]
+  },
+  {
+    "doc_id": "CBF-guidelines",
+    "fund": "CBF",
+    "doc_type": "guidelines",
+    "title": "Midland Corporate Bond Fund Investment Guidelines",
+    "versions": [
+      {
+        "version": 1,
+        "effective_from": "2024-01-01",
+        "superseded_by": null,
+        "constraint_ids": ["CBF-guidelines-v1-C01", "CBF-guidelines-v1-C02"]
+      }
+    ],
+    "renderings": [
+      {
+        "rendering_id": "CBF-guidelines-v1-canonical",
+        "doc_id": "CBF-guidelines",
+        "version": 1,
+        "variant_kind": "canonical",
+        "style": "legal",
+        "path": "CBF-guidelines-v1-canonical.md"
+      }
+    ]
+  }
+]

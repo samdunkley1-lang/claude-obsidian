@@ -1,0 +1,8 @@
+CBF-derivatives_policy-v1-canonical.md: gold=5 blind=6 tp=5 fp=1 fn=0 distractors_extracted=0/1
+CBF-esg_policy-v2-adv_unless.md: gold=3 blind=3 tp=3 fp=0 fn=0 distractors_extracted=0/1
+CBF-guidelines-v2-canonical.md: gold=8 blind=8 tp=8 fp=0 fn=0 distractors_extracted=0/1
+CBF-ips-v2-adv_superseded.md: gold=11 blind=11 tp=11 fp=0 fn=0 distractors_extracted=0/2
+CBF-ips-v2-canonical.md: gold=11 blind=11 tp=11 fp=0 fn=0 distractors_extracted=0/2
+CBF-liquidity_policy-v1-canonical.md: gold=4 blind=4 tp=4 fp=0 fn=0 distractors_extracted=0/1
+CBF-valuation_policy-v1-canonical.md: gold=3 blind=3 tp=3 fp=0 fn=0 distractors_extracted=0/1
+TOTAL precision=0.978 recall=1.000 [0.921,1.000] f1=0.989 kappa(binding decision)=1.000 [1.000,1.000] n_items=54

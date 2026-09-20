@@ -1,0 +1,142 @@
+[
+  {
+    "rendering_id": "CBF-ips-v1-canonical",
+    "path": "CBF/CBF-ips-v1-canonical.md",
+    "word_count": 767,
+    "style": "memo",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-ips-v2-canonical",
+    "path": "CBF/CBF-ips-v2-canonical.md",
+    "word_count": 727,
+    "style": "legal",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-ips-v2-paraphrase",
+    "path": "CBF/CBF-ips-v2-paraphrase.md",
+    "word_count": 891,
+    "style": "tabular",
+    "variant_kind": "paraphrase"
+  },
+  {
+    "rendering_id": "CBF-ips-v2-adv_superseded",
+    "path": "CBF/CBF-ips-v2-adv_superseded.md",
+    "word_count": 750,
+    "style": "legal",
+    "variant_kind": "adv_superseded"
+  },
+  {
+    "rendering_id": "CBF-guidelines-v1-canonical",
+    "path": "CBF/CBF-guidelines-v1-canonical.md",
+    "word_count": 719,
+    "style": "bullets",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-guidelines-v2-canonical",
+    "path": "CBF/CBF-guidelines-v2-canonical.md",
+    "word_count": 814,
+    "style": "narrative",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-guidelines-v2-paraphrase",
+    "path": "CBF/CBF-guidelines-v2-paraphrase.md",
+    "word_count": 760,
+    "style": "legal",
+    "variant_kind": "paraphrase"
+  },
+  {
+    "rendering_id": "CBF-guidelines-v2-adv_negation",
+    "path": "CBF/CBF-guidelines-v2-adv_negation.md",
+    "word_count": 838,
+    "style": "legal",
+    "variant_kind": "adv_negation"
+  },
+  {
+    "rendering_id": "CBF-guidelines-v2-adv_superseded",
+    "path": "CBF/CBF-guidelines-v2-adv_superseded.md",
+    "word_count": 734,
+    "style": "legal",
+    "variant_kind": "adv_superseded"
+  },
+  {
+    "rendering_id": "CBF-derivatives_policy-v1-canonical",
+    "path": "CBF/CBF-derivatives_policy-v1-canonical.md",
+    "word_count": 877,
+    "style": "tabular",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-esg_policy-v1-canonical",
+    "path": "CBF/CBF-esg_policy-v1-canonical.md",
+    "word_count": 730,
+    "style": "memo",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-esg_policy-v2-canonical",
+    "path": "CBF/CBF-esg_policy-v2-canonical.md",
+    "word_count": 681,
+    "style": "legal",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-esg_policy-v2-paraphrase",
+    "path": "CBF/CBF-esg_policy-v2-paraphrase.md",
+    "word_count": 649,
+    "style": "tabular",
+    "variant_kind": "paraphrase"
+  },
+  {
+    "rendering_id": "CBF-esg_policy-v2-adv_unless",
+    "path": "CBF/CBF-esg_policy-v2-adv_unless.md",
+    "word_count": 705,
+    "style": "narrative",
+    "variant_kind": "adv_unless"
+  },
+  {
+    "rendering_id": "CBF-liquidity_policy-v1-canonical",
+    "path": "CBF/CBF-liquidity_policy-v1-canonical.md",
+    "word_count": 673,
+    "style": "bullets",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-valuation_policy-v1-canonical",
+    "path": "CBF/CBF-valuation_policy-v1-canonical.md",
+    "word_count": 775,
+    "style": "narrative",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-valuation_policy-v2-canonical",
+    "path": "CBF/CBF-valuation_policy-v2-canonical.md",
+    "word_count": 716,
+    "style": "tabular",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-counterparty_policy-v1-canonical",
+    "path": "CBF/CBF-counterparty_policy-v1-canonical.md",
+    "word_count": 750,
+    "style": "memo",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-corporate_actions_policy-v1-canonical",
+    "path": "CBF/CBF-corporate_actions_policy-v1-canonical.md",
+    "word_count": 646,
+    "style": "legal",
+    "variant_kind": "canonical"
+  },
+  {
+    "rendering_id": "CBF-corporate_actions_policy-v1-adv_crossref",
+    "path": "CBF/CBF-corporate_actions_policy-v1-adv_crossref.md",
+    "word_count": 875,
+    "style": "memo",
+    "variant_kind": "adv_crossref"
+  }
+]

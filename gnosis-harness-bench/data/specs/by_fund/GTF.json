@@ -1,0 +1,2847 @@
+{
+ "constraints": [
+  {
+   "id": "GTF-corporate_actions_policy-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "scrip dividend"
+   },
+   "comparator": "required",
+   "threshold": "cash",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Scrip dividend alternatives shall be taken in cash by default; a scrip election requires a documented rationale from the portfolio manager and is prohibited where the post-election position would exceed the single security limit in the Investment Guidelines.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-corporate_actions_policy-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "rights issue"
+   },
+   "comparator": "required",
+   "threshold": "take_up",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Rights issues shall be taken up by default; a decision to let rights lapse or to sell nil-paid rights requires a documented rationale from the portfolio manager.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-corporate_actions_policy-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "tender offer"
+   },
+   "comparator": "required",
+   "threshold": "decline",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Tender offers shall be declined by default; tendering requires approval of the Chief Investment Officer.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-corporate_actions_policy-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "election deadline"
+   },
+   "comparator": "required",
+   "threshold": 2.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Elections shall be instructed to the custodian no later than 2 business days before the custodian deadline.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-corporate_actions_policy-v1-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-corporate_actions_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "ca_election_default",
+   "scope": {
+    "level": "fund",
+    "target": "scrip dividend"
+   },
+   "comparator": "required",
+   "threshold": "cash",
+   "unit": "none",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In recent years the majority of scrip alternatives offered to the Fund have been taken in cash."
+  },
+  {
+   "id": "GTF-counterparty_policy-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single securities lending counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to any single securities lending or repo counterparty shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-counterparty_policy-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "affiliated entity"
+   },
+   "comparator": "prohibited",
+   "threshold": "affiliated entity",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "No transaction may be entered into with an entity affiliated with the Manager; this conflict-of-interest prohibition cannot be overridden by any individual or committee.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-counterparty_policy-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "issuer",
+    "target": "deposit bank"
+   },
+   "comparator": ">=",
+   "threshold": "A-",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash deposits may only be placed with banks rated A- or better.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-counterparty_policy-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single executing broker"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single executing broker shall account for more than 25% of the Fund's annual traded value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-counterparty_policy-v1-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-counterparty_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single securities lending counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 7.5,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Securities lending exposure to the largest counterparty is currently about 7.5% of net asset value."
+  },
+  {
+   "id": "GTF-derivatives_policy-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "derivatives_notional_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 20.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Gross notional exposure through derivatives shall not exceed 20% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-derivatives_policy-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "issuer",
+    "target": "any single derivatives counterparty"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Mark-to-market exposure to any single derivatives counterparty shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-derivatives_policy-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "credit_min_rating",
+   "scope": {
+    "level": "issuer",
+    "target": "derivatives counterparty"
+   },
+   "comparator": ">=",
+   "threshold": "A-",
+   "unit": "rating",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Derivatives may only be transacted with counterparties rated A- or better by at least one recognised rating agency.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-derivatives_policy-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "counterparty_max",
+   "scope": {
+    "level": "sleeve",
+    "target": "uncollateralised derivatives exposure"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Uncollateralised derivatives exposure shall not exceed 5% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-derivatives_policy-v1-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-derivatives_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "derivatives_notional_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 8.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Over the last three years gross notional derivatives exposure has typically been around 8% of net asset value."
+  },
+  {
+   "id": "GTF-esg_policy-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "controversial weapons"
+   },
+   "comparator": "prohibited",
+   "threshold": "controversial weapons",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "Issuers involved in the production of controversial weapons (cluster munitions, anti-personnel mines, biological and chemical weapons) are excluded absolutely; no exception may be granted by any person.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-esg_policy-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "thermal coal"
+   },
+   "comparator": "prohibited",
+   "threshold": 30.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Issuers deriving more than 30% of revenue from thermal coal extraction or thermal coal power generation are excluded.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-esg_policy-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "UN Global Compact violators"
+   },
+   "comparator": "prohibited",
+   "threshold": "UN Global Compact violators",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Issuers assessed as being in breach of the UN Global Compact principles are excluded.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-esg_policy-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "fund",
+    "target": "carbon intensity"
+   },
+   "comparator": "<=",
+   "threshold": 30.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Manager aims to reduce the portfolio's weighted average carbon intensity by 30% relative to the benchmark over time."
+  },
+  {
+   "id": "GTF-esg_policy-v2-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "controversial weapons"
+   },
+   "comparator": "prohibited",
+   "threshold": "controversial weapons",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "Issuers involved in the production of controversial weapons (cluster munitions, anti-personnel mines, biological and chemical weapons) are excluded absolutely; no exception may be granted by any person.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-esg_policy-v2-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "thermal coal"
+   },
+   "comparator": "prohibited",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Issuers deriving more than 25% of revenue from thermal coal extraction or thermal coal power generation are excluded.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-esg_policy-v2-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "issuer",
+    "target": "UN Global Compact violators"
+   },
+   "comparator": "prohibited",
+   "threshold": "UN Global Compact violators",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Issuers assessed as being in breach of the UN Global Compact principles are excluded.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-esg_policy-v2-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-esg_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "esg_exclusion",
+   "scope": {
+    "level": "fund",
+    "target": "carbon intensity"
+   },
+   "comparator": "<=",
+   "threshold": 30.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Manager aims to reduce the portfolio's weighted average carbon intensity by 30% relative to the benchmark over time."
+  },
+  {
+   "id": "GTF-guidelines-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "single_name_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 8.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single security shall exceed 8% of net asset value, unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points.",
+   "carve_out": {
+    "condition_field": "benchmark_weight",
+    "condition_op": ">",
+    "condition_value": 3.0,
+    "alt_threshold": "benchmark_weight+2",
+    "alt_text": "unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points"
+   },
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "issuer_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Aggregate exposure to any single issuer, including all securities of that issuer, shall not exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Software"
+   },
+   "comparator": "<=",
+   "threshold": 40.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Software sector shall not exceed 40% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Hardware"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Hardware sector shall not exceed 25% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "Taiwan"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C06",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "China"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in China shall not exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C07",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "single_name_max",
+   "scope": {
+    "level": "sleeve",
+    "target": "Private and pre-IPO sleeve"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Within the Private and pre-IPO sleeve, no single security shall exceed 5% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C08",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "restricted_list",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "prohibited",
+   "threshold": "Restricted List",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "No security of an issuer appearing on the Firm's Restricted List may be purchased or added to under any circumstances; this restriction cannot be waived by the Manager, the Chief Investment Officer or Compliance.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v1-C09",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "single_name_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 4.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Manager's typical initial position size is approximately 4% of net asset value."
+  },
+  {
+   "id": "GTF-guidelines-v2-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "single_name_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 7.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single security shall exceed 7% of net asset value, unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points.",
+   "carve_out": {
+    "condition_field": "benchmark_weight",
+    "condition_op": ">",
+    "condition_value": 3.0,
+    "alt_threshold": "benchmark_weight+2",
+    "alt_text": "unless the security represents more than 3% of the benchmark, in which case the limit is the benchmark weight plus 2 percentage points"
+   },
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "issuer_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Aggregate exposure to any single issuer, including all securities of that issuer, shall not exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Software"
+   },
+   "comparator": "<=",
+   "threshold": 40.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Software sector shall not exceed 40% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Hardware"
+   },
+   "comparator": "<=",
+   "threshold": 25.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Hardware sector shall not exceed 25% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "Taiwan"
+   },
+   "comparator": "<=",
+   "threshold": 15.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in Taiwan shall not exceed 15% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C06",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "China"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in China shall not exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C07",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "single_name_max",
+   "scope": {
+    "level": "sleeve",
+    "target": "Private and pre-IPO sleeve"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Within the Private and pre-IPO sleeve, no single security shall exceed 5% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C08",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "restricted_list",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "prohibited",
+   "threshold": "Restricted List",
+   "unit": "none",
+   "breach_action": "hard_block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": false,
+    "approvers": [],
+    "four_eyes": false
+   },
+   "hard": true,
+   "canonical_text": "No security of an issuer appearing on the Firm's Restricted List may be purchased or added to under any circumstances; this restriction cannot be waived by the Manager, the Chief Investment Officer or Compliance.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-guidelines-v2-C09",
+   "fund": "GTF",
+   "doc_id": "GTF-guidelines",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "single_name_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.5,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Manager's typical initial position size is approximately 3.5% of net asset value."
+  },
+  {
+   "id": "GTF-ips-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "cash_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 1.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold cash and cash equivalents of not less than 1% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash and cash equivalents shall not exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "position_count_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 40.0,
+   "unit": "count",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold a minimum of 40 distinct positions.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 150.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Annual portfolio turnover shall not exceed 150% of average net assets.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "tracking_error_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 800.0,
+   "unit": "bps",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Ex-ante tracking error against the benchmark shall not exceed 800 basis points.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C06",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Semiconductors"
+   },
+   "comparator": "<=",
+   "threshold": 35.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Semiconductors sector shall not exceed 35% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C07",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "United States"
+   },
+   "comparator": "<=",
+   "threshold": 75.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in United States shall not exceed 75% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v1-C08",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In normal market conditions the Manager expects to hold cash of around 3% of net asset value."
+  },
+  {
+   "id": "GTF-ips-v1-C09",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 90.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Historically the Fund's turnover has averaged approximately 90% per annum."
+  },
+  {
+   "id": "GTF-ips-v2-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "cash_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 1.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold cash and cash equivalents of not less than 1% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 12.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Cash and cash equivalents shall not exceed 12% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "position_count_min",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 40.0,
+   "unit": "count",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "The Fund shall hold a minimum of 40 distinct positions.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 150.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Annual portfolio turnover shall not exceed 150% of average net assets.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "tracking_error_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 800.0,
+   "unit": "bps",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Ex-ante tracking error against the benchmark shall not exceed 800 basis points.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C06",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "sector_max",
+   "scope": {
+    "level": "sector",
+    "target": "Semiconductors"
+   },
+   "comparator": "<=",
+   "threshold": 35.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to the Semiconductors sector shall not exceed 35% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C07",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "country_max",
+   "scope": {
+    "level": "country",
+    "target": "United States"
+   },
+   "comparator": "<=",
+   "threshold": 75.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Exposure to issuers domiciled in United States shall not exceed 75% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-ips-v2-C08",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "cash_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "In normal market conditions the Manager expects to hold cash of around 3% of net asset value."
+  },
+  {
+   "id": "GTF-ips-v2-C09",
+   "fund": "GTF",
+   "doc_id": "GTF-ips",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "turnover_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 90.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Compliance"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "Historically the Fund's turnover has averaged approximately 90% per annum."
+  },
+  {
+   "id": "GTF-liquidity_policy-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "illiquid_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 10.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Holdings classified as illiquid shall not exceed 10% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "liquidity_min_daily",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 80.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "At least 80% of net asset value shall be realisable within five business days under normal market conditions.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "swing_threshold",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "required",
+   "threshold": 2.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Swing pricing shall be applied on any dealing day on which net flows exceed 2% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "liquidity_min_daily",
+   "scope": {
+    "level": "issuer",
+    "target": "days to liquidate"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": 0.8,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single position shall require more than 5 business days to liquidate at 25% of average daily volume.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v1-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": "2026-04-01",
+   "type": "illiquid_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "At the last review illiquid holdings represented approximately 3% of net asset value."
+  },
+  {
+   "id": "GTF-liquidity_policy-v2-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "illiquid_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 8.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Holdings classified as illiquid shall not exceed 8% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v2-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "liquidity_min_daily",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": ">=",
+   "threshold": 80.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": 0.9,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "At least 80% of net asset value shall be realisable within five business days under normal market conditions.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v2-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "swing_threshold",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "required",
+   "threshold": 2.0,
+   "unit": "pct_nav",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "Swing pricing shall be applied on any dealing day on which net flows exceed 2% of net asset value.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v2-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "liquidity_min_daily",
+   "scope": {
+    "level": "issuer",
+    "target": "days to liquidate"
+   },
+   "comparator": "<=",
+   "threshold": 5.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": 0.8,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "canonical_text": "No single position shall require more than 5 business days to liquidate at 25% of average daily volume.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-liquidity_policy-v2-C05",
+   "fund": "GTF",
+   "doc_id": "GTF-liquidity_policy",
+   "version": 2,
+   "effective_from": "2026-04-01",
+   "effective_to": null,
+   "type": "illiquid_max",
+   "scope": {
+    "level": "fund"
+   },
+   "comparator": "<=",
+   "threshold": 3.0,
+   "unit": "pct_nav",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "CIO",
+     "Risk"
+    ],
+    "four_eyes": true,
+    "max_duration_days": 30
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "At the last review illiquid holdings represented approximately 3% of net asset value."
+  },
+  {
+   "id": "GTF-valuation_policy-v1-C01",
+   "fund": "GTF",
+   "doc_id": "GTF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "odd lot"
+   },
+   "comparator": "required",
+   "threshold": "odd_lot_pricing",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "canonical_text": "Positions held in odd lots shall be valued using odd-lot prices; institutional round-lot prices shall not be applied to odd-lot positions.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-valuation_policy-v1-C02",
+   "fund": "GTF",
+   "doc_id": "GTF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "level 3"
+   },
+   "comparator": "required",
+   "threshold": "committee_approval",
+   "unit": "none",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "canonical_text": "Any mark applied to a Level 3 asset requires prior approval of the Valuation Committee.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-valuation_policy-v1-C03",
+   "fund": "GTF",
+   "doc_id": "GTF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "stale price"
+   },
+   "comparator": "required",
+   "threshold": 5.0,
+   "unit": "days",
+   "breach_action": "block",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "canonical_text": "A price that has not been updated for more than 5 business days is deemed stale and must be referred to the Valuation Committee before use.",
+   "distractor": false
+  },
+  {
+   "id": "GTF-valuation_policy-v1-C04",
+   "fund": "GTF",
+   "doc_id": "GTF-valuation_policy",
+   "version": 1,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "type": "valuation_lot_rule",
+   "scope": {
+    "level": "fund",
+    "target": "review frequency"
+   },
+   "comparator": "required",
+   "threshold": 90.0,
+   "unit": "days",
+   "breach_action": "warn",
+   "warn_fraction": null,
+   "exception": {
+    "allowed": true,
+    "approvers": [
+     "PM",
+     "ValuationCommittee"
+    ],
+    "four_eyes": true
+   },
+   "hard": false,
+   "distractor": true,
+   "canonical_text": "The Valuation Committee reviews its pricing sources approximately every 90 days."
+  }
+ ],
+ "documents": [
+  {
+   "doc_id": "GTF-ips",
+   "fund": "GTF",
+   "doc_type": "ips",
+   "title": "Midland Global Technology Fund: Investment Policy Statement",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "GTF-ips-v1-C01",
+      "GTF-ips-v1-C02",
+      "GTF-ips-v1-C03",
+      "GTF-ips-v1-C04",
+      "GTF-ips-v1-C05",
+      "GTF-ips-v1-C06",
+      "GTF-ips-v1-C07",
+      "GTF-ips-v1-C08",
+      "GTF-ips-v1-C09"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-ips-v2-C01",
+      "GTF-ips-v2-C02",
+      "GTF-ips-v2-C03",
+      "GTF-ips-v2-C04",
+      "GTF-ips-v2-C05",
+      "GTF-ips-v2-C06",
+      "GTF-ips-v2-C07",
+      "GTF-ips-v2-C08",
+      "GTF-ips-v2-C09"
+     ],
+     "amendment_note": "Amendment effective 2026-04-01 changing: cash_max"
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "doc_type": "guidelines",
+   "title": "Midland Global Technology Fund: Investment Guidelines and Restrictions",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "GTF-guidelines-v1-C01",
+      "GTF-guidelines-v1-C02",
+      "GTF-guidelines-v1-C03",
+      "GTF-guidelines-v1-C04",
+      "GTF-guidelines-v1-C05",
+      "GTF-guidelines-v1-C06",
+      "GTF-guidelines-v1-C07",
+      "GTF-guidelines-v1-C08",
+      "GTF-guidelines-v1-C09"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-guidelines-v2-C01",
+      "GTF-guidelines-v2-C02",
+      "GTF-guidelines-v2-C03",
+      "GTF-guidelines-v2-C04",
+      "GTF-guidelines-v2-C05",
+      "GTF-guidelines-v2-C06",
+      "GTF-guidelines-v2-C07",
+      "GTF-guidelines-v2-C08",
+      "GTF-guidelines-v2-C09"
+     ],
+     "amendment_note": "Amendment effective 2026-04-01 changing: single"
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-derivatives_policy",
+   "fund": "GTF",
+   "doc_type": "derivatives_policy",
+   "title": "Midland Global Technology Fund: Derivatives Usage Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-derivatives_policy-v1-C01",
+      "GTF-derivatives_policy-v1-C02",
+      "GTF-derivatives_policy-v1-C03",
+      "GTF-derivatives_policy-v1-C04",
+      "GTF-derivatives_policy-v1-C05"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-esg_policy",
+   "fund": "GTF",
+   "doc_type": "esg_policy",
+   "title": "Midland Global Technology Fund: Responsible Investment Exclusions Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "GTF-esg_policy-v1-C01",
+      "GTF-esg_policy-v1-C02",
+      "GTF-esg_policy-v1-C03",
+      "GTF-esg_policy-v1-C04"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-esg_policy-v2-C01",
+      "GTF-esg_policy-v2-C02",
+      "GTF-esg_policy-v2-C03",
+      "GTF-esg_policy-v2-C04"
+     ],
+     "amendment_note": "Amendment effective 2026-04-01 changing: coal"
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-liquidity_policy",
+   "fund": "GTF",
+   "doc_type": "liquidity_policy",
+   "title": "Midland Global Technology Fund: Liquidity Risk Management Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": 2,
+     "constraint_ids": [
+      "GTF-liquidity_policy-v1-C01",
+      "GTF-liquidity_policy-v1-C02",
+      "GTF-liquidity_policy-v1-C03",
+      "GTF-liquidity_policy-v1-C04",
+      "GTF-liquidity_policy-v1-C05"
+     ]
+    },
+    {
+     "version": 2,
+     "effective_from": "2026-04-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-liquidity_policy-v2-C01",
+      "GTF-liquidity_policy-v2-C02",
+      "GTF-liquidity_policy-v2-C03",
+      "GTF-liquidity_policy-v2-C04",
+      "GTF-liquidity_policy-v2-C05"
+     ],
+     "amendment_note": "Amendment effective 2026-04-01 changing: illiquid"
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-valuation_policy",
+   "fund": "GTF",
+   "doc_type": "valuation_policy",
+   "title": "Midland Global Technology Fund: Valuation and Pricing Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-valuation_policy-v1-C01",
+      "GTF-valuation_policy-v1-C02",
+      "GTF-valuation_policy-v1-C03",
+      "GTF-valuation_policy-v1-C04"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-counterparty_policy",
+   "fund": "GTF",
+   "doc_type": "counterparty_policy",
+   "title": "Midland Global Technology Fund: Counterparty and Broker Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-counterparty_policy-v1-C01",
+      "GTF-counterparty_policy-v1-C02",
+      "GTF-counterparty_policy-v1-C03",
+      "GTF-counterparty_policy-v1-C04",
+      "GTF-counterparty_policy-v1-C05"
+     ]
+    }
+   ],
+   "renderings": []
+  },
+  {
+   "doc_id": "GTF-corporate_actions_policy",
+   "fund": "GTF",
+   "doc_type": "corporate_actions_policy",
+   "title": "Midland Global Technology Fund: Corporate Actions Election Policy",
+   "versions": [
+    {
+     "version": 1,
+     "effective_from": "2025-01-01",
+     "superseded_by": null,
+     "constraint_ids": [
+      "GTF-corporate_actions_policy-v1-C01",
+      "GTF-corporate_actions_policy-v1-C02",
+      "GTF-corporate_actions_policy-v1-C03",
+      "GTF-corporate_actions_policy-v1-C04",
+      "GTF-corporate_actions_policy-v1-C05"
+     ]
+    }
+   ],
+   "renderings": []
+  }
+ ],
+ "plan": [
+  {
+   "rendering_id": "GTF-ips-v1-canonical",
+   "doc_id": "GTF-ips",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "legal",
+   "path": "GTF/GTF-ips-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-ips-v1-C01",
+    "GTF-ips-v1-C02",
+    "GTF-ips-v1-C03",
+    "GTF-ips-v1-C04",
+    "GTF-ips-v1-C05",
+    "GTF-ips-v1-C06",
+    "GTF-ips-v1-C07",
+    "GTF-ips-v1-C08",
+    "GTF-ips-v1-C09"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-ips-v2-canonical",
+   "doc_id": "GTF-ips",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "bullets",
+   "path": "GTF/GTF-ips-v2-canonical.md",
+   "include_constraint_ids": [
+    "GTF-ips-v2-C01",
+    "GTF-ips-v2-C02",
+    "GTF-ips-v2-C03",
+    "GTF-ips-v2-C04",
+    "GTF-ips-v2-C05",
+    "GTF-ips-v2-C06",
+    "GTF-ips-v2-C07",
+    "GTF-ips-v2-C08",
+    "GTF-ips-v2-C09"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-ips-v2-paraphrase",
+   "doc_id": "GTF-ips",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "paraphrase",
+   "style": "memo",
+   "path": "GTF/GTF-ips-v2-paraphrase.md",
+   "include_constraint_ids": [
+    "GTF-ips-v2-C01",
+    "GTF-ips-v2-C02",
+    "GTF-ips-v2-C03",
+    "GTF-ips-v2-C04",
+    "GTF-ips-v2-C05",
+    "GTF-ips-v2-C06",
+    "GTF-ips-v2-C07",
+    "GTF-ips-v2-C08",
+    "GTF-ips-v2-C09"
+   ],
+   "instructions": "Same rules, entirely different wording and document structure from the canonical rendering. Every threshold, scope and unit must be identical."
+  },
+  {
+   "rendering_id": "GTF-ips-v2-adv_superseded",
+   "doc_id": "GTF-ips",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "adv_superseded",
+   "style": "legal",
+   "path": "GTF/GTF-ips-v2-adv_superseded.md",
+   "include_constraint_ids": [
+    "GTF-ips-v2-C01",
+    "GTF-ips-v2-C02",
+    "GTF-ips-v2-C03",
+    "GTF-ips-v2-C04",
+    "GTF-ips-v2-C05",
+    "GTF-ips-v2-C06",
+    "GTF-ips-v2-C07",
+    "GTF-ips-v2-C08",
+    "GTF-ips-v2-C09"
+   ],
+   "superseded_constraint_ids": [
+    "GTF-ips-v1-C02"
+   ],
+   "instructions": "A consolidated text that retains the superseded version-1 clauses verbatim, each clearly marked 'superseded with effect from 2026-04-01', immediately before or after the current clause. The current (version 2) rules are the binding ones."
+  },
+  {
+   "rendering_id": "GTF-guidelines-v1-canonical",
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "narrative",
+   "path": "GTF/GTF-guidelines-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-guidelines-v1-C01",
+    "GTF-guidelines-v1-C02",
+    "GTF-guidelines-v1-C03",
+    "GTF-guidelines-v1-C04",
+    "GTF-guidelines-v1-C05",
+    "GTF-guidelines-v1-C06",
+    "GTF-guidelines-v1-C07",
+    "GTF-guidelines-v1-C08",
+    "GTF-guidelines-v1-C09"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-guidelines-v2-canonical",
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "tabular",
+   "path": "GTF/GTF-guidelines-v2-canonical.md",
+   "include_constraint_ids": [
+    "GTF-guidelines-v2-C01",
+    "GTF-guidelines-v2-C02",
+    "GTF-guidelines-v2-C03",
+    "GTF-guidelines-v2-C04",
+    "GTF-guidelines-v2-C05",
+    "GTF-guidelines-v2-C06",
+    "GTF-guidelines-v2-C07",
+    "GTF-guidelines-v2-C08",
+    "GTF-guidelines-v2-C09"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-guidelines-v2-paraphrase",
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "paraphrase",
+   "style": "bullets",
+   "path": "GTF/GTF-guidelines-v2-paraphrase.md",
+   "include_constraint_ids": [
+    "GTF-guidelines-v2-C01",
+    "GTF-guidelines-v2-C02",
+    "GTF-guidelines-v2-C03",
+    "GTF-guidelines-v2-C04",
+    "GTF-guidelines-v2-C05",
+    "GTF-guidelines-v2-C06",
+    "GTF-guidelines-v2-C07",
+    "GTF-guidelines-v2-C08",
+    "GTF-guidelines-v2-C09"
+   ],
+   "instructions": "Same rules, entirely different wording and document structure from the canonical rendering. Every threshold, scope and unit must be identical."
+  },
+  {
+   "rendering_id": "GTF-guidelines-v2-adv_negation",
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "adv_negation",
+   "style": "legal",
+   "path": "GTF/GTF-guidelines-v2-adv_negation.md",
+   "include_constraint_ids": [
+    "GTF-guidelines-v2-C01",
+    "GTF-guidelines-v2-C02",
+    "GTF-guidelines-v2-C03",
+    "GTF-guidelines-v2-C04",
+    "GTF-guidelines-v2-C05",
+    "GTF-guidelines-v2-C06",
+    "GTF-guidelines-v2-C07",
+    "GTF-guidelines-v2-C08",
+    "GTF-guidelines-v2-C09"
+   ],
+   "target_constraint_ids": [
+    "GTF-guidelines-v2-C01",
+    "GTF-guidelines-v2-C02",
+    "GTF-guidelines-v2-C03",
+    "GTF-guidelines-v2-C04",
+    "GTF-guidelines-v2-C05",
+    "GTF-guidelines-v2-C06"
+   ],
+   "instructions": "Express the targeted limits with negation-heavy and inverted phrasing (for example 'shall in no case be permitted to exceed', 'may not fall below', 'it is not the case that ... may exceed', 'no more than ... nor ...') without changing any threshold or its direction."
+  },
+  {
+   "rendering_id": "GTF-guidelines-v2-adv_unless",
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "adv_unless",
+   "style": "narrative",
+   "path": "GTF/GTF-guidelines-v2-adv_unless.md",
+   "include_constraint_ids": [
+    "GTF-guidelines-v2-C01",
+    "GTF-guidelines-v2-C02",
+    "GTF-guidelines-v2-C03",
+    "GTF-guidelines-v2-C04",
+    "GTF-guidelines-v2-C05",
+    "GTF-guidelines-v2-C06",
+    "GTF-guidelines-v2-C07",
+    "GTF-guidelines-v2-C08",
+    "GTF-guidelines-v2-C09"
+   ],
+   "target_constraint_ids": [
+    "GTF-guidelines-v2-C01"
+   ],
+   "instructions": "Place the carve-out clause in a separate paragraph two or more paragraphs away from the headline limit, introduced with 'unless', 'save that' or 'provided that', so the alternative threshold must be connected back to the rule."
+  },
+  {
+   "rendering_id": "GTF-guidelines-v2-adv_superseded",
+   "doc_id": "GTF-guidelines",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "adv_superseded",
+   "style": "legal",
+   "path": "GTF/GTF-guidelines-v2-adv_superseded.md",
+   "include_constraint_ids": [
+    "GTF-guidelines-v2-C01",
+    "GTF-guidelines-v2-C02",
+    "GTF-guidelines-v2-C03",
+    "GTF-guidelines-v2-C04",
+    "GTF-guidelines-v2-C05",
+    "GTF-guidelines-v2-C06",
+    "GTF-guidelines-v2-C07",
+    "GTF-guidelines-v2-C08",
+    "GTF-guidelines-v2-C09"
+   ],
+   "superseded_constraint_ids": [
+    "GTF-guidelines-v1-C01",
+    "GTF-guidelines-v1-C09"
+   ],
+   "instructions": "A consolidated text that retains the superseded version-1 clauses verbatim, each clearly marked 'superseded with effect from 2026-04-01', immediately before or after the current clause. The current (version 2) rules are the binding ones."
+  },
+  {
+   "rendering_id": "GTF-derivatives_policy-v1-canonical",
+   "doc_id": "GTF-derivatives_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "memo",
+   "path": "GTF/GTF-derivatives_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-derivatives_policy-v1-C01",
+    "GTF-derivatives_policy-v1-C02",
+    "GTF-derivatives_policy-v1-C03",
+    "GTF-derivatives_policy-v1-C04",
+    "GTF-derivatives_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-esg_policy-v1-canonical",
+   "doc_id": "GTF-esg_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "legal",
+   "path": "GTF/GTF-esg_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-esg_policy-v1-C01",
+    "GTF-esg_policy-v1-C02",
+    "GTF-esg_policy-v1-C03",
+    "GTF-esg_policy-v1-C04"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-esg_policy-v2-canonical",
+   "doc_id": "GTF-esg_policy",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "bullets",
+   "path": "GTF/GTF-esg_policy-v2-canonical.md",
+   "include_constraint_ids": [
+    "GTF-esg_policy-v2-C01",
+    "GTF-esg_policy-v2-C02",
+    "GTF-esg_policy-v2-C03",
+    "GTF-esg_policy-v2-C04"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-esg_policy-v2-paraphrase",
+   "doc_id": "GTF-esg_policy",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "paraphrase",
+   "style": "memo",
+   "path": "GTF/GTF-esg_policy-v2-paraphrase.md",
+   "include_constraint_ids": [
+    "GTF-esg_policy-v2-C01",
+    "GTF-esg_policy-v2-C02",
+    "GTF-esg_policy-v2-C03",
+    "GTF-esg_policy-v2-C04"
+   ],
+   "instructions": "Same rules, entirely different wording and document structure from the canonical rendering. Every threshold, scope and unit must be identical."
+  },
+  {
+   "rendering_id": "GTF-liquidity_policy-v1-canonical",
+   "doc_id": "GTF-liquidity_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "narrative",
+   "path": "GTF/GTF-liquidity_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-liquidity_policy-v1-C01",
+    "GTF-liquidity_policy-v1-C02",
+    "GTF-liquidity_policy-v1-C03",
+    "GTF-liquidity_policy-v1-C04",
+    "GTF-liquidity_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-liquidity_policy-v2-canonical",
+   "doc_id": "GTF-liquidity_policy",
+   "fund": "GTF",
+   "version": 2,
+   "variant_kind": "canonical",
+   "style": "tabular",
+   "path": "GTF/GTF-liquidity_policy-v2-canonical.md",
+   "include_constraint_ids": [
+    "GTF-liquidity_policy-v2-C01",
+    "GTF-liquidity_policy-v2-C02",
+    "GTF-liquidity_policy-v2-C03",
+    "GTF-liquidity_policy-v2-C04",
+    "GTF-liquidity_policy-v2-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-valuation_policy-v1-canonical",
+   "doc_id": "GTF-valuation_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "memo",
+   "path": "GTF/GTF-valuation_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-valuation_policy-v1-C01",
+    "GTF-valuation_policy-v1-C02",
+    "GTF-valuation_policy-v1-C03",
+    "GTF-valuation_policy-v1-C04"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-counterparty_policy-v1-canonical",
+   "doc_id": "GTF-counterparty_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "legal",
+   "path": "GTF/GTF-counterparty_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-counterparty_policy-v1-C01",
+    "GTF-counterparty_policy-v1-C02",
+    "GTF-counterparty_policy-v1-C03",
+    "GTF-counterparty_policy-v1-C04",
+    "GTF-counterparty_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-corporate_actions_policy-v1-canonical",
+   "doc_id": "GTF-corporate_actions_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "canonical",
+   "style": "bullets",
+   "path": "GTF/GTF-corporate_actions_policy-v1-canonical.md",
+   "include_constraint_ids": [
+    "GTF-corporate_actions_policy-v1-C01",
+    "GTF-corporate_actions_policy-v1-C02",
+    "GTF-corporate_actions_policy-v1-C03",
+    "GTF-corporate_actions_policy-v1-C04",
+    "GTF-corporate_actions_policy-v1-C05"
+   ],
+   "instructions": "Render every listed constraint (binding ones as binding rules, distractors as non-binding statements)."
+  },
+  {
+   "rendering_id": "GTF-corporate_actions_policy-v1-adv_crossref",
+   "doc_id": "GTF-corporate_actions_policy",
+   "fund": "GTF",
+   "version": 1,
+   "variant_kind": "adv_crossref",
+   "style": "memo",
+   "path": "GTF/GTF-corporate_actions_policy-v1-adv_crossref.md",
+   "include_constraint_ids": [
+    "GTF-corporate_actions_policy-v1-C01",
+    "GTF-corporate_actions_policy-v1-C02",
+    "GTF-corporate_actions_policy-v1-C03",
+    "GTF-corporate_actions_policy-v1-C04",
+    "GTF-corporate_actions_policy-v1-C05"
+   ],
+   "instructions": "Move every numeric threshold and every default election out of the body into a 'Schedule A' table at the end; the body refers to 'the default set out in Schedule A' and 'the deadline in Schedule A'. The single-security cross-reference to the Investment Guidelines stays as a cross-reference (do not restate the number)."
+  }
+ ]
+}

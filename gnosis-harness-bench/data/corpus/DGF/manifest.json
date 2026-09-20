@@ -1,0 +1,121 @@
+[
+ {
+  "rendering_id": "DGF-ips-v1-canonical",
+  "path": "DGF/DGF-ips-v1-canonical.md",
+  "word_count": 863,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-ips-v2-canonical",
+  "path": "DGF/DGF-ips-v2-canonical.md",
+  "word_count": 692,
+  "style": "memo",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-ips-v2-paraphrase",
+  "path": "DGF/DGF-ips-v2-paraphrase.md",
+  "word_count": 825,
+  "style": "narrative",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "DGF-ips-v2-adv_superseded",
+  "path": "DGF/DGF-ips-v2-adv_superseded.md",
+  "word_count": 817,
+  "style": "legal",
+  "variant_kind": "adv_superseded"
+ },
+ {
+  "rendering_id": "DGF-guidelines-v1-canonical",
+  "path": "DGF/DGF-guidelines-v1-canonical.md",
+  "word_count": 725,
+  "style": "legal",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-guidelines-v1-paraphrase",
+  "path": "DGF/DGF-guidelines-v1-paraphrase.md",
+  "word_count": 729,
+  "style": "tabular",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "DGF-guidelines-v1-adv_negation",
+  "path": "DGF/DGF-guidelines-v1-adv_negation.md",
+  "word_count": 829,
+  "style": "legal",
+  "variant_kind": "adv_negation"
+ },
+ {
+  "rendering_id": "DGF-derivatives_policy-v1-canonical",
+  "path": "DGF/DGF-derivatives_policy-v1-canonical.md",
+  "word_count": 683,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-esg_policy-v1-canonical",
+  "path": "DGF/DGF-esg_policy-v1-canonical.md",
+  "word_count": 780,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-esg_policy-v1-paraphrase",
+  "path": "DGF/DGF-esg_policy-v1-paraphrase.md",
+  "word_count": 772,
+  "style": "legal",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "DGF-liquidity_policy-v1-canonical",
+  "path": "DGF/DGF-liquidity_policy-v1-canonical.md",
+  "word_count": 751,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-valuation_policy-v1-canonical",
+  "path": "DGF/DGF-valuation_policy-v1-canonical.md",
+  "word_count": 716,
+  "style": "memo",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-counterparty_policy-v1-canonical",
+  "path": "DGF/DGF-counterparty_policy-v1-canonical.md",
+  "word_count": 809,
+  "style": "legal",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-counterparty_policy-v2-canonical",
+  "path": "DGF/DGF-counterparty_policy-v2-canonical.md",
+  "word_count": 798,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-corporate_actions_policy-v1-canonical",
+  "path": "DGF/DGF-corporate_actions_policy-v1-canonical.md",
+  "word_count": 769,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-corporate_actions_policy-v2-canonical",
+  "path": "DGF/DGF-corporate_actions_policy-v2-canonical.md",
+  "word_count": 757,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "DGF-corporate_actions_policy-v2-adv_crossref",
+  "path": "DGF/DGF-corporate_actions_policy-v2-adv_crossref.md",
+  "word_count": 829,
+  "style": "memo",
+  "variant_kind": "adv_crossref"
+ }
+]

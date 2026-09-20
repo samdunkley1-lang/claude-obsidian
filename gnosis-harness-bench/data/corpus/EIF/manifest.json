@@ -1,0 +1,128 @@
+[
+ {
+  "rendering_id": "EIF-ips-v1-canonical",
+  "path": "EIF/EIF-ips-v1-canonical.md",
+  "word_count": 798,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-ips-v1-paraphrase",
+  "path": "EIF/EIF-ips-v1-paraphrase.md",
+  "word_count": 734,
+  "style": "legal",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "EIF-guidelines-v1-canonical",
+  "path": "EIF/EIF-guidelines-v1-canonical.md",
+  "word_count": 844,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-guidelines-v2-canonical",
+  "path": "EIF/EIF-guidelines-v2-canonical.md",
+  "word_count": 653,
+  "style": "memo",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-guidelines-v2-paraphrase",
+  "path": "EIF/EIF-guidelines-v2-paraphrase.md",
+  "word_count": 784,
+  "style": "narrative",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "EIF-guidelines-v2-adv_negation",
+  "path": "EIF/EIF-guidelines-v2-adv_negation.md",
+  "word_count": 822,
+  "style": "legal",
+  "variant_kind": "adv_negation"
+ },
+ {
+  "rendering_id": "EIF-guidelines-v2-adv_unless",
+  "path": "EIF/EIF-guidelines-v2-adv_unless.md",
+  "word_count": 799,
+  "style": "narrative",
+  "variant_kind": "adv_unless"
+ },
+ {
+  "rendering_id": "EIF-guidelines-v2-adv_superseded",
+  "path": "EIF/EIF-guidelines-v2-adv_superseded.md",
+  "word_count": 734,
+  "style": "legal",
+  "variant_kind": "adv_superseded"
+ },
+ {
+  "rendering_id": "EIF-derivatives_policy-v1-canonical",
+  "path": "EIF/EIF-derivatives_policy-v1-canonical.md",
+  "word_count": 716,
+  "style": "legal",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-derivatives_policy-v2-canonical",
+  "path": "EIF/EIF-derivatives_policy-v2-canonical.md",
+  "word_count": 634,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-esg_policy-v1-canonical",
+  "path": "EIF/EIF-esg_policy-v1-canonical.md",
+  "word_count": 698,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-esg_policy-v1-paraphrase",
+  "path": "EIF/EIF-esg_policy-v1-paraphrase.md",
+  "word_count": 699,
+  "style": "legal",
+  "variant_kind": "paraphrase"
+ },
+ {
+  "rendering_id": "EIF-liquidity_policy-v1-canonical",
+  "path": "EIF/EIF-liquidity_policy-v1-canonical.md",
+  "word_count": 693,
+  "style": "tabular",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-liquidity_policy-v2-canonical",
+  "path": "EIF/EIF-liquidity_policy-v2-canonical.md",
+  "word_count": 671,
+  "style": "memo",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-valuation_policy-v1-canonical",
+  "path": "EIF/EIF-valuation_policy-v1-canonical.md",
+  "word_count": 703,
+  "style": "legal",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-counterparty_policy-v1-canonical",
+  "path": "EIF/EIF-counterparty_policy-v1-canonical.md",
+  "word_count": 682,
+  "style": "bullets",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-corporate_actions_policy-v1-canonical",
+  "path": "EIF/EIF-corporate_actions_policy-v1-canonical.md",
+  "word_count": 738,
+  "style": "narrative",
+  "variant_kind": "canonical"
+ },
+ {
+  "rendering_id": "EIF-corporate_actions_policy-v1-adv_crossref",
+  "path": "EIF/EIF-corporate_actions_policy-v1-adv_crossref.md",
+  "word_count": 881,
+  "style": "memo",
+  "variant_kind": "adv_crossref"
+ }
+]

@@ -1,0 +1,39 @@
+{
+  "task": "ingestion",
+  "n_cases": 94,
+  "n_cells": 1880,
+  "conditions": {
+    "oracle": {
+      "ok": 470,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_constraint_f1": 1.0
+    },
+    "null": {
+      "ok": 470,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_constraint_f1": 0.0
+    },
+    "mock:p=0.9,g=0.9": {
+      "ok": 470,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_constraint_f1": 0.9704420819064125
+    },
+    "mock:p=0.5,g=0.5": {
+      "ok": 470,
+      "truncated": 0,
+      "refusal": 0,
+      "error": 0,
+      "skipped": 0,
+      "mean_constraint_f1": 0.8123658235798403
+    }
+  }
+}
