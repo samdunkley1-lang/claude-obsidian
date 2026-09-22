@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-04-07
+updated: 2026-09-22
 tags:
   - meta
   - index
@@ -15,6 +15,7 @@ related:
   - "[[concepts/_index]]"
   - "[[entities/_index]]"
   - "[[sources/_index]]"
+  - "[[applications/_index]]"
   - "[[LLM Wiki Pattern]]"
   - "[[Hot Cache]]"
   - "[[Compounding Knowledge]]"
@@ -53,6 +54,12 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 ## Sources
 
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
+
+---
+
+## Applications
+
+- [[Santander Head of AI Transformation]] — Req1613146-1 | S5 | Data & AI Domain | London / Milton Keynes (status: draft, awaiting candidate facts)
 
 ---
 
